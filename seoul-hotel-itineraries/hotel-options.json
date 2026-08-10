@@ -1,24 +1,29 @@
 {
-  "comment": "Ingestion file for the Seoul hotel-comparison itineraries. Each entry below is one of the 8 Seoul hotels already researched in data/collections/hotels.json. Set \"consider\": true for the hotels the travel partner is actually deciding between — the build script then spreads the 20 itinerary themes across exactly those hotels. Add a \"why\" note so the generated plans can speak to her reasons.",
+  "comment": "Ingestion file for the Seoul hotel-comparison itineraries. Each entry below is one of the 9 Seoul hotels already researched in data/collections/hotels.json. Set \"consider\": true for the hotels the travel partner is actually deciding between — the build script then spreads the 20 itinerary themes across exactly those hotels. Add a \"why\" note so the generated plans can speak to her reasons.",
   "hotels": [
     {
-      "id": "seoul-nine-tree",
+      "id": "seoul-four-points-josun-station",
       "consider": true,
-      "why": "Mid-range value pick, 1-min walk to Myeongdong Station, airport limousine stops nearby."
-    },
-    {
-      "id": "seoul-l7-myeongdong",
-      "consider": true,
-      "why": "Design-lifestyle Lotte hotel, rooftop sky terrace, 2-min walk to Myeongdong Station."
+      "why": "Transport-first option — direct Seoul Station / AREX / KTX access is the main advantage."
     },
     {
       "id": "seoul-ibis-styles",
       "consider": true,
-      "why": "Budget-quality balance, free breakfast, walkable to N Seoul Tower cable car."
+      "why": "Budget-quality balance, free breakfast, and a central Myeongdong base."
+    },
+    {
+      "id": "seoul-nine-tree",
+      "consider": false,
+      "why": "Mid-range value pick, 1-min walk to Myeongdong Station, airport limousine stops nearby."
+    },
+    {
+      "id": "seoul-l7-myeongdong",
+      "consider": false,
+      "why": "Design-lifestyle Lotte hotel, rooftop sky terrace, 2-min walk to Myeongdong Station."
     },
     {
       "id": "seoul-skypark-myeongdong3",
-      "consider": true,
+      "consider": false,
       "why": "Excellent central Myeongdong location at a budget-friendly tier."
     },
     {
@@ -42,5 +47,5 @@
       "why": "Modern luxury on the Han River in Yeouido, beside The Hyundai Seoul mall."
     }
   ],
-  "status": "AWAITING the partner's hotel shortlist. The consider:true demo set below (4 Myeongdong mid-range hotels) is a PLACEHOLDER so the generator has output to show — replace the flags with her real choices and re-run the build."
+  "status": "CURRENT shortlist provided by the user: Four Points by Sheraton Josun, Seoul Station + ibis Styles Ambassador Seoul Myeongdong. The builder will split the 20 themes 10 / 10 across these two hotels until the shortlist changes."
 }

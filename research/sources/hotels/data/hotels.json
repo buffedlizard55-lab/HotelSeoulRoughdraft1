@@ -2277,6 +2277,92 @@
       "lng": 126.985
     },
     {
+      "id": "seoul-four-points-josun-station",
+      "city": "Seoul",
+      "name": "Four Points by Sheraton Josun, Seoul Station",
+      "tier": "mid",
+      "stars": 4,
+      "area": "Seoul Station / Yongsan (transport hub)",
+      "neighborhood": "Connected to Seoul Station via the Exit 12 underground passage; easy access to AREX, KTX, GTX-A, and Subway Lines 1 & 4",
+      "priceFrom": 155,
+      "priceTo": 230,
+      "currency": "USD",
+      "checkIn": "15:00",
+      "checkOut": "12:00",
+      "policies": [
+        "Check-in from 15:00; check-out by 12:00.",
+        "24-hour front desk and free Wi-Fi.",
+        "Connected to Seoul Station via the Exit 12 underground passage; exact walking time varies by platform and luggage.",
+        "Restaurant, gym, and self-service laundry are on site."
+      ],
+      "rooms": [
+        {
+          "name": "Superior Double",
+          "price": "$155–185/night",
+          "note": "Best-value pick; compact but polished",
+          "bed": "double",
+          "oneBed": true,
+          "bedNote": "Single double bed (not two beds pushed together)",
+          "bedType": "double",
+          "bedSize": "Double (approx 140x200cm)",
+          "privateBathroom": true,
+          "oneBedOnly": true
+        },
+        {
+          "name": "Deluxe King",
+          "price": "$185–215/night",
+          "note": "More breathing room for a longer stay",
+          "bed": "king",
+          "oneBed": true,
+          "bedNote": "Single king bed (not two beds pushed together)",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "privateBathroom": true,
+          "oneBedOnly": true
+        },
+        {
+          "name": "Deluxe Corner King",
+          "price": "$215–230/night",
+          "note": "Extra light and the nicest layout in the standard-room range",
+          "bed": "king",
+          "oneBed": true,
+          "bedNote": "Single king bed (not two beds pushed together)",
+          "bedType": "king",
+          "bedSize": "King (approx 180x200cm)",
+          "privateBathroom": true,
+          "oneBedOnly": true
+        }
+      ],
+      "promos": [
+        "Marriott Bonvoy members can unlock member-only rates, points, and elite benefits when booking direct.",
+        "Check Marriott's Offers page for Seoul Station packages and flexible-rate promos.",
+        "A strong value when Seoul Station access matters more than a deeper in-neighborhood boutique feel."
+      ],
+      "amenities": [
+        "24-hour fitness center",
+        "Restaurant & lounge",
+        "Self-service laundry",
+        "Free parking"
+      ],
+      "officialUrl": "https://www.marriott.com/en-us/hotels/selfp-four-points-josun-seoul-station/overview/",
+      "officialLabel": "Official site (marriott.com)",
+      "compareUrl": "https://www.kayak.com/Seoul-Hotels-Four-Points-by-Sheraton-Josun-Seoul-Station.2296264.ksp",
+      "compareLabel": "Compare rates (KAYAK)",
+      "why": "Best transport-first pick if Seoul Station / AREX / KTX convenience is the deciding factor.",
+      "highlights": [
+        "Connected to Seoul Station via Exit 12 passage",
+        "Easy AREX, KTX, GTX-A, Line 1 & Line 4 access",
+        "Solid 4-star value for arrival / departure logistics"
+      ],
+      "fits": true,
+      "fitReason": "Superior Double / Deluxe King · Seoul Station direct access",
+      "lat": 37.550996,
+      "lng": 126.972761,
+      "priceNote": "Prices are typical 2026 estimates for standard double/king rooms. Check the official site or OTA for live rates on your dates.",
+      "hasOnSiteLaundry": true,
+      "stationWalkTime": "Connected via Seoul Station Exit 12 passage; roughly 3–10 min depending on platform"
+    },
+    {
       "id": "seoul-lescape",
       "city": "Seoul",
       "name": "L'Escape, A Luxury Collection Hotel, Seoul Myeongdong",

@@ -45,6 +45,7 @@ TOTAL_ITINERARIES = 20
 
 # Short display names for the catalog hotel ids.
 HOTEL_SHORT = {
+    "seoul-four-points-josun-station": "Four Points Seoul Station",
     "seoul-nine-tree": "Nine Tree Myeongdong 1",
     "seoul-l7-myeongdong": "L7 Myeongdong",
     "seoul-ibis-styles": "Ibis Styles Myeongdong",

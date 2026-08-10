@@ -24,9 +24,9 @@ marked `consider: true`, so every plan is a unique **hotel × theme** pair:
 
 ## Ingesting the hotel choices (`hotel-options.json`)
 
-The file is pre-filled with the **8 Seoul hotels already researched** in
-`data/collections/hotels.json` (Myeongdong cluster, Insadong, Gwanghwamun,
-Yeouido). For each hotel her partner is actually deciding between:
+The file is pre-filled with the **9 Seoul hotels already researched** in
+`data/collections/hotels.json` (Myeongdong cluster, Seoul Station, Insadong,
+Gwanghwamun, Yeouido). For each hotel her partner is actually deciding between:
 
 - set `"consider": true`
 - optionally add a `"why"` note — it becomes the opening of that hotel's plans
@@ -63,8 +63,9 @@ is pulled automatically from the catalog.
 
 ## Notes
 
-- The committed `hotel-options.json` marks a **demo set of 4 Myeongdong hotels**
-  so the build has something to show. Swap the flags to her real shortlist and
+- The committed `hotel-options.json` currently reflects the latest shortlist
+  the user provided: **Four Points by Sheraton Josun, Seoul Station + ibis
+  Styles Ambassador Seoul Myeongdong**. Swap the flags to any new shortlist and
   re-run — the generator replaces the whole `itineraries/` output each time.
 - Trip frame defaults to the master planner's Nov 1–22, 2026 window; edit
   `trip.json` for her real dates.

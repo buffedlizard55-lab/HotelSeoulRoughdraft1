@@ -58,7 +58,7 @@ A calm, beginner-friendly South Korea trip-planning workspace. **Korea Compass**
 - **Source desk** — clear provenance back to every linked repository and to the locally preserved snapshot.
 - **Portable data** — export/import the user’s own setup, saved ideas, checklist state, and plan items as JSON. No account or backend is used.
 
-The current generated catalog includes **6 research sources**, **2 detailed November 2026 route blueprints**, **15 destinations**, **15 transport routes**, **34 stays**, **535 food bookmarks**, **110 dated events**, **443 activity notes**, **61 savings notes**, and **9 practical apps**.
+The current generated catalog includes **6 research sources**, **2 detailed November 2026 route blueprints**, **15 destinations**, **15 transport routes**, **35 stays**, **535 food bookmarks**, **110 dated events**, **443 activity notes**, **61 savings notes**, and **9 practical apps**.
 
 ## November 2026 route blueprints
 
