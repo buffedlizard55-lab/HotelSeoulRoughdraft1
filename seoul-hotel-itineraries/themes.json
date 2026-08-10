@@ -1,0 +1,736 @@
+{
+  "comment": "The 20 itinerary themes. The build script spreads these across the hotels marked consider:true in hotel-options.json (e.g. 4 hotels x 5 themes, 5 x 4, 2 x 10, 1 x 20) so every generated plan is a unique hotel x theme combination. Placeholders: {hotel}, {area}, {station}, {walk}.",
+  "themes": [
+    {
+      "id": "classic-highlights",
+      "title": "Classic First-Timer Highlights",
+      "pace": "Moderate–full days",
+      "focus": ["activities", "fun", "convenience"],
+      "blurb": "The greatest-hits Seoul loop: palaces, a market day, N Seoul Tower, and a hanok evening — all routed so you return to {hotel} at night without wasted transfers.",
+      "bestFor": "Her first Seoul trip (or yours together) and she wants the famous sights plus a real feel for the city.",
+      "days": [
+        {
+          "title": "Palace core & old city",
+          "morning": "Gyeongbokgung Palace (Royal Guard Changing Ceremony, usually 10:00/14:00 — verify) with free entry if wearing rented hanbok; National Folk Museum on the grounds if the weather turns.",
+          "afternoon": "Bukchon Hanok Village viewpoint walk (arrive before 10:00 for calm streets, residents ask for quiet) then lunch in Insadong.",
+          "evening": "Ikseon-dong hanok alley dinner and dessert; back to {hotel} on Line 3/1."
+        },
+        {
+          "title": "Markets & the tower",
+          "morning": "Gwangjang Market brunch — bindaetteok (mung-bean pancake), mayak gimbap, yukhoe.",
+          "afternoon": "Cheonggyecheon Stream stroll to Dongdaemun Design Plaza (DDP), then back past City Hall.",
+          "evening": "Namsan Cable Car + N Seoul Tower at sunset (book the cable car slot in advance); late supper near {hotel}."
+        },
+        {
+          "title": "Change of pace — river or shopping",
+          "morning": "Option A: Han River bike/ferry morning. Option B: Myeongdong shopping + Olive Young first pass.",
+          "afternoon": "Lunch near {area}, then a second neighborhood — Seongsu for cafes and pop-ups or Hongdae for street energy.",
+          "evening": "DDP Dream in Light free light show (nightly) or a show like JUMP/CHEF (non-verbal, zero Korean needed)."
+        }
+      ],
+      "activityKeywords": ["Gyeongbokgung", "Bukchon", "Insadong", "Gwangjang", "Ikseon", "Namsan", "N Seoul Tower", "Cheonggyecheon", "DDP", "Han River", "Myeongdong", "Hanbok", "palace"],
+      "foodPriority": ["Classic Korean"],
+      "extraNights": [
+        "Changdeokgung Huwon (Secret Garden) — book the guided slot in advance; autumn peak.",
+        "Jongmyo Shrine + Seochon village tea-house afternoon.",
+        "Lotte World Tower (Seoul Sky observatory) or COEX Aquarium if you want a big 'wow' day.",
+        "Free Seoul Walking Tour (reserve via english.visitseoul.net)."
+      ],
+      "planB": "Rainy: swap outdoor palace time for National Palace Museum / National Folk Museum (both free, inside Gyeongbokgung) and the DDP museum."
+    },
+    {
+      "id": "food-market-crawl",
+      "title": "Market & Street-Food Crawl",
+      "pace": "Grazing pace — meals are the anchors",
+      "focus": ["value", "fun"],
+      "blurb": "A eat-your-way-across-Seoul plan built around the markets and food alleys, with {hotel} as the evening reset point. Most meals are under ~₩12,000.",
+      "bestFor": "Food-first travelers — she wants to taste Seoul rather than tick sights.",
+      "days": [
+        {
+          "title": "Gwangjang & Dongdaemun",
+          "morning": "Gwangjang Market brunch: bindaetteok, mayak gimbap, yukhoe, mung-bean pancakes.",
+          "afternoon": "Walk the Cheonggyecheon to Dongdaemun — grilled fish street (saengseon-gui alley) and the toy/stationery wholesale market for snacks and souvenirs.",
+          "evening": "Jangchung-dong jokbal (glazed pork trotter) alley — a local institution; late tteokbokki near {hotel}."
+        },
+        {
+          "title": "Insadong, Tongin & Ikseon",
+          "morning": "Tongin Market Dosirak Cafe — swap ₩5,000–10,000 for brass coins, fill a lunchbox tray (Tue–Sun 11:00–16:00; closed Mon).",
+          "afternoon": "Insadong tea street + ssamziegil arcade snacks.",
+          "evening": "Ikseon-dong hanok alleys: craft beer, soufflé pancakes, and small-plate Korean (jeon, japchae)."
+        },
+        {
+          "title": "Myeongdong & late-night eats",
+          "morning": "Slow start: {area} breakfast — gyeran-ppang, hotteok, and a proper coffee.",
+          "afternoon": "Myeongdong street-food crawl (tornado potato, cheese corn dogs, egg bread) + a Korean-Chinese lunch (jajangmyeon/tangsuyuk) at a local favorite.",
+          "evening": "AYCE BBQ night (Korean BBQ all-you-can-eat, ~₩20–35k) near {hotel}, then pojangmacha-style street snack on the way back."
+        }
+      ],
+      "activityKeywords": ["Gwangjang", "Tongin", "Insadong", "Ikseon", "Myeongdong", "Dongdaemun", "Jangchung", "market", "Street", "Food", "jokbal"],
+      "foodPriority": ["Classic Korean", "AYCE BBQ", "Cafe"],
+      "extraNights": [
+        "Mangwon Market + Seoul Battleship Park riverside walk.",
+        "Noryangjin Fish Market for a raw-fish (hoetjip) lunch — choose your fish upstairs.",
+        "Seongsu-dong cafe-and-bakery crawl (vegan/brunch spots included).",
+        "Hongdae food street after dark — tteokbokki, sundae, and street performers."
+      ],
+      "planB": "Rainy: swap market mornings for an indoor food hall (The Hyundai Seoul food court, Starfield COEX) — same grazing, dry feet."
+    },
+    {
+      "id": "cafe-dessert-hop",
+      "title": "Cafe & Dessert Hop",
+      "pace": "Cafe-paced — sit, sip, stroll",
+      "focus": ["fun", "value"],
+      "blurb": "Three neighborhoods a day, two or three cafes each, one great lunch — a photo-worthy, low-exertion plan that always ends within an easy ride of {hotel}.",
+      "bestFor": "She collects cafes and dessert shots; wants an Insta-worthy but unhurried Seoul.",
+      "days": [
+        {
+          "title": "Ikseon-dong & Insadong",
+          "morning": "Hanok-roofed cafes in Ikseon-dong (soufflé pancakes, traditional teas) before the crowds.",
+          "afternoon": "Insadong tea houses + ssamziegil craft floors; lunch at a jeon (savory pancake) house.",
+          "evening": "Dessert bar hop in Jongno — bingsu/tiramisu modern takes; back to {hotel} by Line 3/1."
+        },
+        {
+          "title": "Seongsu & Euljiro",
+          "morning": "Seongsu-dong 'Brooklyn of Seoul': warehouse bakeries, specialty roasters (open ~10:00–11:00).",
+          "afternoon": "Lunch at a Seongsu brunch/burger spot, then Euljiro printing-alley cafes and nogari beer alleys.",
+          "evening": "Euljiro neon at dusk + one more rooftop cafe; DDP Dream in Light on the way back."
+        },
+        {
+          "title": "Hongdae & Yeonnam",
+          "morning": "Yeonnam-dong craft bakeries and roastery alleys (slow open — plan 11:00+).",
+          "afternoon": "Hongdae style street + free market (Sat), then a themed cafe (animal/cat cafes optional).",
+          "evening": "Han River picnic dessert stop (Gyeongui Line Forest Park) then back to {hotel}."
+        }
+      ],
+      "activityKeywords": ["Ikseon", "Insadong", "Seongsu", "Euljiro", "Hongdae", "Yeonnam", "cafe", "Cafe", "Dessert", "Bakery", "Coffee", "tea", "Tea"],
+      "foodPriority": ["Cafe"],
+      "extraNights": [
+        "Hannam-dong / Itaewon design-row coffee walk.",
+        "Cheongdam-dong dessert flagship stores (late opens, 12:00+).",
+        "Traditional tea ritual at a hanok tea house near Anguk.",
+        "Night bakery tour in Mapo — late-open specialty bakes."
+      ],
+      "planB": "Energy dip: skip the third neighborhood and camp at one great cafe with a view — the day still delivers."
+    },
+    {
+      "id": "palace-heritage",
+      "title": "Palaces & Heritage Walk",
+      "pace": "Steady — one palace per morning, tea in the afternoons",
+      "focus": ["activities", "convenience"],
+      "blurb": "The old-city Seoul of palaces, shrines, and hanok — most of it walkable from a Jongno/Insadong base and a short Line 3/1/4 ride from {hotel}.",
+      "bestFor": "History and architecture lovers; nearly weather-proof because half the day is indoors.",
+      "days": [
+        {
+          "title": "Gyeongbokgung & Seochon",
+          "morning": "Gyeongbokgung (guard changing ceremony; hanbok = free entry), National Palace Museum.",
+          "afternoon": "Seochon village lunch + cafes (the quieter west side of the palace).",
+          "evening": "Cheong Wa Dae (Blue House) grounds walk if open, or Gwanghwamun Square + King Sejong Story Museum (free)."
+        },
+        {
+          "title": "Changdeokgung & Jongmyo",
+          "morning": "Changdeokgung + Huwon Secret Garden (reserve the guided slot; autumn peak), Changgyeonggung greenhouse next door.",
+          "afternoon": "Jongmyo Shrine (UNESCO, quiet) — guided tour times are limited, check on arrival.",
+          "evening": "Unhyeongung + Ikseon-dong hanok dinner; Changgyeonggung 'Mulbit Yeonhwa' night media art through Nov 8."
+        },
+        {
+          "title": "Deoksugung, Namdaemun & the walls",
+          "morning": "Deoksugung Palace + Jeongdong stonewall walkway + Jeongdong Theater traditional performance.",
+          "afternoon": "Namdaemun Market (hanbok, crafts, knife-shopping alley) + Sungnyemun gate.",
+          "evening": "Namsangol Hanok Village (free, folk games, tea) then Namsan cable car sunset if energy allows."
+        }
+      ],
+      "activityKeywords": ["Gyeongbokgung", "Changdeokgung", "Changgyeonggung", "Deoksugung", "Jongmyo", "Bukchon", "Seochon", "Unhyeongung", "Namdaemun", "Namsangol", "Cheong Wa Dae", "Huwon", "Secret Garden", "heritage", "Hanok"],
+      "foodPriority": ["Classic Korean", "Cafe"],
+      "extraNights": [
+        "Gyeonghuigung Palace + Seoul Museum of History (free).",
+        "Seoul City Wall walk: Naksan → Hyehwa section at golden hour.",
+        "Eunpyeong Hanok Village (calmer, newer) + Jingwansa temple lunch.",
+        "Museum Kimchikan kimchi-making class (Insadong, Tue–Sun)."
+      ],
+      "planB": "Rainy: palace courtyards swap for museum interiors — National Museum of Korean Contemporary History (free, rooftop panorama) and the craft museum SeMoCA."
+    },
+    {
+      "id": "shop-beauty-haul",
+      "title": "Shopping & Beauty Haul",
+      "pace": "Market-paced — shop, compare, pack",
+      "focus": ["value", "fun", "convenience"],
+      "blurb": "A shopping plan tuned for a serious haul: duty-free comparisons, Olive Young strategy, tax refunds, and luggage-friendly returns to {hotel}.",
+      "bestFor": "She wants the beauty/souvenir/fashion haul without decision fatigue or overpaying.",
+      "days": [
+        {
+          "title": "Myeongdong beauty core",
+          "morning": "Olive Young flagship + tester tour (no-buy pass first, decide later), Lohb's & CHICOR for higher-end lines.",
+          "afternoon": "Myeongdong street stalls (socks, phone cases, cosmetics) + Daiso for packing supplies and gifts.",
+          "evening": "Duty-free comparison at Lotte Duty Free (Myeongdong) — note prices, buy only what's clearly cheaper; N Seoul Tower night view."
+        },
+        {
+          "title": "Dongdaemun & underground malls",
+          "morning": "Dongdaemun Design Plaza + underground shopping (fashion wholesale: note the 2-piece-minimum rule at Doota/Good Morning City).",
+          "afternoon": "Cheonggyecheon walk + Euljiro stationery/paper shops (record stores too).",
+          "evening": "Euljiro craft beer or Dongdaemun night market for accessories."
+        },
+        {
+          "title": "Hanbok, markets & tax refunds",
+          "morning": "Namdaemun Market: hanbok, kitchen goods, souvenirs — bargaining is normal.",
+          "afternoon": "Insadong crafts (brass, pottery, tea sets) + ssamziegil.",
+          "evening": "Pack-and-sort night: organize receipts for the instant tax refund (keep purchases in original bags), then a farewell BBQ dinner."
+        }
+      ],
+      "activityKeywords": ["Myeongdong", "Dongdaemun", "Namdaemun", "Insadong", "Euljiro", "shopping", "underground", "duty", "DDP", "fashion"],
+      "foodPriority": ["Classic Korean", "Cafe"],
+      "extraNights": [
+        "Gangnam underground shopping center + Starfield COEX (Starfield Library, K-pop merch).",
+        "Hyundai Seoul (Yeouido) — the current mega-mall experience with a rooftop garden.",
+        "Ewha fashion street + boutique alleys near Ewha Womans University.",
+        "Garak Market for wholesale fruit/gifts to take home."
+      ],
+      "planB": "Rainy: underground malls and department stores (Lotte Young Plaza, Hyundai) keep the haul going dry."
+    },
+    {
+      "id": "nightlife-late-eats",
+      "title": "Nightlife & Late-Night Eats",
+      "pace": "Late shift — slow mornings, late nights",
+      "focus": ["fun", "activities"],
+      "blurb": "Seoul after dark: neon alleys, pojangmacha tents, noraebang, live stages, and 24-hour supper — with {hotel} close to the last train home.",
+      "bestFor": "Night owls — she wants Seoul's after-dark energy, not early palace gates.",
+      "days": [
+        {
+          "title": "Euljiro & Jongno after dark",
+          "afternoon": "Late brunch, then Euljiro 'Hipjiro' printing alleys by daylight to scout the bars.",
+          "evening": "Nogari beer + grilled pollack alley crawl; hop between Euljiro 3-ga craft bars; noraebang (singing room) session.",
+          "night": "24-hour soup or ramyeon near {hotel} — the classic Seoul 2 AM meal."
+        },
+        {
+          "title": "Hongdae streets & clubs",
+          "afternoon": "Slow start, Hongdae street food + busking around 18:00–20:00.",
+          "evening": "Live music bars (check post-rock/indie listings), then Hongdae club row or a late pojangmacha tent.",
+          "night": "Last Line 2 train toward {area}, or 24-hour gopchang/samgyeopsal near the hotel."
+        },
+        {
+          "title": "Shows, DDP & night markets",
+          "afternoon": "Afternoon show: JUMP martial-arts comedy or CHEF (Bibap) — both non-verbal, daily.",
+          "evening": "DDP Dream in Light (free, nightly) + Dongdaemun night market.",
+          "night": "Late-night fried chicken (chimaek) delivery to the hotel — the true Korean ritual."
+        }
+      ],
+      "activityKeywords": ["Euljiro", "Hongdae", "DDP", "Dongdaemun", "night", "Night", "JUMP", "CHEF", "live", "noraebang", "alley", "Nogari"],
+      "foodPriority": ["Classic Korean", "AYCE BBQ"],
+      "extraNights": [
+        "Itaewon/Hannam global bar street (wider world-cuisine night).",
+        "Gyeongui Line Forest Park late-night food trucks (Fri–Sat).",
+        "Changgyeonggung 'Mulbit Yeonhwa' palace night light art (through Nov 8).",
+        "Jamsil night: Lotte World Tower observatory after dark + Seokchon Lake lights."
+      ],
+      "planB": "Jet-lag early night: pivot to a 20:00 dinner + DDP lights + convenience-store dessert — still a Seoul night."
+    },
+    {
+      "id": "museums-galleries",
+      "title": "Museums & Galleries",
+      "pace": "Museum-paced — one ticketed anchor per day",
+      "focus": ["activities", "convenience"],
+      "blurb": "A dry-weather-proof plan across Seoul's best museums, galleries, and exhibition spaces — most anchors free or cheap, all within 30–40 min of {hotel}.",
+      "bestFor": "She reads every wall text and wants exhibitions over street crowds.",
+      "days": [
+        {
+          "title": "Gwanghwamun museum row",
+          "morning": "National Museum of Korean Contemporary History (free; rooftop panorama of Gwanghwamun & Gyeongbokgung).",
+          "afternoon": "Gyeongbokgung grounds + National Folk Museum (free) or National Palace Museum (free).",
+          "evening": "Seoul Museum of Craft Art (SeMoCA, free) near Anguk, then Insadong dinner."
+        },
+        {
+          "title": "Yongsan & Itaewon",
+          "morning": "National Museum of Korea (free, huge — pick 2–3 halls; English audio guides).",
+          "afternoon": "Yongsan area lunch, then Leeum Museum of Art (book in advance) or D Museum.",
+          "evening": "Itaewon international dinner + Hannam-dong gallery stroll."
+        },
+        {
+          "title": "DDP, Euljiro & a show",
+          "morning": "DDP Design Museum + exhibition halls (check current shows); Dongdaemun History Hall (free).",
+          "afternoon": "Euljiro indie galleries + K-Auction previews if open.",
+          "evening": "Arario Museum in SPACE (Jongno) evening visit, or a musical/performance — check nol.world for listings."
+        }
+      ],
+      "activityKeywords": ["Museum", "museum", "Gallery", "gallery", "Exhibition", "DDP", "Leeum", "National Museum", "SeMoCA", "craft", "Art", "exhibition", "History"],
+      "foodPriority": ["Classic Korean", "Cafe"],
+      "extraNights": [
+        "BANKSY: Still Here at The Hyundai Seoul (Yeouido) — CONFIRMED through Nov 3; prebook.",
+        "Seoul Museum of History (free, giant city model).",
+        "Hyundai Seoul ALT.1 + K-Auction preview circuit.",
+        "National Gugak Center Saturday traditional performance (₩10–20k)."
+      ],
+      "planB": "Gallery fatigue: one long lunch at a museum cafe (NMK and Leeum both have great ones) and a river walk to reset."
+    },
+    {
+      "id": "han-river-parks",
+      "title": "Han River & Parks",
+      "pace": "Outdoorsy but gentle — one park anchor per day",
+      "focus": ["activities", "fun", "value"],
+      "blurb": "Seoul's green-and-blue side: Han River parks, bikes, ferries, picnic culture, and a hill view — most of it free.",
+      "bestFor": "She wants fresh air and river views between the city days; loves a sunset picnic.",
+      "days": [
+        {
+          "title": "Yeouido river day",
+          "morning": "Yeouido Hangang Park: bike along the river (Ttareungyi rentals ~₩3k/hr), riverside cafes.",
+          "afternoon": "The Hyundai Seoul for lunch + BANKSY exhibition if still running (through Nov 3), rooftop garden.",
+          "evening": "Banpo Hangang Park Moonlight Rainbow Fountain (check seasonal schedule) — picnic dinner on the lawn."
+        },
+        {
+          "title": "Ttukseom & Seoul Forest",
+          "morning": "Ttukseom Hangang Park + Seoul Forest Park (deer, butterfly garden; free).",
+          "afternoon": "Seongsu-dong lunch and cafes (right across the bridge).",
+          "evening": "Eland Han River cruise (Yeouido dock) sunset departure — book ahead."
+        },
+        {
+          "title": "Haneul Park & the sky line",
+          "morning": "Haneul Park silver-grass fields (seasonal peak in Nov) + 291 zigzag sky stairs — arrive early for the light.",
+          "afternoon": "World Cup Park picnic or Mangwon Market lunch (nearby, local-feel).",
+          "evening": "Han River History Tour riverside walk (runs through Nov 30) or Ichon reed-beds sunset."
+        }
+      ],
+      "activityKeywords": ["Han River", "Hangang", "Banpo", "Yeouido", "Haneul", "Park", "bike", "cruise", "Seoul Forest", "Ttukseom", "Ichon", "Gwangnaru", "ferry"],
+      "foodPriority": ["Classic Korean", "Cafe"],
+      "extraNights": [
+        "Gangseo Hangang Park eco-wetland bird-watching morning.",
+        "Gwangnaru bike track + reeds, then Amisa temple.",
+        "Dream Forest (Buk Seoul) + Wolyeongji pond autumn colors.",
+        "Eungbongsan night viewpoint for the Seoul skyline panorama."
+      ],
+      "planB": "Cold/rainy: swap to a jjimjilbang day (Aquafield/Dragon Hill) — spa warmth instead of park wind."
+    },
+    {
+      "id": "day-trip-base",
+      "title": "Day-Trip Base Camp",
+      "pace": "Base-camp — big day out, calm day in",
+      "focus": ["convenience", "activities"],
+      "blurb": "Treats {hotel} as the base while you take the best day trips from Seoul: Suwon's fortress, the DMZ corridor, Nami Island, or temple mountains — then come home to the same bed.",
+      "bestFor": "She wants Seoul PLUS the famous outside-Seoul day trips without moving hotels or packing bags.",
+      "days": [
+        {
+          "title": "Suwon Hwaseong",
+          "morning": "ITX/Su-in line to Suwon (~30–45 min), Hwaseong Fortress walls + Hwaseong Haenggung palace.",
+          "afternoon": "Suwon galbi lunch (the city's famous dish), then Jidong Market or the fortress cable car back.",
+          "evening": "Return to {hotel}, late easy dinner in {area}."
+        },
+        {
+          "title": "DMZ / Imjingak (status-fluid)",
+          "morning": "Tour pickup (book 2–4 weeks ahead; passport required) — Imjingak, the 3rd tunnel if open, Dorasan.",
+          "afternoon": "Return by late afternoon; Paju outlet or Heyri art village stop if the tour allows.",
+          "evening": "Rest night — convenience-store dinner + movie in the hotel room."
+        },
+        {
+          "title": "Nami Island & rail bikes",
+          "morning": "ITX-Cheongchun to Gapyeong (~60–80 min); Nami Island ferry + ginkgo avenues (peak early Nov).",
+          "afternoon": "Gangchon rail bike (book slot) or Garden of Morning Calm if open.",
+          "evening": "Chuncheon dakgalbi (spicy stir-fried chicken) before the train home."
+        }
+      ],
+      "activityKeywords": ["DMZ", "Suwon", "Nami", "Gapyeong", "rail bike", "Imjingak", "fortress", "day trip"],
+      "foodPriority": ["Classic Korean"],
+      "extraNights": [
+        "Everland (book whole-day; Halloween 'Blood City' through early Nov if 2026 dates align).",
+        "Bukhansan National Park half-day hike (Baegundae summit, 2–3 hr up).",
+        "Incheon Chinatown + Wolmido seaside half-day.",
+        "Yongin Korean Folk Village — living-history day out."
+      ],
+      "planB": "Tour cancellation (DMZ status fluid): pivot to a Seoul fortress walk — Naksan city wall + DDP instead."
+    },
+    {
+      "id": "k-culture-circuit",
+      "title": "K-Culture & Pop-Up Circuit",
+      "pace": "Late-ish — pop-ups, stages, and screen culture",
+      "focus": ["fun", "activities"],
+      "blurb": "K-pop, K-drama, gaming, and pop culture: HiKR Ground, HYBE strolls, PC bangs, noraebang, and whatever pop-ups are running — with {hotel} as the transit hub.",
+      "bestFor": "K-culture fans — she wants the 'now' of Seoul: trends, idols, gaming, and stage culture.",
+      "days": [
+        {
+          "title": "HiKR Ground & Gwanghwamun",
+          "morning": "HiKR Ground (K-Style Hub, free): K-pop MV photo stages + VR dance recording.",
+          "afternoon": "Gwanghwamun + Cheonggyecheon; K-pop merch stores in Myeongdong (Music Korea, Ktown4u).",
+          "evening": "K-pop TV show taping if a free audience slot lines up (check weekly listings)."
+        },
+        {
+          "title": "HYBE, Yongsan & PC bangs",
+          "morning": "HYBE headquarters + Dragon Hill walk (Yongsan) — mostly exterior/shop visit; check cafe hours.",
+          "afternoon": "Yongsan I'Park Mall + e-sports PC bang session (cheap, fun, very Korean).",
+          "evening": "Noraebang with song-request lists in English; late tteokbokki + corn dogs."
+        },
+        {
+          "title": "Pop-ups, Mnet & Jamsil",
+          "morning": "Check pop-up listings near Seongsu/Hongdae (rotating; verify current week) — Seongsu is pop-up central.",
+          "afternoon": "CJ ENM Center / Mnet studio exterior (Sangam) + DMC Star Plaza.",
+          "evening": "Lotte World Tower night view or a K-musical — check nol.world for what's on."
+        }
+      ],
+      "activityKeywords": ["HiKR", "K-Pop", "K-pop", "HYBE", "Mnet", "CJ ENM", "PC Bang", "pop-up", "Pop", "JYP", "DMC", "Star Avenue", "Hallyu", "taping", "K-Performance"],
+      "foodPriority": ["Classic Korean", "Cafe"],
+      "extraNights": [
+        "Gangnam K-Drama/Hallyu Star Avenue walk + JYP Soulcup cafe (Gangdong).",
+        "WILD WILD K-performance dance show (adult-leaning, Euljiro 3-ga).",
+        "LoL/e-sports watch party if a major tournament is live (check dates).",
+        "Idol-themed cafes and photocard hunting in Hongdae."
+      ],
+      "planB": "Pop-up closures: the HiKR Ground + PC bang + noraebang core still delivers a full K-culture day."
+    },
+    {
+      "id": "rainy-indoor",
+      "title": "Rainy-Day Indoor Plan",
+      "pace": "Weather-proof — indoors, connected by subway",
+      "focus": ["convenience", "activities"],
+      "blurb": "Seoul's weather insurance: a full indoor itinerary of malls, museums, spas, and food halls — each anchor reachable from {hotel} without stepping outside for more than a block.",
+      "bestFor": "November drizzle/forecast says rain and she still wants a great day.",
+      "days": [
+        {
+          "title": "Mega-mall loop",
+          "morning": "The Hyundai Seoul (Yeouido): food hall, rooftop garden under cover, BANKSY until Nov 3.",
+          "afternoon": "IFC Mall underground dining + Starfield COEX (Starfield Library, aquarium, K-pop stores).",
+          "evening": "Dinner at COEX food court or Gangnam underground mall; dry subway all the way home."
+        },
+        {
+          "title": "Museum & spa day",
+          "morning": "National Museum of Korea (free, huge, all indoors).",
+          "afternoon": "Lunch at NMK cafe, then Leeum Museum (book) or Yongsan I'Park mall.",
+          "evening": "Dragon Hill / Aquafield jjimjilbang evening — scrub, sauna, sleep in a heated room."
+        },
+        {
+          "title": "DDP & Euljiro indoors",
+          "morning": "DDP Design Museum + exhibition halls; Dongdaemun underground shopping.",
+          "afternoon": "Lotte Young Plaza + Myeongdong underground shopping center (connected by subway passages).",
+          "evening": "Korean-Japanese dinner (ramen) near {hotel} — Menten or a local favorite, then convenience-store dessert."
+        }
+      ],
+      "activityKeywords": ["COEX", "Hyundai", "IFC", "museum", "Museum", "DDP", "jjimjilbang", "Aquafield", "Dragon Hill", "Gangnam Underground", "Starfield", "underground", "Mall"],
+      "foodPriority": ["Ramen", "Jajangmyeon", "Classic Korean"],
+      "extraNights": [
+        "Lotte World Adventure (mostly indoor) — Halloween decor through mid-Nov if 2026 dates align.",
+        "Arario Museum in SPACE (Jongno).",
+        "Gotomall (Express Bus Terminal underground mall) + Gangnam food hall.",
+        "Ewha ECC complex + Sinchon indoor shopping street."
+      ],
+      "planB": "The day IS the plan B — rainy-day itineraries just swap anchors if a venue closes."
+    },
+    {
+      "id": "budget-smart",
+      "title": "Budget-Smart Seoul",
+      "pace": "Moderate — wallet-first, free first",
+      "focus": ["value", "convenience"],
+      "blurb": "The full Seoul experience at the lowest sensible spend: free museums, hanbok-for-free-entry tricks, ₩ lunchboxes, street food over sit-down, and transit passes — all routed from {hotel}.",
+      "bestFor": "She wants the trip to feel rich without spending like it; great for the 'value' line of the comparison.",
+      "days": [
+        {
+          "title": "Free old-city day",
+          "morning": "Gyeongbokgung with rented hanbok (free palace entry), National Folk Museum (free).",
+          "afternoon": "Tongin Market dosirak lunchbox (₩5–10k), then Seochon walk.",
+          "evening": "Gwanghwamun Square + Cheonggyecheon lights (free); convenience-store dinner stash."
+        },
+        {
+          "title": "Market & museum day",
+          "morning": "Gwangjang Market brunch (bindaetteok ~₩5–8k, mayak gimbap), free tastings while you shop.",
+          "afternoon": "DDP + Dongdaemun History Hall (free), Euljiro window shopping.",
+          "evening": "DDP Dream in Light (free) + street food dinner."
+        },
+        {
+          "title": "River & discount day",
+          "morning": "Han River bike + picnic (convenience-store lunch on the lawn — the Korean way).",
+          "afternoon": "Korea Sale FESTA window if running (recent pattern Nov 9–30) — price-compare duty-free vs. Olive Young sale stock.",
+          "evening": "AYCE BBQ at a budget chain (~₩20k) or jjimjilbang overnight option (spa + sleep = free hotel night hack)."
+        }
+      ],
+      "activityKeywords": ["free", "Free", "market", "Market", "Gwangjang", "Tongin", "Han River", "DDP", "museum", "jjimjilbang", "Seoul Plaza"],
+      "foodPriority": ["Classic Korean", "Jajangmyeon", "Ramen"],
+      "extraNights": [
+        "Free Seoul Walking Tour (reserve).",
+        "Budget day-trip: Suwon fortress (cheap rail + ₩ entry) instead of DMZ.",
+        "Jeongdong Theater 'free preview' performances when available.",
+        "Lotte Mart last-day grocery run for gifts (instant tax refund ≥₩15,000)."
+      ],
+      "planB": "Rainy budget day: National Museum (free) + COEX library (free) + cheap ramen lunch."
+    },
+    {
+      "id": "photo-golden-hour",
+      "title": "Photo & Golden-Hour Loop",
+      "pace": "Early starts — golden & blue hour anchors",
+      "focus": ["fun", "activities"],
+      "blurb": "A photographer's Seoul: dawn light on the city wall, palace geometry at opening, neon at dusk, and night views — with efficient routes back to {hotel}.",
+      "bestFor": "She shoots (phone or camera) and plans days around light.",
+      "days": [
+        {
+          "title": "Old city light",
+          "dawn": "Naksan city wall sunrise walk (city wall + old-town rooftops).",
+          "day": "Gyeongbokgung geometry at opening (arrive 09:00 before crowds; guard change at 10:00).",
+          "dusk": "N Seoul Tower / Namsan cable car blue hour + night panorama."
+        },
+        {
+          "title": "Neon & design night",
+          "day": "Seongsu-dong warehouse textures + Euljiro printing alleys (late open — plan 14:00+).",
+          "dusk": "DDP curves at blue hour (design museum exterior + Dream in Light).",
+          "night": "Dongdaemun night market neon; long-exposure practice."
+        },
+        {
+          "title": "River & sky",
+          "dawn": "Haneul Park silver grass at first light (misty, seasonal peak).",
+          "day": "Gangnam/Starfield Library shelves + COEX aquarium tunnel.",
+          "dusk": "Banpo Moonlight Rainbow Fountain (seasonal) or Eland cruise at sunset."
+        }
+      ],
+      "activityKeywords": ["photo", "light", "Sunset", "sunrise", "Sunrise", "Night", "night", "Viewpoint", "DDP", "Haneul", "Naksan", "N Seoul Tower", "Namsan", "city wall", "Moonlight"],
+      "foodPriority": ["Cafe", "Classic Korean"],
+      "extraNights": [
+        "Eungbongsan night viewpoint.",
+        "Changdeokgung Huwon autumn foliage at opening light.",
+        "Cheonggyecheon lantern/night stream walk.",
+        "Gwangnaru reeds at golden hour."
+      ],
+      "planB": "Grey sky: pivot to interiors — SeMoCA craft museum, Hyundai Seoul ALT.1, Starfield Library — where light doesn't matter."
+    },
+    {
+      "id": "slow-spa-recharge",
+      "title": "Slow Mornings & Spa Recharge",
+      "pace": "Very gentle — one anchor per day, late starts",
+      "focus": ["value", "convenience"],
+      "blurb": "The reset trip: late breakfasts, jjimjilbang sessions, tea houses, and unhurried neighborhoods — everything within an easy ride of {hotel}.",
+      "bestFor": "She wants to come home rested, not exhausted; recovery days between active ones.",
+      "days": [
+        {
+          "title": "Spa & tea day",
+          "morning": "Sleep in; late brunch at a cafe near {hotel}.",
+          "afternoon": "Jjimjilbang session (Aquafield or Dragon Hill — saunas, hot pools, snack corner).",
+          "evening": "Hanok tea house in Insadong/Ikseon-dong; light dinner of jeon + makgeolli."
+        },
+        {
+          "title": "Seochon & the slow old city",
+          "morning": "Late start, Seochon village cafes and bookshops.",
+          "afternoon": "Gyeongbokgung at a stroll's pace (hanbok optional), National Folk Museum.",
+          "evening": "Gwanghwamun Square walk + early dinner; early night."
+        },
+        {
+          "title": "River calm",
+          "morning": "Han River park bench morning — coffee + book on the lawn.",
+          "afternoon": "Ferry to Banpo (Han River bus) for a slow afternoon; Some Sevit floating islands.",
+          "evening": "Picnic dinner on the riverbank or room-service-style takeout at {hotel}."
+        }
+      ],
+      "activityKeywords": ["jjimjilbang", "Aquafield", "Dragon Hill", "tea", "Tea", "Seochon", "Han River", "Banpo", "Sevit", "park", "Park", "calm", "meditation"],
+      "foodPriority": ["Cafe", "Classic Korean"],
+      "extraNights": [
+        "Bukchon slow photo walk before 10:00.",
+        "Templestay night (Jogyesa area / Hwagyesa) — English programs bookable.",
+        "Haneul Park easy sunset (short walk from World Cup Stadium).",
+        "Massage/foot-spa session in Myeongdong's spa district."
+      ],
+      "planB": "Energy returns mid-day: add one spontaneous neighborhood — the itinerary is designed to flex."
+    },
+    {
+      "id": "neighborhood-immersion",
+      "title": "Neighborhood Immersion",
+      "pace": "Moderate — one neighborhood per half-day, no backtracking",
+      "focus": ["activities", "fun"],
+      "blurb": "Live Seoul like a local: one distinct neighborhood after another — markets, alley bars, campus streets, and village lanes — chained into loops that start and end near {hotel}.",
+      "bestFor": "Returners or curious travelers who prefer texture over tick-list sights.",
+      "days": [
+        {
+          "title": "Jongno to Euljiro loop",
+          "morning": "Jongno 3-ga lunch market + tapgol park; wander the printing/paper alleys.",
+          "afternoon": "Euljiro craft workshops and indie galleries.",
+          "evening": "Euljiro nogari beer alleys + pajeon; night bus/walk back to {area}."
+        },
+        {
+          "title": "Mapo-Gongdeok loop",
+          "morning": "Mapo meat alley + Gongdeok food street (beyond tourist maps).",
+          "afternoon": "Gyeongui Line Forest Park / Yeontral Park walk to Hongdae.",
+          "evening": "Hongdae free market (Sat), busking, indie stages."
+        },
+        {
+          "title": "Seongsu to Seoul Forest",
+          "morning": "Seongsu-dong factories-turned-cafes and flagship pop-ups.",
+          "afternoon": "Seoul Forest Park + Under Stand Avenue container shops.",
+          "evening": "Sungsu evening restaurants (gopchang, pasta, wine bars) then home."
+        }
+      ],
+      "activityKeywords": ["Hongdae", "Seongsu", "Euljiro", "Mapo", "Gongdeok", "Mangwon", "Yeonnam", "alley", "Alley", "neighborhood", "market", "Market", "street", "Street", "busking", "village"],
+      "foodPriority": ["Classic Korean", "Cafe", "AYCE BBQ"],
+      "extraNights": [
+        "Itaewon/Hannam global-village crawl.",
+        "Mangwon Market morning + Yeonnam-dong roasteries.",
+        "Changsin-dong market alleys + Ihwa mural village.",
+        "Sinchon/Ewha campus streets for young-Seoul energy."
+      ],
+      "planB": "Weather: pick the covered versions — underground mall neighborhoods (Gangnam, Express Bus Terminal) instead of alleys."
+    },
+    {
+      "id": "family-kid-friendly",
+      "title": "Family & Kid-Friendly",
+      "pace": "Kid-paced — short walks, early dinners",
+      "focus": ["fun", "convenience", "value"],
+      "blurb": "Seoul that works with kids: aquariums, amusement parks, hands-on museums, and early-friendly food — with {hotel}'s central location keeping meltdown-transit short.",
+      "bestFor": "Traveling with children (or a partner who wants zero stress and maximum fun).",
+      "days": [
+        {
+          "title": "Lotte World & aquarium",
+          "morning": "Lotte World Adventure (indoor rides — perfect for unpredictable weather) + Seokchon Lake walk.",
+          "afternoon": "COEX Aquarium + Starfield Library (shelves wow kids, and it's free).",
+          "evening": "Easy early dinner near the hotel; room wind-down."
+        },
+        {
+          "title": "Palace, hanbok & markets",
+          "morning": "Gyeongbokgung in hanbok (free entry for the whole family; changing ceremony).",
+          "afternoon": "Gwangjang Market snack tour — let the kids pick from stalls.",
+          "evening": "Cheonggyecheon stream splash-and-stroll; DDP light show."
+        },
+        {
+          "title": "Animals & parks",
+          "morning": "Seoul Grand Park zoo + Seoul Land (open-air, check weather) OR Seoul Forest deer park (free).",
+          "afternoon": "Picnic lunch; Children's Museum at National Museum of Korea (hands-on, free-ish).",
+          "evening": "Family jjimjilbang night — kids love the pools and snack bar."
+        }
+      ],
+      "activityKeywords": ["Lotte World", "COEX Aquarium", "aquarium", "Seoul Grand Park", "Seoul Forest", "Children", "kids", "family", "Tongin", "Lotte", "jungle"],
+      "foodPriority": ["Classic Korean", "Jajangmyeon", "Cafe"],
+      "extraNights": [
+        "Everland full day (rides + safari; Halloween decor in season).",
+        "Trick Eye / Alive Museum photo museums (rainy-day gold).",
+        "Rail bike near Seoul (Gangchon) as an active day out.",
+        "Busan-style aquarium + Namsan cable car combo day."
+      ],
+      "planB": "Tired kids: cut the day at the first sign — every anchor has a 'we already won' version."
+    },
+    {
+      "id": "date-night",
+      "title": "Romance & Date Night",
+      "pace": "Polished — golden hours and good tables",
+      "focus": ["fun", "activities"],
+      "blurb": "Seoul for two: sunset views, a nice dinner, a night show or riverside walk — with {hotel} as the elegant home base that makes the evening effortless.",
+      "bestFor": "The trip is partly a getaway — she wants a few properly romantic days.",
+      "days": [
+        {
+          "title": "Tower & rooftop night",
+          "afternoon": "Late afternoon cable car to N Seoul Tower; lock your padlock on the terrace.",
+          "evening": "Tower dinner (book a window table) or return to {area} for a rooftop-bar dinner near {hotel}.",
+          "night": "Night walk down Namsan's mountain path — quieter and prettier than the cable car."
+        },
+        {
+          "title": "Palace light & hanok dinner",
+          "afternoon": "Gyeongbokgung at closing light (Sept–Nov hours end ~17:00, check), or Changgyeonggung 'Mulbit Yeonhwa' night art (through Nov 8).",
+          "evening": "Ikseon-dong private-room Korean dinner; then a traditional tea nightcap.",
+          "night": "Moonlit walk through Cheonggyecheon."
+        },
+        {
+          "title": "River cruise night",
+          "afternoon": "Slow day: Seongsu cafes + Seoul Forest.",
+          "evening": "Eland Han River sunset cruise with wine (book ahead); dinner at a Yeouido riverside restaurant.",
+          "night": "Banpo fountain show + night bus back to {hotel}."
+        }
+      ],
+      "activityKeywords": ["N Seoul Tower", "Namsan", "sunset", "Sunset", "cruise", "Moonlight", "Sevit", "night", "Night", "rooftop", "Ikseon", "Changgyeonggung", "Banpo"],
+      "foodPriority": ["Classic Korean", "Cafe"],
+      "extraNights": [
+        "Private hanok tea ceremony (book via Insadong tea houses).",
+        "Musical night out — check nol.world for current shows.",
+        "WILD WILD K-performance (adult date-night, Euljiro).",
+        "Han River private picnic kit + Bluetooth speaker sunset."
+      ],
+      "planB": "Rain: swap the tower for COEX aquarium tunnel + Starfield Library + a nice indoor dinner — still cinematic."
+    },
+    {
+      "id": "fitness-outdoors",
+      "title": "Fitness & Morning Runs",
+      "pace": "Active — run/hike/walk first, sightsee after",
+      "focus": ["activities", "fun"],
+      "blurb": "A movement-first Seoul: riverside runs, a mountain morning, bike loops, and stretching breaks — with shower-and-refuel at {hotel} after each session.",
+      "bestFor": "She wants to keep the training habit on vacation (and earn the BBQ).",
+      "days": [
+        {
+          "title": "Han River run",
+          "morning": "Sunrise 5–10k along the Han River park nearest to {area} (flat, popular, safe; Ttareungyi bikes for warm-up).",
+          "day": "Protein-heavy Korean lunch (samgyetang or grilled chicken), then a light museum afternoon.",
+          "evening": "Stretch + spa evening (foot bath or jjimjilbang)."
+        },
+        {
+          "title": "Bukhansan hike",
+          "morning": "Bukhansan Baegundae summit trail (2–3 hr up, steep sections; start before 08:00, bring water) or the easier Dobongsan/Mangwolsa loop.",
+          "day": "Big reward lunch (BBQ), then rest at the hotel.",
+          "evening": "Easy night — movie or DDP walk."
+        },
+        {
+          "title": "City-wall stair day",
+          "morning": "Naksan → Hyehwa city-wall stair section (great intervals) + Ihwa mural village detour.",
+          "day": "Lunch in Daehakro, then Gyeongui Line Forest Park recovery stroll.",
+          "evening": "Stretching class or quiet sushi/samgyeopsal dinner near {hotel}."
+        }
+      ],
+      "activityKeywords": ["Bukhansan", "run", "Run", "bike", "trail", "Trail", "hike", "Hiking", "mountain", "Mountain", "city wall", "Skywalk", "fitness", "park", "Park"],
+      "foodPriority": ["Classic Korean", "AYCE BBQ"],
+      "extraNights": [
+        "Gwanaksan sunrise trail + Yeonjuam hermitage.",
+        "Inwangsan tiger-rock scramble + city wall.",
+        "Gangseo eco-wetland early-morning bird + bike loop.",
+        "Achasan fortress hill sunset run."
+      ],
+      "planB": "Injury/rest day: swap for a jjimjilbang 'active recovery' day — saunas and gentle pools count."
+    },
+    {
+      "id": "night-market-marathon",
+      "title": "Night Market & Food Marathon",
+      "pace": "Marathon — but it's eating, so it's fine",
+      "focus": ["fun", "value"],
+      "blurb": "A focused night-by-night food marathon across Seoul's evening-eating spots — from market stalls to late-night BBQ — with {hotel} always one easy line home.",
+      "bestFor": "Food maximalists — she plans days around where she'll eat at night.",
+      "days": [
+        {
+          "title": "Gwangjang night session",
+          "evening": "Gwangjang Market after dark (stalls run late): yukhoe, bindaetteok, mayak gimbap, and makgeolli with the ajummas.",
+          "night": "Walk off the first round along Cheonggyecheon to Dongdaemun; fried-chicken snack if still hungry."
+        },
+        {
+          "title": "Euljiro & Jongno circuit",
+          "evening": "Euljiro 3-ga nogari (grilled pollack) + draft beer alleys; then Jongno 3-ga pajeon-and-makgeolli streets.",
+          "night": "24-hour gopchang or ramyeon near {hotel} as the closer."
+        },
+        {
+          "title": "Myeongdong & Hongdae finale",
+          "evening": "Myeongdong street-food final pass (egg bread, tornado potato, cheese corn dogs) → Hongdae food street (tteokbokki, sundae, grilled skewers).",
+          "night": "Cup-bap or late soup from a convenience store — the eternal Korean nightcap."
+        }
+      ],
+      "activityKeywords": ["Gwangjang", "Dongdaemun", "night", "Night", "market", "Market", "Euljiro", "street", "Street", "Food", "jokbal", "alley"],
+      "foodPriority": ["Classic Korean", "AYCE BBQ", "Ramen"],
+      "extraNights": [
+        "Noryangjin Fish Market night session (raw fish + soju).",
+        "Dongdaemun grilled-fish street late run.",
+        "Mangwon Market evening (locals' market, quieter than Gwangjang).",
+        "Jangchung-dong jokbal night walk."
+      ],
+      "planB": "Full: skip dinner, go straight to dessert-and-tea night — there is always room for bingsu."
+    },
+    {
+      "id": "finale-convenience",
+      "title": "Last-Day Convenience & Airport Flow",
+      "pace": "Easy — zero panic, zero missed flights",
+      "focus": ["convenience", "value"],
+      "blurb": "The final Seoul block done right: last-minute shopping with easy tax refunds, a farewell dinner near {hotel}, and a timed airport transfer plan so departure is boring.",
+      "bestFor": "The final 1–2 nights of the trip — this is the 'come home smooth' plan.",
+      "days": [
+        {
+          "title": "Final shop & pack",
+          "morning": "Last Olive Young / Daiso run near {area} — keep receipts for instant tax refund.",
+          "afternoon": "Lunch at a favorite revisited spot; Lotte Mart grocery run for edible gifts (tax refund ≥₩15,000).",
+          "evening": "Pack-and-sort night: receipts in one pouch, liquids in the bag, luggage scale check."
+        },
+        {
+          "title": "Farewell day",
+          "morning": "One last easy anchor near {hotel} — a palace, market, or cafe you loved.",
+          "afternoon": "Farewell Korean lunch (samgyeopsal or samgyetang); final walk of {area}.",
+          "evening": "Transfer plan: AREX from Seoul Station (verify last-train time against your flight), airport limousine stop near {hotel}, or pre-booked taxi. Confirm 3 hours before departure at ICN."
+        }
+      ],
+      "activityKeywords": ["airport", "AREX", "limousine", "Lotte Mart", "refund", "packing", "Seoul Station", "last", "final"],
+      "foodPriority": ["Classic Korean"],
+      "extraNights": [
+        "Buffer-day rule: keep one completely free day before departure.",
+        "Re-check the AREX timetable and your hotel's limousine stop the night before.",
+        "If leaving very early, book the airport limousine pick-up the evening prior.",
+        "Keep ₩50k–100k cash for the airport-side needs."
+      ],
+      "planB": "Traffic/weather delay: fall back to AREX (rail is weather-proof) and buffer 90 extra minutes."
+    }
+  ]
+}

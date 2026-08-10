@@ -1,0 +1,51 @@
+{
+  "comment": "Ingestion file for the Seoul hotel-comparison itineraries. Each entry below is one of the 9 Seoul hotels already researched in data/collections/hotels.json. Set \"consider\": true for the hotels the travel partner is actually deciding between — the build script then spreads the 20 itinerary themes across exactly those hotels. Add a \"why\" note so the generated plans can speak to her reasons.",
+  "hotels": [
+    {
+      "id": "seoul-four-points-josun-station",
+      "consider": true,
+      "why": "Transport-first option — direct Seoul Station / AREX / KTX access is the main advantage."
+    },
+    {
+      "id": "seoul-ibis-styles",
+      "consider": true,
+      "why": "Budget-quality balance, free breakfast, and a central Myeongdong base."
+    },
+    {
+      "id": "seoul-nine-tree",
+      "consider": false,
+      "why": "Mid-range value pick, 1-min walk to Myeongdong Station, airport limousine stops nearby."
+    },
+    {
+      "id": "seoul-l7-myeongdong",
+      "consider": false,
+      "why": "Design-lifestyle Lotte hotel, rooftop sky terrace, 2-min walk to Myeongdong Station."
+    },
+    {
+      "id": "seoul-skypark-myeongdong3",
+      "consider": false,
+      "why": "Excellent central Myeongdong location at a budget-friendly tier."
+    },
+    {
+      "id": "seoul-lescape",
+      "consider": false,
+      "why": "Luxury option in prime Myeongdong location, old-world French glamour."
+    },
+    {
+      "id": "seoul-ibis-insadong",
+      "consider": false,
+      "why": "Freshly renovated, overlooks Ikseon-dong hanok village, walkable to palaces."
+    },
+    {
+      "id": "seoul-four-seasons",
+      "consider": false,
+      "why": "Top-tier luxury with palace views, steps from Gwanghwamun & Gyeongbokgung."
+    },
+    {
+      "id": "seoul-fairmont",
+      "consider": false,
+      "why": "Modern luxury on the Han River in Yeouido, beside The Hyundai Seoul mall."
+    }
+  ],
+  "status": "CURRENT shortlist provided by the user: Four Points by Sheraton Josun, Seoul Station + ibis Styles Ambassador Seoul Myeongdong. The builder will split the 20 themes 10 / 10 across these two hotels until the shortlist changes."
+}
