@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-She wants to come home rested, not exhausted; recovery days between active ones. The reset trip: late breakfasts, jjimjilbang sessions, tea houses, and unhurried neighborhoods — everything within an easy ride of Ibis Styles Myeongdong.
+You two need to actually recharge — late starts, spas, tea houses, unhurried wandering. The reset trip: late breakfasts, jjimjilbang sessions, tea houses, and unhurried neighborhoods — everything within an easy ride of Ibis Styles Myeongdong.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S17 (Slow Mornings & Spa Recharge at Ibis Styles Myeongdong) if** she wants to come home rested, not exhausted; recovery days between active ones. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S17 (Slow Mornings & Spa Recharge at Ibis Styles Myeongdong) if** you two need to actually recharge — late starts, spas, tea houses, unhurried wandering. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

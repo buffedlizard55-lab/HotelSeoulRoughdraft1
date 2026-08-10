@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-The final 1–2 nights of the trip — this is the 'come home smooth' plan. The final Seoul block done right: last-minute shopping with easy tax refunds, a farewell dinner near Ibis Styles Myeongdong, and a timed airport transfer plan so departure is boring.
+You two on your last nights — easy shopping, farewell dinner, smooth airport send-off. The final Seoul block done right: last-minute shopping with easy tax refunds, a farewell dinner near Ibis Styles Myeongdong, and a timed airport transfer plan so departure is boring.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -91,7 +91,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S20 (Last-Day Convenience & Airport Flow at Ibis Styles Myeongdong) if** the final 1–2 nights of the trip — this is the 'come home smooth' plan. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S20 (Last-Day Convenience & Airport Flow at Ibis Styles Myeongdong) if** you two on your last nights — easy shopping, farewell dinner, smooth airport send-off. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

@@ -862,3 +862,44 @@ button, a, input, select, textarea { touch-action: manipulation; }
   a { color: inherit; text-decoration: none; }
   mark { background: none; box-shadow: none; font-weight: 700; }
 }
+
+/* --- Streamlined couple itineraries (first time, late 30s) --- */
+.couple-banner{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:16px;
+  align-items:center;
+  padding:16px 18px;
+  background:linear-gradient(135deg,#fff,#fff8e6);
+  border:1px solid #f2d99d;
+  border-radius:16px;
+  box-shadow:var(--shadow-sm);
+  margin-bottom:16px;
+}
+.couple-banner-icon{width:44px;height:44px;display:grid;place-items:center;background:#fff0f0;border:1px solid #f1c6c6;border-radius:12px;font-size:22px}
+.couple-banner h3{margin:0;font-size:14px;letter-spacing:-.02em;color:#14332d}
+.couple-banner p{margin:4px 0 0;color:#6b5a2a;font-size:12px;line-height:1.5}
+.itin-filters{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 14px}
+.itin-chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:12px;font-weight:600;color:#4a5a56;cursor:pointer}
+.itin-chip.is-active{background:var(--forest);color:#fff;border-color:var(--forest)}
+.itin-card-streamlined{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px 16px 14px;box-shadow:var(--shadow-sm);transition:transform .15s,box-shadow .15s}
+.itin-card-streamlined:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:#d5cdb8}
+.itin-card-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.itin-num{background:var(--forest);color:#fff;font-weight:700;border-radius:8px;padding:3px 7px;font-size:11px}
+.itin-vibe{background:var(--mint);color:var(--forest);border:1px solid #d5e8df;border-radius:999px;padding:3px 8px;font-size:11px;font-weight:700}
+.itin-card-streamlined h3{margin:0 0 6px;font-size:15px;letter-spacing:-.02em;color:var(--forest);line-height:1.3}
+.itin-card-streamlined p{margin:0;color:var(--ink-soft);font-size:12px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.itin-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.itin-meta span{font-size:10px;background:#f6f7f4;border:1px solid #e2e6de;border-radius:999px;padding:3px 7px;color:#5a6b66}
+.itin-actions{display:flex;gap:8px;margin-top:12px}
+.blueprint-day.streamlined{border-radius:14px}
+.blueprint-day.streamlined .blueprint-body{padding:0 14px 14px}
+.slot-row{display:grid;grid-template-columns:68px 1fr;gap:10px;align-items:start;padding:6px 0;border-bottom:1px dashed #e8e6de}
+.slot-row:last-child{border-bottom:0}
+.slot-badge{font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:5px 6px;border-radius:8px;color:#fff}
+.slot-badge.morning{background:#2e6958}
+.slot-badge.afternoon{background:#8a6d1b}
+.slot-badge.evening{background:#b56a2a}
+.slot-badge.night{background:#4a5568}
+.slot-row p{margin:0;font-size:12px;line-height:1.55;color:var(--ink)}
+.css-hidden{display:none !important}

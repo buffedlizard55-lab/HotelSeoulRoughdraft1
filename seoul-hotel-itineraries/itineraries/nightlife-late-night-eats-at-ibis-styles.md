@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-Night owls — she wants Seoul's after-dark energy, not early palace gates. Seoul after dark: neon alleys, pojangmacha tents, noraebang, live stages, and 24-hour supper — with Ibis Styles Myeongdong close to the last train home.
+You two want Seoul after dark — neon alleys, a show, late-night eats, cozy walk home together. Seoul after dark: neon alleys, pojangmacha tents, noraebang, live stages, and 24-hour supper — with Ibis Styles Myeongdong close to the last train home.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S13 (Nightlife & Late-Night Eats at Ibis Styles Myeongdong) if** night owls — she wants Seoul's after-dark energy, not early palace gates. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S13 (Nightlife & Late-Night Eats at Ibis Styles Myeongdong) if** you two want Seoul after dark — neon alleys, a show, late-night eats, cozy walk home together. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

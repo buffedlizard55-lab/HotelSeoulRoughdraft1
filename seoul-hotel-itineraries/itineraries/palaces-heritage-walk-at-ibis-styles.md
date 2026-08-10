@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-History and architecture lovers; nearly weather-proof because half the day is indoors. The old-city Seoul of palaces, shrines, and hanok — most of it walkable from a Jongno/Insadong base and a short Line 3/1/4 ride from Ibis Styles Myeongdong.
+You two want classic Seoul history together — palaces by morning, tea houses by afternoon. The old-city Seoul of palaces, shrines, and hanok — most of it walkable from a Jongno/Insadong base and a short Line 3/1/4 ride from Ibis Styles Myeongdong.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S12 (Palaces & Heritage Walk at Ibis Styles Myeongdong) if** history and architecture lovers; nearly weather-proof because half the day is indoors. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S12 (Palaces & Heritage Walk at Ibis Styles Myeongdong) if** you two want classic Seoul history together — palaces by morning, tea houses by afternoon. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

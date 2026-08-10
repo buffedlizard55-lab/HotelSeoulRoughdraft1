@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-She wants fresh air and river views between the city days; loves a sunset picnic. Seoul's green-and-blue side: Han River parks, bikes, ferries, picnic culture, and a hill view — most of it free.
+You two want fresh air together — Han River picnics, sunset views, gentle bike rides. Seoul's green-and-blue side: Han River parks, bikes, ferries, picnic culture, and a hill view — most of it free.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S14 (Han River & Parks at Ibis Styles Myeongdong) if** she wants fresh air and river views between the city days; loves a sunset picnic. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S14 (Han River & Parks at Ibis Styles Myeongdong) if** you two want fresh air together — Han River picnics, sunset views, gentle bike rides. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

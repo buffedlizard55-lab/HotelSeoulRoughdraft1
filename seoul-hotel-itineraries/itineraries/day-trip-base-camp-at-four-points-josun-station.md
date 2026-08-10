@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-She wants Seoul PLUS the famous outside-Seoul day trips without moving hotels or packing bags. Treats Four Points Seoul Station as the base while you take the best day trips from Seoul: Suwon's fortress, the DMZ corridor, Nami Island, or temple mountains — then come home to the same bed.
+You two want one easy day trip from Seoul and still sleep in the same bed that night. Treats Four Points Seoul Station as the base while you take the best day trips from Seoul: Suwon's fortress, the DMZ corridor, Nami Island, or temple mountains — then come home to the same bed.
 
 ## Why Four Points Seoul Station for this plan
 
@@ -100,7 +100,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 
 ## Verdict
 
-**Pick S05 (Day-Trip Base Camp at Four Points Seoul Station) if** she wants Seoul PLUS the famous outside-Seoul day trips without moving hotels or packing bags. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S05 (Day-Trip Base Camp at Four Points Seoul Station) if** you two want one easy day trip from Seoul and still sleep in the same bed that night. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

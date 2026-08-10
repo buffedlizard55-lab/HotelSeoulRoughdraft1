@@ -421,19 +421,78 @@ ITIN_PAGE = """<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{title} · Seoul hotel-comparison itineraries</title>
-<link rel="stylesheet" href="../../styles.css" />
+<title>{title} · For Two in Seoul</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fafaf7;color:#1a2b27;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.toolbar{position:sticky;top:0;z-index:10;display:flex;gap:.5rem;align-items:center;background:#14332d;color:#fff;padding:.6rem 1rem;font-size:.88rem}
+.toolbar a{color:#eaf3ef;text-decoration:none;padding:.3rem .6rem;border-radius:6px}
+.toolbar a:hover{background:rgba(255,255,255,.14)}
+.tool-btn{margin-left:auto;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:.35rem .9rem;cursor:pointer}
+.page{max-width:860px;margin:0 auto;padding:28px 22px 60px}
+.hero{background:#fff;border:1px solid #e6e2d6;border-radius:20px;padding:22px 22px 18px;box-shadow:0 6px 24px rgba(22,35,29,.06)}
+.hero-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.badge-num{background:#14332d;color:#fff;font-weight:700;border-radius:999px;padding:4px 10px;font-size:.78rem}
+.badge-couple{background:#fff0f0;color:#b23a3a;border:1px solid #f1c6c6;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:700;letter-spacing:.02em}
+.badge-pace{background:#edf7f1;color:#2e6958;border:1px solid #d5e8df;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:600}
+.hero h1{margin:6px 0 8px;font-size:1.55rem;letter-spacing:-.02em;line-height:1.25;color:#14332d}
+.hero-sub{color:#5a6b66;font-size:.93rem;margin:0}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.meta-card{background:#fafaf7;border:1px solid #ece8da;border-radius:12px;padding:10px 12px}
+.meta-card b{display:block;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:#2e6958;margin-bottom:3px}
+.meta-card span{font-size:.86rem;color:#1a2b27}
+.couple-note{margin-top:12px;background:#fff8e6;border:1px solid #f2d99d;border-radius:12px;padding:10px 12px;display:flex;gap:10px;align-items:start}
+.couple-note .icon{font-size:1.1rem}
+.couple-note p{margin:0;font-size:.86rem;color:#6b5a2a;line-height:1.5}
+.couple-note strong{color:#5a4310}
+.section{margin-top:22px;background:#fff;border:1px solid #e8e2d6;border-radius:16px;padding:18px 18px 14px;box-shadow:0 2px 10px rgba(22,35,29,.04)}
+.section h2{margin:0 0 10px;font-size:1.02rem;letter-spacing:-.02em;color:#14332d;display:flex;align-items:center;gap:8px}
+.section h2 small{font-weight:500;color:#6b7a74;font-size:.78rem}
+.pill-grid{display:flex;flex-wrap:wrap;gap:7px}
+.pill{background:#f6f7f4;border:1px solid #e2e6de;border-radius:999px;padding:6px 11px;font-size:.8rem;color:#2b3a36;display:inline-flex;align-items:center;gap:6px}
+.pill em{font-style:normal;background:#fff;border:1px solid #e2e6de;border-radius:999px;padding:1px 6px;font-size:.7rem;color:#6b7a74}
+.food-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.food-item{background:#fafaf7;border:1px solid #ece8da;border-radius:12px;padding:9px 11px;display:grid;gap:2px}
+.food-item a{color:#14332d;font-weight:600;text-decoration:none;font-size:.86rem}
+.food-item a:hover{text-decoration:underline}
+.food-item span{font-size:.75rem;color:#6b7a74}
+.activity-grid{display:grid;grid-template-columns:1fr;gap:8px}
+.act-item{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start;background:#fbfcf9;border:1px solid #dce7de;border-radius:12px;padding:10px 12px}
+.act-item b{font-size:.86rem;color:#14332d}
+.act-item p{margin:3px 0 0;font-size:.8rem;color:#5a6b66;line-height:1.45}
+.act-item a{font-size:.78rem;color:#2e6958;text-decoration:none;white-space:nowrap}
+.act-item a:hover{text-decoration:underline}
+.timeline{display:grid;gap:14px}
+.day-card{border:1px solid #e6e2d6;border-radius:16px;overflow:hidden;background:#fff}
+.day-head{display:flex;align-items:center;gap:10px;padding:12px 14px;background:linear-gradient(135deg,#14332d,#2a5a4b);color:#fff}
+.day-num{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:4px 8px;font-weight:700;font-size:.78rem}
+.day-title{font-weight:700;font-size:.95rem}
+.day-body{padding:12px 14px;display:grid;gap:8px}
+.slot{display:grid;grid-template-columns:72px 1fr;gap:10px;align-items:start}
+.slot-label{font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#fff;background:#2e6958;border-radius:7px;padding:4px 7px;text-align:center;line-height:1.2}
+.slot-label.evening{background:#b58a1f}
+.slot-label.night{background:#4a5568}
+.slot p{margin:0;font-size:.84rem;color:#2b3a36;line-height:1.55}
+.eat-line{margin-top:2px;padding:7px 9px;background:#fff8e6;border:1px dashed #f2d99d;border-radius:8px;font-size:.78rem;color:#6b5a2a}
+.extra-grid{display:flex;flex-wrap:wrap;gap:7px}
+.extra-chip{background:#edf7f1;border:1px solid #d5e8df;border-radius:999px;padding:5px 10px;font-size:.78rem;color:#2e6958}
+.verdict{background:linear-gradient(135deg,#fff8e6,#fff);border:1px solid #f2d99d;border-radius:12px;padding:12px 14px}
+.verdict strong{color:#7a5a10}
+.foot{margin-top:18px;padding-top:12px;border-top:1px solid #e6e2d6;font-size:.78rem;color:#8b8577;text-align:center}
+@media(max-width:640px){.page{padding:16px 14px 40px}.meta-grid{grid-template-columns:1fr}.food-grid{grid-template-columns:1fr}}
+@media print{body{background:#fff}.toolbar{display:none}.page{padding:0;max-width:none}.hero,.section{box-shadow:none;break-inside:avoid}}
+</style>
 </head>
 <body>
-<nav class="toolbar no-print">
-  <a class="tool" href="../index.html">← All 20 hotel itineraries</a>
-  <span class="tool-spacer"></span>
+<nav class="toolbar">
+  <a href="../index.html">← All itineraries</a>
+  <span style="flex:1"></span>
   {prev_link}{next_link}
-  <button class="tool tool-btn" type="button" onclick="window.print()">🖨 Print / Save PDF</button>
+  <button class="tool-btn" onclick="window.print()">Print / Save PDF</button>
 </nav>
 <div class="page">
 {content}
-<footer class="doc-foot">Generated {generated} from <code>seoul-hotel-itineraries/</code> — edit the ingestion files, run <code>python3 scripts/build_seoul_hotel_itineraries.py</code>.</footer>
+<footer class="foot">Made for two · first time in Korea · late 30s · Print this page for offline use</footer>
 </div>
 </body>
 </html>
@@ -444,31 +503,141 @@ INDEX_PAGE = """<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Seoul hotel-comparison · 20 itineraries</title>
-<link rel="stylesheet" href="../styles.css" />
+<title>Seoul for Two · 20 itineraries · First time in Korea</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fafaf7;color:#1a2b27;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 20px 50px}
+.hero{background:linear-gradient(135deg,#14332d 0%,#2a5a4b 70%,#3a7a65 100%);color:#fff;border-radius:22px;padding:26px 26px 22px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-40px;top:-40px;width:220px;height:220px;background:rgba(255,255,255,.08);border-radius:50%}
+.hero h1{margin:8px 0 8px;font-size:1.7rem;letter-spacing:-.03em;line-height:1.2;position:relative}
+.hero p{margin:0;color:rgba(255,255,255,.86);font-size:.93rem;max-width:640px;position:relative}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:5px 11px;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.filters{margin:18px 0 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filter-btn{border:1px solid #dddcd2;background:#fff;border-radius:999px;padding:7px 12px;font-size:.82rem;cursor:pointer;color:#4a5a56;font-weight:500}
+.filter-btn.is-active{background:#14332d;color:#fff;border-color:#14332d}
+.hotel-section{margin-top:22px}
+.hotel-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.hotel-head h2{margin:0;font-size:1.08rem;color:#14332d;letter-spacing:-.02em}
+.hotel-head span{font-size:.8rem;color:#6b7a74}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.card{display:grid;gap:6px;background:#fff;border:1px solid #e8e2d6;border-radius:16px;padding:14px 14px;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(22,35,29,.08);border-color:#d5cdb8}
+.card-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.num{background:#14332d;color:#fff;font-weight:700;border-radius:8px;padding:3px 7px;font-size:.74rem}
+.vibe{background:#edf7f1;color:#2e6958;border:1px solid #d5e8df;border-radius:999px;padding:3px 8px;font-size:.68rem;font-weight:600}
+.pace{color:#6b7a74;font-size:.72rem}
+.card h3{margin:0;font-size:.96rem;letter-spacing:-.015em;color:#14332d;line-height:1.3}
+.card p{margin:0;font-size:.82rem;color:#5a6b66;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-foot{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:.74rem;color:#2e6958;font-weight:600}
+.card-foot span{color:#a8b0ad;font-weight:400}
+.foot{margin-top:28px;text-align:center;font-size:.76rem;color:#8b8577}
+@media(max-width:740px){.cards{grid-template-columns:1fr}.hero{padding:22px 18px}}
+</style>
 </head>
 <body>
-<div class="page index-page">
-  <header class="index-head">
-    <p class="kicker">Hotel-comparison plans for review · 20 itineraries</p>
-    <h1>Seoul — What to do & eat around each hotel choice</h1>
-    <p class="frame">{frame_line}</p>
-    <p class="hint no-print">Every plan assumes one Seoul hotel as the base for the whole stay — the point is to compare bases. Each card opens as a printable document. Regenerate with <code>python3 scripts/build_seoul_hotel_itineraries.py</code> after editing the ingestion files.</p>
+<div class="wrap">
+  <header class="hero">
+    <span class="badge">♡ Made for two · late 30s · first time in Korea</span>
+    <h1>Seoul — what to do & eat around each hotel</h1>
+    <p>20 easy-to-scan itineraries, all built for a couple's first Seoul trip. Same Seoul base every night, one gentle idea before lunch + one after, cozy evenings together.</p>
+    <p style="margin-top:10px;font-size:.82rem;color:rgba(255,255,255,.9)">{frame_line}</p>
   </header>
+  <div class="filters" id="filters">
+    <button class="filter-btn is-active" data-filter="all">All 20</button>
+    <button class="filter-btn" data-filter="Classic & Easy">Classic & Easy</button>
+    <button class="filter-btn" data-filter="Food Together">Food Together</button>
+    <button class="filter-btn" data-filter="Romantic & Slow">Romantic & Slow</button>
+    <button class="filter-btn" data-filter="Explore & Play">Explore & Play</button>
+    <button class="filter-btn" data-filter="Balanced">Balanced</button>
+  </div>
   {sections}
-  <footer class="doc-foot">Planning documents, not bookings — verify dates, prices, hours, ticket availability, and hotel policies with providers before booking.</footer>
+  <p class="foot">Tap any card → clean, printable page with morning / afternoon / evening timeline. Verify hours & prices before you book.</p>
 </div>
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    const f=btn.dataset.filter;
+    document.querySelectorAll('.card').forEach(c=>{
+      c.style.display=(f==='all'||c.dataset.vibe===f)?'':'none';
+    });
+    document.querySelectorAll('.hotel-section').forEach(s=>{
+      const visible=[...s.querySelectorAll('.card')].some(c=>c.style.display!=='none');
+      s.style.display=visible?'':'none';
+    });
+  });
+});
+</script>
 </body>
 </html>
 """
 
-CARD = """      <a class="card" href="itineraries/{slug}.html">
-        <span class="badge">S{num:02d}</span>
-        <span class="card-title">{title}</span>
-        <span class="card-nights">{pace}</span>
-        <span class="card-summary">{summary}</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: {focus}</span>
+CARD = """      <a class="card" href="itineraries/{slug}.html" data-vibe="{vibe}">
+        <div class="card-top"><span class="num">S{num:02d}</span><span class="vibe">{vibe}</span><span class="pace">{pace}</span></div>
+        <h3>{title}</h3>
+        <p>{summary}</p>
+        <div class="card-foot">Open timeline → <span>· {focus}</span></div>
       </a>"""
+
+
+
+def build_streamlined_html(num, hotel, theme, slug):
+    ctx = {"hotel": hotel["short"], "area": hotel.get("area","Seoul"), "station": hotel.get("stationNote",""), "walk": hotel.get("stationWalkTime","")}
+    foods = nearby_food(hotel, theme, limit=6)
+    acts = nearby_activities(hotel, theme, limit=6)
+    trip = load_json(SRC / "trip.json")
+    frame = trip["frame"]
+    focus_tags = " · ".join(theme.get("focus", []))
+    price = f"${hotel['priceFrom']}–${hotel['priceTo']}/night" if hotel.get("priceFrom") else "see booking sites"
+    # couple tag
+    vibe = theme.get("coupleTag","Balanced")
+    pace = theme.get("pace","Easy")
+    # Build hero
+    hero = f"""
+    <section class="hero">
+      <div class="hero-top"><span class="badge-num">S{num:02d}</span><span class="badge-couple">For two · late 30s · first time</span><span class="badge-pace">{pace}</span><span class="pill">{vibe}</span></div>
+      <h1>{theme['title']} — at {hotel["short"]}</h1>
+      <p class="hero-sub">{theme["bestFor"]}</p>
+      <div class="meta-grid">
+        <div class="meta-card"><b>Base</b><span>{hotel["name"]} · {hotel.get("area","Seoul")}</span></div>
+        <div class="meta-card"><b>Price</b><span>{price}</span></div>
+        <div class="meta-card"><b>Stay</b><span>{hotel.get("neighborhood","")}</span></div>
+        <div class="meta-card"><b>Flow</b><span>{frame["arrive"]}, {frame["arriveTime"]} → {frame["depart"]}, {frame["departTime"]}</span></div>
+      </div>
+      <div class="couple-note"><span class="icon">♡</span><p><strong>Together pace:</strong> One main idea before lunch, one after — evenings are cozy and close to {hotel["short"]}. No rushing, lots of time for photos, coffee, and wandering.</p></div>
+    </section>
+    """
+    # Eat pills
+    food_html = "".join(f'<div class="food-item"><a href="{f.get("mapUrl","#")}" target="_blank" rel="noreferrer">{f.get("name","")}</a><span>{f.get("category","")} · {f.get("priceTier","")}</span></div>' for f in foods)
+    act_html = "".join(f'<div class="act-item"><div><b>{a.get("title","")}</b><p>{a.get("snippet","")[:160]}</p></div><a href="{a.get("officialUrl","#")}" target="_blank" rel="noreferrer">Open ↗</a></div>' for a in acts)
+    # Days timeline
+    days_html = ""
+    for i, d in enumerate(theme["days"]):
+        slots=""
+        for label in ["dawn","morning","afternoon","evening","night"]:
+            if d.get(label):
+                icon = {"dawn":"🌅","morning":"☀️","afternoon":"🏙️","evening":"🌇","night":"🌙"}.get(label,label)
+                slots+=f'<div class="slot"><span class="slot-label {label}">{label}</span><p>{icon} {d[label].format(**ctx)}</p></div>'
+        # eat line
+        eat_line=""
+        if foods:
+            a=foods[i % len(foods)]; b=foods[(i+2)%len(foods)]
+            eat_line=f'<div class="eat-line">🍜 Together bite: <b>{a.get("name","")}</b> and <b>{b.get("name","")}</b> — both a short walk from {hotel["short"]}.</div>'
+        days_html+=f'<article class="day-card"><div class="day-head"><span class="day-num">Day {i+1}</span><span class="day-title">{d["title"]}</span></div><div class="day-body">{slots}{eat_line}</div></article>'
+    extra = "".join(f'<span class="extra-chip">{e}</span>' for e in theme.get("extraNights",[])[:4])
+    planb = theme.get("planB","")
+    why = hotel.get("why","Central base with easy transit home together.")
+    verdict = f"""<section class="section verdict"><h2>♡ Verdict for you two</h2><p><strong>Pick this if</strong> {theme["bestFor"].lower()} It keeps evenings simple near {hotel["short"]}, with one lovely thing to share each half-day.</p></section>"""
+    html = hero
+    html += f'<section class="section"><h2>☕ Eat together near {hotel["short"]} <small>tap to open map</small></h2><div class="food-grid">{food_html}</div></section>'
+    html += f'<section class="section"><h2>✦ Do together <small>matched to this theme</small></h2><div class="activity-grid">{act_html}</div></section>'
+    html += f'<section class="section"><h2>🗓 Your 3-day sample together</h2><div class="timeline">{days_html}</div><div style="margin-top:10px;padding:10px 12px;background:#f6f7f4;border-radius:10px;font-size:.82rem;color:#5a6b66">☔ <b>Together Plan B:</b> {planb}</div></section>'
+    if extra:
+        html += f'<section class="section"><h2>＋ If you have more nights</h2><div class="extra-grid">{extra}</div></section>'
+    html += f'<section class="section"><h2>🚇 Getting around together</h2><p style="font-size:.86rem;color:#2b3a36;margin:0">Station: {hotel.get("stationNote","")}. Airport: {hotel.get("airportNote","")} Last trains ~23:30 — grab a taxi together if you stay out late.</p><p style="font-size:.82rem;color:#6b7a74;margin:8px 0 0">November is crisp — layers + light shell. T-money for two, small cash for markets.</p></section>'
+    html += verdict
+    return html
 
 
 def build_html(combos: list[tuple[dict, dict, int]]) -> None:
@@ -495,9 +664,11 @@ def build_html(combos: list[tuple[dict, dict, int]]) -> None:
         nxt = pages[i + 1] if i < len(pages) - 1 else None
         prev_link = f'<a class="tool" href="{prev["slug"]}.html">← {prev["title"].split("·")[0].strip()}</a>' if prev else ""
         nxt_link = f'<a class="tool" href="{nxt["slug"]}.html">{nxt["title"].split("·")[0].strip()} →</a>' if nxt else ""
+        # Build streamlined body
+        streamlined = build_streamlined_html(p["num"], p["hotel"], p["theme"], p["slug"])
+        html_out = ITIN_PAGE.replace("{title}", p["title"]).replace("{content}", streamlined).replace("{generated}", generated).replace("{prev_link}", prev_link).replace("{next_link}", nxt_link)
         (REVIEW_ITIN / f"{p['slug']}.html").write_text(
-            ITIN_PAGE.format(title=p["title"], content=p["body"], generated=generated,
-                             prev_link=prev_link, next_link=nxt_link),
+            html_out,
             encoding="utf-8",
         )
     # Index grouped by hotel.
@@ -509,7 +680,7 @@ def build_html(combos: list[tuple[dict, dict, int]]) -> None:
         cards = "\n".join(
             CARD.format(slug=p["slug"], num=p["num"], title=p["theme"]["title"],
                         pace=p["theme"]["pace"], summary=p["theme"]["bestFor"],
-                        focus=", ".join(p["theme"].get("focus", [])))
+                        focus=", ".join(p["theme"].get("focus", [])), vibe=p["theme"].get("coupleTag","Balanced"))
             for p in items
         )
         h = items[0]["hotel"]
@@ -517,8 +688,9 @@ def build_html(combos: list[tuple[dict, dict, int]]) -> None:
         sections.append(
             f'<section class="route-section"><h2>{hotel_name}</h2><p class="route-blurb">{blurb}</p><div class="cards">\n{cards}\n  </div></section>'
         )
+    html_idx = INDEX_PAGE.replace("{frame_line}", frame_line).replace("{sections}", "\n".join(sections))
     (REVIEW_OUT / "index.html").write_text(
-        INDEX_PAGE.format(frame_line=frame_line, sections="\n".join(sections)),
+        html_idx,
         encoding="utf-8",
     )
 

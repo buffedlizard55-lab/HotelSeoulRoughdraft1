@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-The trip is partly a getaway — she wants a few properly romantic days. Seoul for two: sunset views, a nice dinner, a night show or riverside walk — with Four Points Seoul Station as the elegant home base that makes the evening effortless.
+You two want a proper date — sunset tower, nice dinner, night walk, river cruise. Seoul for two: sunset views, a nice dinner, a night show or riverside walk — with Four Points Seoul Station as the elegant home base that makes the evening effortless.
 
 ## Why Four Points Seoul Station for this plan
 
@@ -104,7 +104,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 
 ## Verdict
 
-**Pick S09 (Romance & Date Night at Four Points Seoul Station) if** the trip is partly a getaway — she wants a few properly romantic days. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S09 (Romance & Date Night at Four Points Seoul Station) if** you two want a proper date — sunset tower, nice dinner, night walk, river cruise. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

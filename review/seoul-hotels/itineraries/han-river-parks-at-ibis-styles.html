@@ -3,53 +3,91 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>S14 · Han River & Parks — Ibis Styles Myeongdong · Seoul hotel-comparison itineraries</title>
-<link rel="stylesheet" href="../../styles.css" />
+<title>S14 · Han River & Parks — Ibis Styles Myeongdong · For Two in Seoul</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fafaf7;color:#1a2b27;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.toolbar{position:sticky;top:0;z-index:10;display:flex;gap:.5rem;align-items:center;background:#14332d;color:#fff;padding:.6rem 1rem;font-size:.88rem}
+.toolbar a{color:#eaf3ef;text-decoration:none;padding:.3rem .6rem;border-radius:6px}
+.toolbar a:hover{background:rgba(255,255,255,.14)}
+.tool-btn{margin-left:auto;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:.35rem .9rem;cursor:pointer}
+.page{max-width:860px;margin:0 auto;padding:28px 22px 60px}
+.hero{background:#fff;border:1px solid #e6e2d6;border-radius:20px;padding:22px 22px 18px;box-shadow:0 6px 24px rgba(22,35,29,.06)}
+.hero-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.badge-num{background:#14332d;color:#fff;font-weight:700;border-radius:999px;padding:4px 10px;font-size:.78rem}
+.badge-couple{background:#fff0f0;color:#b23a3a;border:1px solid #f1c6c6;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:700;letter-spacing:.02em}
+.badge-pace{background:#edf7f1;color:#2e6958;border:1px solid #d5e8df;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:600}
+.hero h1{margin:6px 0 8px;font-size:1.55rem;letter-spacing:-.02em;line-height:1.25;color:#14332d}
+.hero-sub{color:#5a6b66;font-size:.93rem;margin:0}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.meta-card{background:#fafaf7;border:1px solid #ece8da;border-radius:12px;padding:10px 12px}
+.meta-card b{display:block;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:#2e6958;margin-bottom:3px}
+.meta-card span{font-size:.86rem;color:#1a2b27}
+.couple-note{margin-top:12px;background:#fff8e6;border:1px solid #f2d99d;border-radius:12px;padding:10px 12px;display:flex;gap:10px;align-items:start}
+.couple-note .icon{font-size:1.1rem}
+.couple-note p{margin:0;font-size:.86rem;color:#6b5a2a;line-height:1.5}
+.couple-note strong{color:#5a4310}
+.section{margin-top:22px;background:#fff;border:1px solid #e8e2d6;border-radius:16px;padding:18px 18px 14px;box-shadow:0 2px 10px rgba(22,35,29,.04)}
+.section h2{margin:0 0 10px;font-size:1.02rem;letter-spacing:-.02em;color:#14332d;display:flex;align-items:center;gap:8px}
+.section h2 small{font-weight:500;color:#6b7a74;font-size:.78rem}
+.pill-grid{display:flex;flex-wrap:wrap;gap:7px}
+.pill{background:#f6f7f4;border:1px solid #e2e6de;border-radius:999px;padding:6px 11px;font-size:.8rem;color:#2b3a36;display:inline-flex;align-items:center;gap:6px}
+.pill em{font-style:normal;background:#fff;border:1px solid #e2e6de;border-radius:999px;padding:1px 6px;font-size:.7rem;color:#6b7a74}
+.food-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.food-item{background:#fafaf7;border:1px solid #ece8da;border-radius:12px;padding:9px 11px;display:grid;gap:2px}
+.food-item a{color:#14332d;font-weight:600;text-decoration:none;font-size:.86rem}
+.food-item a:hover{text-decoration:underline}
+.food-item span{font-size:.75rem;color:#6b7a74}
+.activity-grid{display:grid;grid-template-columns:1fr;gap:8px}
+.act-item{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start;background:#fbfcf9;border:1px solid #dce7de;border-radius:12px;padding:10px 12px}
+.act-item b{font-size:.86rem;color:#14332d}
+.act-item p{margin:3px 0 0;font-size:.8rem;color:#5a6b66;line-height:1.45}
+.act-item a{font-size:.78rem;color:#2e6958;text-decoration:none;white-space:nowrap}
+.act-item a:hover{text-decoration:underline}
+.timeline{display:grid;gap:14px}
+.day-card{border:1px solid #e6e2d6;border-radius:16px;overflow:hidden;background:#fff}
+.day-head{display:flex;align-items:center;gap:10px;padding:12px 14px;background:linear-gradient(135deg,#14332d,#2a5a4b);color:#fff}
+.day-num{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:4px 8px;font-weight:700;font-size:.78rem}
+.day-title{font-weight:700;font-size:.95rem}
+.day-body{padding:12px 14px;display:grid;gap:8px}
+.slot{display:grid;grid-template-columns:72px 1fr;gap:10px;align-items:start}
+.slot-label{font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#fff;background:#2e6958;border-radius:7px;padding:4px 7px;text-align:center;line-height:1.2}
+.slot-label.evening{background:#b58a1f}
+.slot-label.night{background:#4a5568}
+.slot p{margin:0;font-size:.84rem;color:#2b3a36;line-height:1.55}
+.eat-line{margin-top:2px;padding:7px 9px;background:#fff8e6;border:1px dashed #f2d99d;border-radius:8px;font-size:.78rem;color:#6b5a2a}
+.extra-grid{display:flex;flex-wrap:wrap;gap:7px}
+.extra-chip{background:#edf7f1;border:1px solid #d5e8df;border-radius:999px;padding:5px 10px;font-size:.78rem;color:#2e6958}
+.verdict{background:linear-gradient(135deg,#fff8e6,#fff);border:1px solid #f2d99d;border-radius:12px;padding:12px 14px}
+.verdict strong{color:#7a5a10}
+.foot{margin-top:18px;padding-top:12px;border-top:1px solid #e6e2d6;font-size:.78rem;color:#8b8577;text-align:center}
+@media(max-width:640px){.page{padding:16px 14px 40px}.meta-grid{grid-template-columns:1fr}.food-grid{grid-template-columns:1fr}}
+@media print{body{background:#fff}.toolbar{display:none}.page{padding:0;max-width:none}.hero,.section{box-shadow:none;break-inside:avoid}}
+</style>
 </head>
 <body>
-<nav class="toolbar no-print">
-  <a class="tool" href="../index.html">← All 20 hotel itineraries</a>
-  <span class="tool-spacer"></span>
+<nav class="toolbar">
+  <a href="../index.html">← All itineraries</a>
+  <span style="flex:1"></span>
   <a class="tool" href="nightlife-late-night-eats-at-ibis-styles.html">← S13</a><a class="tool" href="k-culture-pop-up-circuit-at-ibis-styles.html">S15 →</a>
-  <button class="tool tool-btn" type="button" onclick="window.print()">🖨 Print / Save PDF</button>
+  <button class="tool-btn" onclick="window.print()">Print / Save PDF</button>
 </nav>
 <div class="page">
-<h1>S14 · Han River &amp; Parks — base: Ibis Styles Myeongdong</h1>
-<blockquote class="meta-block"><p><strong>Hotel base:</strong> Ibis Styles Ambassador Seoul Myeongdong · Myeongdong</p><p><strong>Neighborhood:</strong> Central Myeongdong; within walking distance of N Seoul Tower cable car &amp; airport limousine stops</p><p><strong>Trip frame:</strong> Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00 · 21 nights (ICN)</p><p><strong>Pace:</strong> Outdoorsy but gentle — one park anchor per day · <strong>Focus:</strong> activities, fun, value</p><p><strong>Theme #:</strong> 14/20 · <strong>Hotel tier:</strong> mid-range · <strong>~$90–$130/night (research range)</strong></p><p><strong>Review notes:</strong> <em>(leave decisions/comments here)</em></p></blockquote>
-<h2>Who this suits</h2>
-<p>She wants fresh air and river views between the city days; loves a sunset picnic. Seoul's green-and-blue side: Han River parks, bikes, ferries, picnic culture, and a hill view — most of it free.</p>
-<h2>Why Ibis Styles Myeongdong for this plan</h2>
-<p>Budget-quality balance, free breakfast, and a central Myeongdong base. The plan is routed so the sightseeing loops return to Ibis Styles Myeongdong each evening — most days end a short stroll (or one subway stop) from the front door.</p>
-<h2>Around Myeongdong — what's close</h2>
-<ul><li><strong>Station:</strong> 3 min walk to Myeongdong Station</li><li><strong>Airport transfer:</strong> Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.</li><li><strong>Arrival night:</strong> If this is the arrival-night hotel, verify the <strong>24-hour front desk</strong> at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.</li></ul>
-<h3>Eat around here (10 picks from the research catalog)</h3>
-<table><thead><tr><th>Spot</th><th>Category</th><th>Price tier</th></tr></thead><tbody><tr><td><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949">Hadongkwan Main Store (하동관 본점)</a></td><td>Classic Korean</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925">Myeongdong Kyoja (명동교자 본점)</a></td><td>Classic Korean</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774">Goryeo Samgyetang (고려삼계탕 본점)</a></td><td>Classic Korean</td><td>Mid-to-Premium</td></tr><tr><td><a href="https://map.naver.com/p/search/홍콩반점0410">Hong Kong Banjum 0410 (홍콩반점0410)</a></td><td>Jajangmyeon</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/멘텐">Menten (멘텐)</a></td><td>Ramen</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 카페 1">Seoul Local Cafe 1 (서울 로컬 카페 1)</a></td><td>Cafe</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 카페 14">Seoul Local Cafe 14 (서울 로컬 카페 14)</a></td><td>Cafe</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 BBQ 1">Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)</a></td><td>AYCE BBQ</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 BBQ 27">Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)</a></td><td>AYCE BBQ</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 짜장면 1">Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)</a></td><td>Jajangmyeon</td><td>Budget</td></tr></tbody></table>
-<p><em>Full hours, signature dishes, and quality notes: <code>research/sources/food/cities/seoul.md</code>.</em></p>
-<h3>Do around here (8 picks matched to this theme)</h3>
-<table><thead><tr><th>Activity</th><th>Category</th><th>Why it's here</th></tr></thead><tbody><tr><td><a href="https://hangang.seoul.go.kr">Gwangnaru Hangang Park Bicycle Racing Track &amp; Reeds</a></td><td>Free &amp; always-on culture</td><td>Cycling destination on Han River.</td></tr><tr><td><a href="https://www.hgbus.co.kr">Han River Bus Commuter Ferry (Yeouido to Banpo)</a></td><td>Free &amp; always-on culture</td><td>Cheap public transit river ferry.</td></tr><tr><td><a href="https://hangang.seoul.go.kr">Mangwon Hangang Park Sunset Lawn</a></td><td>Free &amp; always-on culture</td><td>Less crowded than Yeouido or Banpo. Pick up takeout fried chicken from Mangwon Market (62) and enjoy sunset on the river.</td></tr><tr><td><a href="https://hangang.seoul.go.kr">Yeouido Hangang Park Ramyeon Picnic &amp; Bike Rental</a></td><td>Free &amp; always-on culture</td><td>Must-do local experience right outside Yeouinaru station.</td></tr><tr><td><a href="https://hangang.seoul.go.kr">Banpo Hangang Park Moonlight Square &amp; Riverfront</a></td><td>Free &amp; always-on culture</td><td>Popular night picnic spot.</td></tr><tr><td><a href="https://hangang.seoul.go.kr">Banpo Hangang Park Some Sevit Floating Islands</a></td><td>Free &amp; always-on culture</td><td>Even though the bridge rainbow fountain switches off in Nov, the illuminated glass floating islands offer great night photos and river views.</td></tr><tr><td><a href="https://hangang.seoul.go.kr">Banpo Hangang Park Some Sevit Floating Islands</a></td><td>Free &amp; always-on culture</td><td>Waterfront glass islands.</td></tr><tr><td><a href="https://www.elandcruise.com">Eland Han River Sunset Music Cruise (Yeouido Dock)</a></td><td>Free &amp; always-on culture</td><td>Sunset and music over Han River.</td></tr></tbody></table>
-<p><em>Status and booking notes: <code>research/sources/fun/seoul.md</code> and <code>data/collections/activities.json</code>.</em></p>
-<h2>Day-by-day (3-day sample window)</h2>
-<h3>Day 1</h3>
-<p><strong>Yeouido river day</strong></p>
-<ul><li><strong>Morning:</strong> Yeouido Hangang Park: bike along the river (Ttareungyi rentals ~₩3k/hr), riverside cafes.</li><li><strong>Afternoon:</strong> The Hyundai Seoul for lunch + BANKSY exhibition if still running (through Nov 3), rooftop garden.</li><li><strong>Evening:</strong> Banpo Hangang Park Moonlight Rainbow Fountain (check seasonal schedule) — picnic dinner on the lawn.</li><li><strong>Eat around here:</strong> <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949">Hadongkwan Main Store (하동관 본점)</a> — Classic Korean · Budget-to-Mid; <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774">Goryeo Samgyetang (고려삼계탕 본점)</a> — Classic Korean · Mid-to-Premium.</li></ul>
-<h3>Day 2</h3>
-<p><strong>Ttukseom &amp; Seoul Forest</strong></p>
-<ul><li><strong>Morning:</strong> Ttukseom Hangang Park + Seoul Forest Park (deer, butterfly garden; free).</li><li><strong>Afternoon:</strong> Seongsu-dong lunch and cafes (right across the bridge).</li><li><strong>Evening:</strong> Eland Han River cruise (Yeouido dock) sunset departure — book ahead.</li><li><strong>Eat around here:</strong> <a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925">Myeongdong Kyoja (명동교자 본점)</a> — Classic Korean · Budget-to-Mid; <a href="https://map.naver.com/p/search/홍콩반점0410">Hong Kong Banjum 0410 (홍콩반점0410)</a> — Jajangmyeon · Budget.</li></ul>
-<h3>Day 3</h3>
-<p><strong>Haneul Park &amp; the sky line</strong></p>
-<ul><li><strong>Morning:</strong> Haneul Park silver-grass fields (seasonal peak in Nov) + 291 zigzag sky stairs — arrive early for the light.</li><li><strong>Afternoon:</strong> World Cup Park picnic or Mangwon Market lunch (nearby, local-feel).</li><li><strong>Evening:</strong> Han River History Tour riverside walk (runs through Nov 30) or Ichon reed-beds sunset.</li><li><strong>Eat around here:</strong> <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774">Goryeo Samgyetang (고려삼계탕 본점)</a> — Classic Korean · Mid-to-Premium; <a href="https://map.naver.com/p/search/멘텐">Menten (멘텐)</a> — Ramen · Budget-to-Mid.</li></ul>
-<p><strong>Plan B (rain / low energy):</strong> Cold/rainy: swap to a jjimjilbang day (Aquafield/Dragon Hill) — spa warmth instead of park wind.</p>
-<h2>If you have more nights</h2>
-<ul><li>Gangseo Hangang Park eco-wetland bird-watching morning.</li><li>Gwangnaru bike track + reeds, then Amisa temple.</li><li>Dream Forest (Buk Seoul) + Wolyeongji pond autumn colors.</li><li>Eungbongsan night viewpoint for the Seoul skyline panorama.</li></ul>
-<h2>Transit &amp; convenience</h2>
-<ul><li><strong>Last-train habit:</strong> check the last train on your line home each night (Seoul Metro typically ~23:30–00:00; late buses and Kakao T are the fallback).</li><li><strong>Payments:</strong> T-money card for the metro + a little cash (₩50k–100k) for markets; cards work at most restaurants.</li><li><strong>This base:</strong> 3 min walk to Myeongdong Station.</li><li><strong>Weather:</strong> November is crisp and dry; pack layers and a light rain shell. The theme's Plan B covers a rainy day.</li></ul>
-<h2>Value notes</h2>
-<ul><li><strong>Hotel:</strong> $90–$130/night (research range) — mid-range tier in Myeongdong.</li><li><strong>Food:</strong> nearby picks span Budget, Budget-to-Mid, Mid-to-Premium tiers; street food and market meals are the value anchors of this plan.</li><li><strong>Free wins:</strong> 0 of the featured activities are free or free-with-reservation.</li><li><strong>Splurge vs save:</strong> this theme leans <strong>activities, fun, value</strong> — where it says book ahead (cable car, Secret Garden, cruises, shows), booking early is the real money-saver.</li></ul>
-<h2>Verdict</h2>
-<p><strong>Pick S14 (Han River &amp; Parks at Ibis Styles Myeongdong) if</strong> she wants fresh air and river views between the city days; loves a sunset picnic. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.</p>
-<hr />
-<p><em>Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by <code>scripts/build_seoul_hotel_itineraries.py</code> from <code>seoul-hotel-itineraries/</code> ingestion files + <code>data/collections/</code> research catalogs.</em></p>
-<footer class="doc-foot">Generated 2026-08-10 from <code>seoul-hotel-itineraries/</code> — edit the ingestion files, run <code>python3 scripts/build_seoul_hotel_itineraries.py</code>.</footer>
+
+    <section class="hero">
+      <div class="hero-top"><span class="badge-num">S14</span><span class="badge-couple">For two · late 30s · first time</span><span class="badge-pace">Outdoorsy but gentle — one park anchor per day</span><span class="pill">Romantic & Slow</span></div>
+      <h1>Han River & Parks — at Ibis Styles Myeongdong</h1>
+      <p class="hero-sub">You two want fresh air together — Han River picnics, sunset views, gentle bike rides.</p>
+      <div class="meta-grid">
+        <div class="meta-card"><b>Base</b><span>Ibis Styles Ambassador Seoul Myeongdong · Myeongdong</span></div>
+        <div class="meta-card"><b>Price</b><span>$90–$130/night</span></div>
+        <div class="meta-card"><b>Stay</b><span>Central Myeongdong; within walking distance of N Seoul Tower cable car & airport limousine stops</span></div>
+        <div class="meta-card"><b>Flow</b><span>Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00</span></div>
+      </div>
+      <div class="couple-note"><span class="icon">♡</span><p><strong>Together pace:</strong> One main idea before lunch, one after — evenings are cozy and close to Ibis Styles Myeongdong. No rushing, lots of time for photos, coffee, and wandering.</p></div>
+    </section>
+    <section class="section"><h2>☕ Eat together near Ibis Styles Myeongdong <small>tap to open map</small></h2><div class="food-grid"><div class="food-item"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949" target="_blank" rel="noreferrer">Hadongkwan Main Store</a><span>Classic Korean · Budget-to-Mid</span></div><div class="food-item"><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925" target="_blank" rel="noreferrer">Myeongdong Kyoja</a><span>Classic Korean · Budget-to-Mid</span></div><div class="food-item"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774" target="_blank" rel="noreferrer">Goryeo Samgyetang</a><span>Classic Korean · Mid-to-Premium</span></div><div class="food-item"><a href="https://map.naver.com/p/search/홍콩반점0410" target="_blank" rel="noreferrer">Hong Kong Banjum 0410</a><span>Jajangmyeon · Budget</span></div><div class="food-item"><a href="https://map.naver.com/p/search/멘텐" target="_blank" rel="noreferrer">Menten</a><span>Ramen · Budget-to-Mid</span></div><div class="food-item"><a href="https://map.naver.com/p/search/서울 로컬 카페 1" target="_blank" rel="noreferrer">Seoul Local Cafe 1</a><span>Cafe · Budget</span></div></div></section><section class="section"><h2>✦ Do together <small>matched to this theme</small></h2><div class="activity-grid"><div class="act-item"><div><b>Gwangnaru Hangang Park Bicycle Racing Track & Reeds</b><p>Cycling destination on Han River.</p></div><a href="https://hangang.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Han River Bus Commuter Ferry (Yeouido to Banpo)</b><p>Cheap public transit river ferry.</p></div><a href="https://www.hgbus.co.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Mangwon Hangang Park Sunset Lawn</b><p>Less crowded than Yeouido or Banpo. Pick up takeout fried chicken from Mangwon Market (62) and enjoy sunset on the river.</p></div><a href="https://hangang.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Yeouido Hangang Park Ramyeon Picnic & Bike Rental</b><p>Must-do local experience right outside Yeouinaru station.</p></div><a href="https://hangang.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Banpo Hangang Park Moonlight Square & Riverfront</b><p>Popular night picnic spot.</p></div><a href="https://hangang.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Banpo Hangang Park Some Sevit Floating Islands</b><p>Even though the bridge rainbow fountain switches off in Nov, the illuminated glass floating islands offer great night photos and river views.</p></div><a href="https://hangang.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div></div></section><section class="section"><h2>🗓 Your 3-day sample together</h2><div class="timeline"><article class="day-card"><div class="day-head"><span class="day-num">Day 1</span><span class="day-title">Yeouido river day</span></div><div class="day-body"><div class="slot"><span class="slot-label morning">morning</span><p>☀️ Yeouido Hangang Park: bike along the river (Ttareungyi rentals ~₩3k/hr), riverside cafes.</p></div><div class="slot"><span class="slot-label afternoon">afternoon</span><p>🏙️ The Hyundai Seoul for lunch + BANKSY exhibition if still running (through Nov 3), rooftop garden.</p></div><div class="slot"><span class="slot-label evening">evening</span><p>🌇 Banpo Hangang Park Moonlight Rainbow Fountain (check seasonal schedule) — picnic dinner on the lawn.</p></div><div class="eat-line">🍜 Together bite: <b>Hadongkwan Main Store</b> and <b>Goryeo Samgyetang</b> — both a short walk from Ibis Styles Myeongdong.</div></div></article><article class="day-card"><div class="day-head"><span class="day-num">Day 2</span><span class="day-title">Ttukseom & Seoul Forest</span></div><div class="day-body"><div class="slot"><span class="slot-label morning">morning</span><p>☀️ Ttukseom Hangang Park + Seoul Forest Park (deer, butterfly garden; free).</p></div><div class="slot"><span class="slot-label afternoon">afternoon</span><p>🏙️ Seongsu-dong lunch and cafes (right across the bridge).</p></div><div class="slot"><span class="slot-label evening">evening</span><p>🌇 Eland Han River cruise (Yeouido dock) sunset departure — book ahead.</p></div><div class="eat-line">🍜 Together bite: <b>Myeongdong Kyoja</b> and <b>Hong Kong Banjum 0410</b> — both a short walk from Ibis Styles Myeongdong.</div></div></article><article class="day-card"><div class="day-head"><span class="day-num">Day 3</span><span class="day-title">Haneul Park & the sky line</span></div><div class="day-body"><div class="slot"><span class="slot-label morning">morning</span><p>☀️ Haneul Park silver-grass fields (seasonal peak in Nov) + 291 zigzag sky stairs — arrive early for the light.</p></div><div class="slot"><span class="slot-label afternoon">afternoon</span><p>🏙️ World Cup Park picnic or Mangwon Market lunch (nearby, local-feel).</p></div><div class="slot"><span class="slot-label evening">evening</span><p>🌇 Han River History Tour riverside walk (runs through Nov 30) or Ichon reed-beds sunset.</p></div><div class="eat-line">🍜 Together bite: <b>Goryeo Samgyetang</b> and <b>Menten</b> — both a short walk from Ibis Styles Myeongdong.</div></div></article></div><div style="margin-top:10px;padding:10px 12px;background:#f6f7f4;border-radius:10px;font-size:.82rem;color:#5a6b66">☔ <b>Together Plan B:</b> Cold/rainy: swap to a jjimjilbang day (Aquafield/Dragon Hill) — spa warmth instead of park wind.</div></section><section class="section"><h2>＋ If you have more nights</h2><div class="extra-grid"><span class="extra-chip">Gangseo Hangang Park eco-wetland bird-watching morning.</span><span class="extra-chip">Gwangnaru bike track + reeds, then Amisa temple.</span><span class="extra-chip">Dream Forest (Buk Seoul) + Wolyeongji pond autumn colors.</span><span class="extra-chip">Eungbongsan night viewpoint for the Seoul skyline panorama.</span></div></section><section class="section"><h2>🚇 Getting around together</h2><p style="font-size:.86rem;color:#2b3a36;margin:0">Station: 3 min walk to Myeongdong Station. Airport: Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback. Last trains ~23:30 — grab a taxi together if you stay out late.</p><p style="font-size:.82rem;color:#6b7a74;margin:8px 0 0">November is crisp — layers + light shell. T-money for two, small cash for markets.</p></section><section class="section verdict"><h2>♡ Verdict for you two</h2><p><strong>Pick this if</strong> you two want fresh air together — han river picnics, sunset views, gentle bike rides. It keeps evenings simple near Ibis Styles Myeongdong, with one lovely thing to share each half-day.</p></section>
+<footer class="foot">Made for two · first time in Korea · late 30s · Print this page for offline use</footer>
 </div>
 </body>
 </html>
