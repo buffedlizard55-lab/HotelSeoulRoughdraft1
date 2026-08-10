@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20 Seoul Itineraries · Four Points Josun vs Ibis Styles Myeongdong</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --accent: #1a73e8;
+      --text: #202124;
+      --muted: #5f6368;
+      --border: #e8eaed;
+      --hotel1: #1a5fb4;
+      --hotel2: #ff6d00;
+      --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    header .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .hotels-banner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 36px;
+    }
+    .hotel-card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 16px 20px;
+      box-shadow: var(--shadow);
+      border-left: 4px solid;
+    }
+    .hotel-card.four-points { border-color: var(--hotel1); }
+    .hotel-card.ibis { border-color: var(--hotel2); }
+    .hotel-card .hotel-name {
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+    .hotel-card .hotel-detail {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    .hotel-card .hotel-detail strong {
+      color: var(--text);
+    }
+    .section-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .itineraries-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 40px;
+    }
+    .itinerary-card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 16px 20px;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 14px;
+      align-items: center;
+      transition: transform 0.15s, box-shadow 0.15s;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid transparent;
+    }
+    .itinerary-card:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-color: var(--accent);
+    }
+    .itinerary-card .num {
+      background: #e8f0fe;
+      color: var(--hotel1);
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+    .itinerary-card.ibis .num {
+      background: #fff0e6;
+      color: var(--hotel2);
+    }
+    .itinerary-card .info h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 3px;
+      letter-spacing: -0.01em;
+    }
+    .itinerary-card .info p {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .itinerary-card .info .tags {
+      margin-top: 5px;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      font-size: 0.7rem;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: #f1f3f4;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .itinerary-card .arrow {
+      color: var(--muted);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .footer a:hover { text-decoration: underline; }
+    @media (max-width: 640px) {
+      .hotels-banner { grid-template-columns: 1fr; }
+      .itinerary-card {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+      .itinerary-card .arrow { display: none; }
+      .itinerary-card .num { display: none; }
+      header h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>20 Seoul Itineraries</h1>
+      <p class="subtitle">Four Points by Sheraton Josun, Seoul Station &nbsp;·&nbsp; ibis Styles Ambassador, Myeongdong &nbsp;·&nbsp; 7-day plans</p>
+    </header>
+
+    <div class="hotels-banner">
+      <div class="hotel-card four-points">
+        <div class="hotel-name">🏨 Four Points by Sheraton Josun</div>
+        <div class="hotel-detail"><strong>Seoul Station / Yongsan</strong> — Transport hub · AREX · KTX · Lines 1 & 4</div>
+        <div class="hotel-detail" style="margin-top:4px;">~ $155–$230/night &nbsp;·&nbsp; 3–10 min walk to Seoul Station</div>
+      </div>
+      <div class="hotel-card ibis">
+        <div class="hotel-name">🏨 ibis Styles Ambassador</div>
+        <div class="hotel-detail"><strong>Myeongdong</strong> — Central · Street food · Shopping · Nightlife</div>
+        <div class="hotel-detail" style="margin-top:4px;">~ $90–$130/night &nbsp;·&nbsp; 3 min walk to Myeongdong Station</div>
+      </div>
+    </div>
+
+    <!-- FOUR POINTS -->
+    <div class="section-label">Four Points by Sheraton Josun — 10 itineraries</div>
+    <div class="itineraries-group">
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/classic-first-timer-highlights-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S01</span>
+        <span class="info">
+          <h3>Classic First-Timer Highlights</h3>
+          <p>The greatest-hits Seoul loop: palaces, markets, N Seoul Tower, hanok evening — routed back to Four Points each night.</p>
+          <div class="tags"><span class="tag">activities</span><span class="tag">fun</span><span class="tag">convenience</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/cafe-dessert-hop-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S02</span>
+        <span class="info">
+          <h3>Cafe &amp; Dessert Hop</h3>
+          <p>Three neighborhoods a day, two or three cafes each — photo-worthy, low-exertion, always ends near the hotel.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">value</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/day-trip-base-camp-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S03</span>
+        <span class="info">
+          <h3>Day-Trip Base Camp</h3>
+          <p>Se Seoul PLUS Suwon fortress, DMZ corridor, or Nami Island — same hotel, no packing bags in between.</p>
+          <div class="tags"><span class="tag">convenience</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/museums-galleries-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S04</span>
+        <span class="info">
+          <h3>Museums &amp; Galleries</h3>
+          <p>Dry-weather-proof: National Museum of Korean Contemporary History, NMK, Leeum, DDP Design Museum, exhibitions.</p>
+          <div class="tags"><span class="tag">activities</span><span class="tag">convenience</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/night-market-food-marathon-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S05</span>
+        <span class="info">
+          <h3>Night Market &amp; Food Marathon</h3>
+          <p>Night-by-night food tour: Gwangjang after dark, Euljiro nogari alleys, Myeongdong, Hongdae food street.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">value</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/photo-golden-hour-loop-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S06</span>
+        <span class="info">
+          <h3>Photo &amp; Golden-Hour Loop</h3>
+          <p>Dawn on the city wall, palace geometry at opening, neon at dusk, Namsan night views — planned around light.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/rainy-day-indoor-plan-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S07</span>
+        <span class="info">
+          <h3>Rainy-Day Indoor Plan</h3>
+          <p>Mega-malls, museums, and spas — the Hyundai Seoul, COEX, NMK, jjimjilbang — no stepping outside for more than a block.</p>
+          <div class="tags"><span class="tag">convenience</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/romance-date-night-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S08</span>
+        <span class="info">
+          <h3>Romance &amp; Date Night</h3>
+          <p>Sunset N Seoul Tower, nice dinner, night show or riverside walk — elegant home base that makes the evening effortless.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/shopping-beauty-haul-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S09</span>
+        <span class="info">
+          <h3>Shopping &amp; Beauty Haul</h3>
+          <p>Duty-free comparisons, Olive Young strategy, tax refund tips, luggage-friendly returns to Four Points.</p>
+          <div class="tags"><span class="tag">value</span><span class="tag">fun</span><span class="tag">convenience</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/neighborhood-immersion-at-four-points-josun-station.md" class="itinerary-card">
+        <span class="num">S10</span>
+        <span class="info">
+          <h3>Neighborhood Immersion</h3>
+          <p>One distinct neighborhood per half-day, no backtracking — markets, alley bars, campus streets, village lanes.</p>
+          <div class="tags"><span class="tag">activities</span><span class="tag">fun</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+    </div>
+
+    <!-- IBIIS STYLES -->
+    <div class="section-label">ibis Styles Ambassador Myeongdong — 10 itineraries</div>
+    <div class="itineraries-group">
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/market-street-food-crawl-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S11</span>
+        <span class="info">
+          <h3>Market &amp; Street-Food Crawl</h3>
+          <p>Eat your way across Seoul: Gwangjang, Tongin Dosirak, Ikseon-dong alleys, Myeongdong stalls — most meals under ₩12,000.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">value</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/family-kid-friendly-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S12</span>
+        <span class="info">
+          <h3>Family &amp; Kid-Friendly</h3>
+          <p>Lotte World, COEX Aquarium, Seoul Forest deer park, hanbok family photos, kid-paced with early dinners.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">convenience</span><span class="tag">value</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/fitness-morning-runs-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S13</span>
+        <span class="info">
+          <h3>Fitness &amp; Morning Runs</h3>
+          <p>Riverside 5–10k runs, Bukhansan summit hike, city-wall stair intervals — shower at the hotel, earn the BBQ.</p>
+          <div class="tags"><span class="tag">activities</span><span class="tag">fun</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/han-river-parks-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S14</span>
+        <span class="info">
+          <h3>Han River &amp; Parks</h3>
+          <p>Bikes along the river, ferry to Banpo, Haneul Park silver grass, picnic culture, sunset on the Han.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">value</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/k-culture-pop-up-circuit-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S15</span>
+        <span class="info">
+          <h3>K-Culture &amp; Pop-Up Circuit</h3>
+          <p>HiKR Ground, HYBE strolls, PC bangs, noraebang, pop-ups in Seongsu/Hongdae, K-pop merch, K-musicals.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/last-day-convenience-airport-flow-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S16</span>
+        <span class="info">
+          <h3>Last-Day Convenience &amp; Airport Flow</h3>
+          <p>Final shop, pack, tax refunds, farewell dinner, timed arex/limousine transfer — zero panic, zero missed flights.</p>
+          <div class="tags"><span class="tag">convenience</span><span class="tag">value</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/nightlife-late-night-eats-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S17</span>
+        <span class="info">
+          <h3>Nightlife &amp; Late-Night Eats</h3>
+          <p>Euljiro nogari alleys, Hongdae clubs and busking, noraebang, 24-hour ramyeon — Seoul after dark, with the last train close by.</p>
+          <div class="tags"><span class="tag">fun</span><span class="tag">activities</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/palaces-heritage-walk-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S18</span>
+        <span class="info">
+          <h3>Palaces &amp; Heritage Walk</h3>
+          <p>Gyeongbokgung, Changdeokgung Huwon, Jongmyo Shrine, Deoksugung, hanok lanes — most of it walkable from the old city.</p>
+          <div class="tags"><span class="tag">activities</span><span class="tag">convenience</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/slow-mornings-spa-recharge-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S19</span>
+        <span class="info">
+          <h3>Slow Mornings &amp; Spa Recharge</h3>
+          <p>Late breakfasts, jjimjilbang sessions, hanok tea houses, unhurried neighborhoods — come home rested, not exhausted.</p>
+          <div class="tags"><span class="tag">value</span><span class="tag">convenience</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/seoul-hotel-itineraries/itineraries/budget-smart-seoul-at-ibis-styles.md" class="itinerary-card ibis">
+        <span class="num">S20</span>
+        <span class="info">
+          <h3>Budget-Smart Seoul</h3>
+          <p>Free museums, hanbok-for-free-entry, Tongin lunchboxes, street food over sit-down, transit passes — full Seoul at low spend.</p>
+          <div class="tags"><span class="tag">value</span><span class="tag">convenience</span></div>
+        </span>
+        <span class="arrow">→</span>
+      </a>
+
+    </div>
+
+    <div class="footer">
+      <p>20 unique 7-day itineraries · Generated 2026-08-10 · <a href="https://buffedlizard55-lab.github.io/HotelSeoulRoughdraft1/">Back to Korea Compass</a></p>
+    </div>
+
+  </div>
+</body>
+</html>
