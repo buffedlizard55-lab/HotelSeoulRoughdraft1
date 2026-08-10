@@ -657,7 +657,7 @@
     const importantDates = Array.isArray(trip.importantDates) ? trip.importantDates : [];
 
     // Couple banner
-    const banner = `<div class="couple-banner"><div class="couple-banner-icon">♡</div><div><h3>Made for you two — first time in Korea, late 30s</h3><p>Every itinerary here assumes just the two of you, one hotel base in Seoul, and a calm together-pace: one lovely thing before lunch, one after, cozy evenings close to home. Pick a vibe, scan the 3-day preview, tap to open the gentle day-by-day.</p></div><a class="button button-quiet button-small" href="review/seoul-hotels/index.html" target="_blank" rel="noreferrer">Browse 20 Seoul hotel ideas ↗</a></div>`;
+    const banner = `<div class="couple-banner"><div class="couple-banner-icon">♡</div><div><h3>Made for you two — first time in Korea, late 30s</h3><p>Every itinerary here assumes just the two of you, one hotel base in Seoul, and a calm together-pace: one lovely thing before lunch, one after, cozy evenings close to home. Pick a route, scan the first week, and expand only the day you need.</p></div><a class="button button-quiet button-small" href="review/seoul-hotels/index.html" target="_blank" rel="noreferrer">Browse 20 Seoul hotel ideas ↗</a></div>`;
 
     // Filter chips (coupleTag vibes from themes would be ideal, but route blueprints don't have them — use simple split)
     const filters = ["all","Classic & Easy","Food Together","Romantic & Slow","Balanced"];
@@ -702,11 +702,13 @@
       <section class="route-layout">
         <div class="route-main">
           <section class="panel itinerary-day-panel">
-            <div class="section-head"><div><div class="section-kicker">3 gentle previews + full 22 days</div><h2>Day-by-day, together pace</h2><p>Each day has a morning · afternoon · evening slot. Tap to expand. Evenings stay simple near your base.</p></div><button class="button button-soft button-small" type="button" data-action="adopt-itinerary" data-id="${e(selected.id)}">Load into My plan</button></div>
-            <div class="blueprint-days">${(selected.days || []).slice(0,6).map((day, index) => renderStreamlinedDay(day, index < 2)).join("")}<details class="blueprint-day" style="padding:12px;text-align:center"><summary style="cursor:pointer;color:#2e6958;font-weight:700">Show all 22 days</summary><div style="display:grid;gap:8px;margin-top:10px">${(selected.days || []).slice(6).map((day)=>renderStreamlinedDay(day,false)).join("")}</div></details></div>
+            <div class="section-head"><div><div class="section-kicker">Your first seven days</div><h2>Easy-to-scan first week</h2><p>One anchor and two short ideas per day. Open a card only when you want the detail.</p></div><button class="button button-soft button-small" type="button" data-action="adopt-itinerary" data-id="${e(selected.id)}">Load into My plan</button></div>
+            <div class="blueprint-days">${(selected.days || []).slice(0,7).map((day, index) => renderStreamlinedDay(day, index === 0)).join("")}</div>
+            <details class="more-days"><summary>Later in the trip · ${Math.max(0, (selected.days || []).length - 7)} more days</summary><div class="blueprint-days more-days-list">${(selected.days || []).slice(7).map((day)=>renderStreamlinedDay(day,false)).join("")}</div></details>
           </section>
         </div>
         <aside class="route-side">
+          ${renderHotelValueCheck()}
           <section class="panel"><div class="section-kicker">Where you’ll sleep</div><h2 style="margin:0 0 9px;font-size:16px">One base per city — no repacking</h2><div class="base-stack">${(selected.bases || []).map(renderRouteBase).join("")}</div></section>
           <section class="panel panel-tint"><div class="section-kicker">Getting around together</div><h2 style="margin:0 0 9px;font-size:16px">Why this stays calm</h2><div class="transfer-stack">${(selected.transfers || []).slice(0,4).map(renderRouteTransfer).join("")}</div></section>
           <section class="panel panel-warn"><div class="section-kicker">Book together, in order</div><h2 style="margin:0 0 9px;font-size:16px">Protect the easy wins</h2><ol class="priority-list">${(selected.bookingPriorities || []).slice(0,3).map((item) => `<li>${e(item)}</li>`).join("")}</ol></section>
@@ -716,19 +718,29 @@
     </section>`;
   }
 
-  function renderStreamlinedDay(day, open){
+  function renderStreamlinedDay(day, open) {
     const dayNumber = dateParts(day.date).day;
-    const schedule = Array.isArray(day.schedule) ? day.schedule.slice(0,3) : [];
+    const moments = Array.isArray(day.blocks) && day.blocks.length ? day.blocks.slice(0, 2) : (day.schedule || []).slice(0, 2).map((item) => ({ label: item.time, text: item.title }));
     return `<details class="blueprint-day streamlined" ${open ? "open" : ""}>
-      <summary><span class="blueprint-date"><b>${e(day.day)}</b><strong>${e(dayNumber)}</strong><small>${e(dateParts(day.date).month)}</small></span><span class="blueprint-summary"><span>${e(day.phase)} · ${e(day.city)}</span><strong>${e(day.title)}</strong><small>${e(day.anchor)}</small></span><span class="blueprint-toggle" aria-hidden="true">⌄</span></summary>
-      <div class="blueprint-body">
-        <div style="display:grid;gap:6px;margin-bottom:8px">
-          ${schedule.map(item=>`<div class="slot-row"><span class="slot-badge ${e(item.time.includes("Morning")||item.time.includes("09")?"morning":item.time.includes("Afternoon")?"afternoon":"evening")}">${e(item.time.split("–")[0].trim().slice(0,8))}</span><div><strong style="font-size:12px">${e(item.title)}</strong><p style="margin:2px 0 0;font-size:11px;color:#52615c">${e(item.detail)}</p></div></div>`).join("")}
-          ${(day.blocks||[]).slice(0,1).map(b=>`<div style="padding:8px 10px;background:#fbfcf9;border:1px solid #e6e6de;border-radius:10px"><span style="font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#2e6958;font-weight:700">${e(b.label)}</span><p style="margin:3px 0 0;font-size:11px;color:#52615c">${e(b.text)}</p></div>`).join("")}
-        </div>
-        <div class="blueprint-footnotes" style="grid-template-columns:1fr 1fr"><div><span>Food</span><p>${e(day.food||"Nearby choice")}</p></div><div><span>If tired</span><p>${e(day.planB||"Keep it cozy near base")}</p></div></div>
+      <summary><span class="blueprint-date"><b>${e(day.day)}</b><strong>${e(dayNumber)}</strong><small>${e(dateParts(day.date).month)}</small></span><span class="blueprint-summary"><span>${e(day.city)} · ${e(day.phase)}</span><strong>${e(day.title)}</strong><small>${e(day.anchor)}</small></span><span class="blueprint-toggle" aria-hidden="true">⌄</span></summary>
+      <div class="blueprint-body compact-day-body">
+        <div class="day-moments">${moments.map((item) => `<div><span>${e(item.label)}</span><p>${e(item.text)}</p></div>`).join("")}</div>
+        <div class="quick-backup"><b>Easy backup</b><span>${e(day.planB || "Keep it close to your hotel and take the evening slowly.")}</span></div>
       </div>
     </details>`;
+  }
+
+  function renderHotelValueCheck() {
+    return `<section class="panel hotel-value-check">
+      <div class="section-head"><div><div class="section-kicker">Hotel value · first week</div><h2>Offers that fit Nov 1–7</h2><p>Checked Aug 10, 2026. These are offer windows, not a guarantee of room inventory or a final price.</p></div></div>
+      <article class="deal-card">
+        <div><span class="deal-status">Date window matches</span><h3>L7 Myeongdong · 60 Days in Advance</h3></div>
+        <p>Official early-booking offer lists stays through Dec 31, 2026, so your Nov 1–7 nights are inside its published stay window. Book direct and compare the seven-night total against a refundable rate.</p>
+        <a class="button button-soft button-small" href="https://www.lottehotel.com/prerendered/myeongdong-l7/en/index.html" target="_blank" rel="noreferrer">Check L7 offer & rates ↗</a>
+      </article>
+      <div class="value-note"><strong>Best value move</strong><span>Try the hotel’s member/direct rate first, then compare the exact same room, taxes, breakfast, and cancellation terms—not just the nightly headline.</span></div>
+      <button class="button button-quiet button-small" type="button" data-action="check-hotel-deals">Check offers again</button>
+    </section>`;
   }
 
   function routeDecisionScores(route) {
@@ -1490,6 +1502,7 @@
       case "print-essentials": printView("printing-essentials"); break;
       case "export-handoff": exportHandoff(); break;
       case "refresh-research": refreshResearch(); break;
+      case "check-hotel-deals": openHotelDealCheck(); break;
       case "import-plan": openImportModal(); break;
       case "clear-saved": clearSaved(); break;
       case "print": window.print(); break;
@@ -1878,6 +1891,14 @@
     anchor.click();
     anchor.remove();
     window.setTimeout(() => URL.revokeObjectURL(url), 0);
+  }
+
+  function openHotelDealCheck() {
+    openModal({
+      title: "Recheck hotel offers",
+      subtitle: "For Nov 1–7, 2026 · two travelers · one room",
+      body: `<div class="prose"><p>Hotel promotions and inventory change quickly. Open the official offers page, enter your exact seven-night dates, then compare the total with taxes, breakfast, and cancellation terms included.</p><p><strong>Currently date-window matched:</strong> L7 Myeongdong’s published 60 Days in Advance offer lists stays through Dec 31, 2026. Availability and its actual discount still need a live quote.</p></div><div class="button-row"><a class="button" href="https://www.lottehotel.com/prerendered/myeongdong-l7/en/index.html" target="_blank" rel="noreferrer">Open L7 official offers ↗</a><a class="button button-quiet" href="review/seoul-hotels/index.html" target="_blank" rel="noreferrer">Compare hotel shortlist ↗</a></div><p class="form-help">Ask to recheck deals whenever you’re ready; we’ll update the dated research rather than treating an old promotion as current.</p>`,
+    });
   }
 
   async function refreshResearch() {

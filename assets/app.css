@@ -903,3 +903,25 @@ button, a, input, select, textarea { touch-action: manipulation; }
 .slot-badge.night{background:#4a5568}
 .slot-row p{margin:0;font-size:12px;line-height:1.55;color:var(--ink)}
 .css-hidden{display:none !important}
+
+/* Compact first-week itinerary and date-aware hotel value check */
+.more-days { margin-top: 10px; }
+.more-days > summary { cursor: pointer; color: var(--pine); font-size: 12px; font-weight: 740; }
+.more-days-list { margin-top: 10px; }
+.compact-day-body { padding-top: 0; }
+.day-moments { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 2px; }
+.day-moments > div { padding: 9px 10px; background: #f6f8f5; border-radius: 9px; }
+.day-moments span, .quick-backup b { display: block; color: var(--pine); font-size: 9px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+.day-moments p { margin: 4px 0 0; color: var(--ink-soft); font-size: 11px; line-height: 1.42; }
+.quick-backup { display: grid; grid-template-columns: 92px 1fr; gap: 8px; margin-top: 8px; padding: 8px 10px; color: var(--ink-soft); font-size: 11px; line-height: 1.42; background: #fff9e9; border: 1px solid #f2dfaf; border-radius: 9px; }
+.hotel-value-check { border-color: #cce2d6; background: linear-gradient(145deg, #f5fbf7, #fff); }
+.hotel-value-check .section-head { margin-bottom: 11px; }
+.hotel-value-check .section-head p { max-width: 260px; }
+.deal-card { padding: 12px; border: 1px solid #d7e8de; background: white; border-radius: 11px; }
+.deal-card h3 { margin: 7px 0 5px; font-size: 13px; letter-spacing: -.015em; }
+.deal-card p { margin: 0 0 10px; color: var(--ink-soft); font-size: 11px; line-height: 1.48; }
+.deal-status { display: inline-block; padding: 3px 7px; color: #176746; font-size: 9px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; background: #dbf2e4; border-radius: 999px; }
+.value-note { display: grid; gap: 3px; margin: 11px 0; padding: 10px; background: #fff8e8; border-radius: 9px; }
+.value-note strong { color: #745414; font-size: 11px; }
+.value-note span { color: #6d6450; font-size: 10px; line-height: 1.45; }
+@media (max-width: 560px) { .day-moments { grid-template-columns: 1fr; } .quick-backup { grid-template-columns: 1fr; gap: 3px; } }
