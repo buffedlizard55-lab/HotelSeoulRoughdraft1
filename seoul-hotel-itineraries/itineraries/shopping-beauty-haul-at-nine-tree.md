@@ -1,0 +1,110 @@
+# S02 · Shopping & Beauty Haul — base: Nine Tree Myeongdong 1
+
+> **Hotel base:** Nine Tree by Parnas Seoul Myeongdong 1 · Myeongdong
+> **Neighborhood:** 2-min walk to Myeongdong Station Exit 8; near Seoul Airport Limousine bus stops
+> **Trip frame:** Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00 · 21 nights (ICN)
+> **Pace:** Market-paced — shop, compare, pack · **Focus:** value, fun, convenience
+> **Theme #:** 2/20 · **Hotel tier:** mid-range · **~$100–$145/night (research range)**
+> **Review notes:** *(leave decisions/comments here)*
+
+## Who this suits
+
+She wants the beauty/souvenir/fashion haul without decision fatigue or overpaying. A shopping plan tuned for a serious haul: duty-free comparisons, Olive Young strategy, tax refunds, and luggage-friendly returns to Nine Tree Myeongdong 1.
+
+## Why Nine Tree Myeongdong 1 for this plan
+
+Mid-range value pick, 1-min walk to Myeongdong Station, airport limousine stops nearby. The plan is routed so the sightseeing loops return to Nine Tree Myeongdong 1 each evening — most days end a short stroll (or one subway stop) from the front door.
+
+## Around Myeongdong — what's close
+
+- **Station:** 1 min walk to Myeongdong Station
+- **Airport transfer:** Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.
+- **Arrival night:** If this is the arrival-night hotel, verify the **24-hour front desk** at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.
+
+### Eat around here (10 picks from the research catalog)
+
+| Spot | Category | Price tier |
+| --- | --- | --- |
+| [Hadongkwan Main Store (하동관 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949) | Classic Korean | Budget-to-Mid |
+| [Myeongdong Kyoja (명동교자 본점)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) | Classic Korean | Budget-to-Mid |
+| [Goryeo Samgyetang (고려삼계탕 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774) | Classic Korean | Mid-to-Premium |
+| [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) | Jajangmyeon | Budget |
+| [Menten (멘텐)](https://map.naver.com/p/search/멘텐) | Ramen | Budget-to-Mid |
+| [Seoul Local Cafe 1 (서울 로컬 카페 1)](https://map.naver.com/p/search/서울 로컬 카페 1) | Cafe | Budget |
+| [Seoul Local Cafe 14 (서울 로컬 카페 14)](https://map.naver.com/p/search/서울 로컬 카페 14) | Cafe | Budget-to-Mid |
+| [Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)](https://map.naver.com/p/search/서울 로컬 BBQ 1) | AYCE BBQ | Budget |
+| [Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)](https://map.naver.com/p/search/서울 로컬 BBQ 27) | AYCE BBQ | Budget |
+| [Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)](https://map.naver.com/p/search/서울 로컬 짜장면 1) | Jajangmyeon | Budget |
+
+*Full hours, signature dishes, and quality notes: `research/sources/food/cities/seoul.md`.*
+
+### Do around here (8 picks matched to this theme)
+
+| Activity | Category | Why it's here |
+| --- | --- | --- |
+| [DDP Underground Design Marketplace & Fashion Hub](https://ddp.or.kr) | Free & always-on culture | Connected to DDP design halls. |
+| [Myeongdong Underground Shopping Center](https://english.visitseoul.net) | Free & always-on culture | Top spot for K-pop album shopping. |
+| [DDP Dream in Light](https://ddp.or.kr) | Free & always-on culture | Free, walk-up, spectacular; combine with the Dongdaemun night market/street food nearby. |
+| [Dongdaemun Toy & Stationery Wholesale Market (Changsin-dong)](https://english.visitseoul.net) | Free & always-on culture | Fun wholesale toy shopping street. |
+| [Ewha Fashion Street & Boutique Alleys](https://www.sdm.go.kr) | Free & always-on culture | Budget university fashion shopping. |
+| [Gangnam Underground Shopping Center](https://www.gangnam.go.kr) | Free & always-on culture | Busy Gangnam transit shopping arcade. |
+| [IFC Mall Yeouido Underground Shopping & Dining](http://www.ifcmallseoul.com) | Free & always-on culture | Convenient Yeouido indoor mall. |
+| [Jamsil Underground Shopping Center](https://www.songpa.go.kr) | Free & always-on culture | Connected to Lotte World complex. |
+
+*Status and booking notes: `research/sources/fun/seoul.md` and `data/collections/activities.json`.*
+
+## Day-by-day (3-day sample window)
+
+### Day 1
+
+**Myeongdong beauty core**
+- **Morning:** Olive Young flagship + tester tour (no-buy pass first, decide later), Lohb's & CHICOR for higher-end lines.
+- **Afternoon:** Myeongdong street stalls (socks, phone cases, cosmetics) + Daiso for packing supplies and gifts.
+- **Evening:** Duty-free comparison at Lotte Duty Free (Myeongdong) — note prices, buy only what's clearly cheaper; N Seoul Tower night view.
+- **Eat around here:** [Hadongkwan Main Store (하동관 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949) — Classic Korean · Budget-to-Mid; [Goryeo Samgyetang (고려삼계탕 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774) — Classic Korean · Mid-to-Premium.
+
+### Day 2
+
+**Dongdaemun & underground malls**
+- **Morning:** Dongdaemun Design Plaza + underground shopping (fashion wholesale: note the 2-piece-minimum rule at Doota/Good Morning City).
+- **Afternoon:** Cheonggyecheon walk + Euljiro stationery/paper shops (record stores too).
+- **Evening:** Euljiro craft beer or Dongdaemun night market for accessories.
+- **Eat around here:** [Myeongdong Kyoja (명동교자 본점)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) — Classic Korean · Budget-to-Mid; [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget.
+
+### Day 3
+
+**Hanbok, markets & tax refunds**
+- **Morning:** Namdaemun Market: hanbok, kitchen goods, souvenirs — bargaining is normal.
+- **Afternoon:** Insadong crafts (brass, pottery, tea sets) + ssamziegil.
+- **Evening:** Pack-and-sort night: organize receipts for the instant tax refund (keep purchases in original bags), then a farewell BBQ dinner.
+- **Eat around here:** [Goryeo Samgyetang (고려삼계탕 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774) — Classic Korean · Mid-to-Premium; [Menten (멘텐)](https://map.naver.com/p/search/멘텐) — Ramen · Budget-to-Mid.
+
+**Plan B (rain / low energy):** Rainy: underground malls and department stores (Lotte Young Plaza, Hyundai) keep the haul going dry.
+
+## If you have more nights
+
+- Gangnam underground shopping center + Starfield COEX (Starfield Library, K-pop merch).
+- Hyundai Seoul (Yeouido) — the current mega-mall experience with a rooftop garden.
+- Ewha fashion street + boutique alleys near Ewha Womans University.
+- Garak Market for wholesale fruit/gifts to take home.
+
+## Transit & convenience
+
+- **Last-train habit:** check the last train on your line home each night (Seoul Metro typically ~23:30–00:00; late buses and Kakao T are the fallback).
+- **Payments:** T-money card for the metro + a little cash (₩50k–100k) for markets; cards work at most restaurants.
+- **This base:** 1 min walk to Myeongdong Station.
+- **Weather:** November is crisp and dry; pack layers and a light rain shell. The theme's Plan B covers a rainy day.
+
+## Value notes
+
+- **Hotel:** $100–$145/night (research range) — mid-range tier in Myeongdong.
+- **Food:** nearby picks span Budget, Budget-to-Mid, Mid-to-Premium tiers; street food and market meals are the value anchors of this plan.
+- **Free wins:** 1 of the featured activities are free or free-with-reservation.
+- **Splurge vs save:** this theme leans **value, fun, convenience** — where it says book ahead (cable car, Secret Garden, cruises, shows), booking early is the real money-saver.
+
+## Verdict
+
+**Pick S02 (Shopping & Beauty Haul at Nine Tree Myeongdong 1) if** she wants the beauty/souvenir/fashion haul without decision fatigue or overpaying. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+
+---
+*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

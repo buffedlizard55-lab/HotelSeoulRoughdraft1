@@ -6,6 +6,15 @@ A calm, beginner-friendly South Korea trip-planning workspace. **Korea Compass**
 
 > This is a research and planning tool, not a booking engine or a live travel-data service. Verify event dates, prices, availability, entry requirements, transport operations, eligibility, health guidance, and emergency information with the relevant official provider before acting.
 
+## 🏨 Seoul hotel-comparison itineraries (new)
+
+**20 unique itineraries that compare the travel partner's top Seoul hotel options** — what to do and eat around each hotel base, balanced across **convenience · activities · fun · value**.
+
+- **The plans live in [`seoul-hotel-itineraries/`](seoul-hotel-itineraries/)** — ingest her hotel shortlist in [`hotel-options.json`](seoul-hotel-itineraries/hotel-options.json) (set `consider: true`), then run `python3 scripts/build_seoul_hotel_itineraries.py`.
+- **Easiest way to read them:** [`review/seoul-hotels/index.html`](review/seoul-hotels/index.html) — cards grouped by hotel, each opening as a printable document. The Markdown grid is at [`seoul-hotel-itineraries/index.md`](seoul-hotel-itineraries/index.md).
+- The 20 themes (palace days, market crawls, cafe hops, nightlife, day trips, spa days…) are spread evenly across the hotels she's considering, so every plan is a unique hotel × theme pair (4 hotels × 5 themes = 20, or 5 × 4, 2 × 10, 1 × 20).
+- Every plan includes nearby eats and activities pulled from the research catalogs, station/airport-transfer notes, the arrival-night 24-hour-front-desk rule, value notes, and a verdict.
+
 ## ⭐ 30 sample trip itineraries (start here)
 
 **The review-ready itineraries live in [`trip-itineraries/`](trip-itineraries/)** — fifteen for Seoul → Daejeon → Busan → Seoul (Route A) and fifteen for Seoul → Cheonan → Busan → Seoul (Route B), all on the fixed Nov 1–22, 2026 frame (arrive ICN 21:00, depart ICN 13:00).

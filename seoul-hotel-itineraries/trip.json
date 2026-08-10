@@ -1,0 +1,24 @@
+{
+  "comment": "Shared trip frame for the Seoul hotel-comparison itineraries. Defaults match the repo's master frame (arrive ICN Sun Nov 1 2026 21:00, depart ICN Sun Nov 22 13:00, 21 nights). Edit to the partner's real dates — the generated itineraries use these values in their headers.",
+  "title": "Seoul hotel-comparison trip",
+  "frame": {
+    "arrive": "Sun, Nov 1, 2026",
+    "arriveTime": "21:00",
+    "depart": "Sun, Nov 22, 2026",
+    "departTime": "13:00",
+    "nights": 21,
+    "airport": "ICN",
+    "note": "Dates are the planning frame from the master planner. Verify with the actual flight booking."
+  },
+  "group": "2 adults",
+  "budgetPosture": "Mixed — every itinerary scores value, but splurge options are flagged",
+  "sampleDays": 3,
+  "singleHotelNote": "Each itinerary assumes ONE Seoul hotel as the base for the whole Seoul stay — the point is to compare bases, not to switch hotels.",
+  "daySplit": {
+    "arrivalNight": "Night 1 is the late-arrival night (lands 21:00, hotel by ~23:30). Only the arrival night needs a 24-hour front desk; the generated plans mark where to verify this.",
+    "seoulNights": 8,
+    "middleCity": "Daejeon or Cheonan (see Route A/B in trip-itineraries/)",
+    "busanNights": 7,
+    "finalSeoul": 2
+  }
+}

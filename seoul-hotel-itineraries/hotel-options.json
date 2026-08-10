@@ -1,0 +1,45 @@
+{
+  "comment": "Ingestion file for the Seoul hotel-comparison itineraries. Each entry below is one of the 8 Seoul hotels already researched in data/collections/hotels.json. Set \"consider\": true for the hotels the travel partner is actually deciding between — the build script then spreads the 20 itinerary themes across exactly those hotels. Add a \"why\" note so the generated plans can speak to her reasons.",
+  "hotels": [
+    {
+      "id": "seoul-nine-tree",
+      "consider": true,
+      "why": "Mid-range value pick, 1-min walk to Myeongdong Station, airport limousine stops nearby."
+    },
+    {
+      "id": "seoul-l7-myeongdong",
+      "consider": true,
+      "why": "Design-lifestyle Lotte hotel, rooftop sky terrace, 2-min walk to Myeongdong Station."
+    },
+    {
+      "id": "seoul-ibis-styles",
+      "consider": true,
+      "why": "Budget-quality balance, free breakfast, walkable to N Seoul Tower cable car."
+    },
+    {
+      "id": "seoul-skypark-myeongdong3",
+      "consider": true,
+      "why": "Excellent central Myeongdong location at a budget-friendly tier."
+    },
+    {
+      "id": "seoul-lescape",
+      "consider": false,
+      "why": "Luxury option in prime Myeongdong location, old-world French glamour."
+    },
+    {
+      "id": "seoul-ibis-insadong",
+      "consider": false,
+      "why": "Freshly renovated, overlooks Ikseon-dong hanok village, walkable to palaces."
+    },
+    {
+      "id": "seoul-four-seasons",
+      "consider": false,
+      "why": "Top-tier luxury with palace views, steps from Gwanghwamun & Gyeongbokgung."
+    },
+    {
+      "id": "seoul-fairmont",
+      "consider": false,
+      "why": "Modern luxury on the Han River in Yeouido, beside The Hyundai Seoul mall."
+    }
+  ]
+}
