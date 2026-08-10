@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-She wants the beauty/souvenir/fashion haul without decision fatigue or overpaying. A shopping plan tuned for a serious haul: duty-free comparisons, Olive Young strategy, tax refunds, and luggage-friendly returns to Four Points Seoul Station.
+You two want to shop smart together — beauty, souvenirs, and gift hunting with easy hotel drop-offs. A shopping plan tuned for a serious haul: duty-free comparisons, Olive Young strategy, tax refunds, and luggage-friendly returns to Four Points Seoul Station.
 
 ## Why Four Points Seoul Station for this plan
 
@@ -104,7 +104,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 
 ## Verdict
 
-**Pick S03 (Shopping & Beauty Haul at Four Points Seoul Station) if** she wants the beauty/souvenir/fashion haul without decision fatigue or overpaying. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S03 (Shopping & Beauty Haul at Four Points Seoul Station) if** you two want to shop smart together — beauty, souvenirs, and gift hunting with easy hotel drop-offs. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

@@ -644,6 +644,9 @@
     </section>`;
   }
 
+
+  // Streamlined couple-first-timer view — less wall-of-text, more glanceable cards
+  let itinFilter = "all";
   function renderItineraries() {
     const blueprints = Array.isArray(catalog.itineraryBlueprints) ? catalog.itineraryBlueprints : [];
     if (!blueprints.length) {
@@ -653,40 +656,45 @@
     const trip = catalog.itineraryBlueprintMeta?.trip || {};
     const importantDates = Array.isArray(trip.importantDates) ? trip.importantDates : [];
 
+    // Couple banner
+    const banner = `<div class="couple-banner"><div class="couple-banner-icon">♡</div><div><h3>Made for you two — first time in Korea, late 30s</h3><p>Every itinerary here assumes just the two of you, one hotel base in Seoul, and a calm together-pace: one lovely thing before lunch, one after, cozy evenings close to home. Pick a vibe, scan the 3-day preview, tap to open the gentle day-by-day.</p></div><a class="button button-quiet button-small" href="review/seoul-hotels/index.html" target="_blank" rel="noreferrer">Browse 20 Seoul hotel ideas ↗</a></div>`;
+
+    // Filter chips (coupleTag vibes from themes would be ideal, but route blueprints don't have them — use simple split)
+    const filters = ["all","Classic & Easy","Food Together","Romantic & Slow","Balanced"];
+    const chips = `<div class="itin-filters">${filters.map(f=>`<button class="itin-chip ${itinFilter===f?"is-active":""}" type="button" data-action="filter-itineraries" data-filter="${f}">${f==="all"?"All routes":f}</button>`).join("")}</div>`;
+
     return `<section class="view route-options-view">
-      <div class="print-only"><h1>Korea Compass · Route overview</h1><p>${e(selected.title)} — ${e(selected.routeLabel)} · arrive ICN 21:00 Nov 1, 2026 · depart ICN 13:00 Nov 22, 2026</p></div>
       <header class="view-head">
         <div class="view-head-copy">
-          <span class="eyebrow">Two detailed, source-aware planning blueprints</span>
-          <h1 class="page-title">Choose the middle chapter that fits you.</h1>
-          <p class="page-subtitle">Both routes use the corrected Korea-based window: arrive at ICN at <strong>21:00 on Sun, Nov 1, 2026</strong>; depart ICN at <strong>13:00 on Sun, Nov 22, 2026</strong>. Every day now has explicit target time windows, operational notes, and a weather/energy fallback.</p>
+          <span class="eyebrow">For two · first time · late 30s</span>
+          <h1 class="page-title">Choose a gentle Seoul flow together.</h1>
+          <p class="page-subtitle">Two calm 21-night blueprints, Nov 1–22, 2026. Same friendly window: land ICN 21:00, leave 13:00. Compare at a glance — then load one into <b>My plan</b> to make it yours.</p>
         </div>
-        <div class="head-actions"><button class="button button-quiet" type="button" data-action="print-itinerary">Save selected route as PDF</button><button class="button button-quiet" type="button" data-action="export-blueprint-doc" data-id="${e(selected.id)}">Word (.doc)</button><button class="button button-quiet" type="button" data-action="export-blueprint-txt" data-id="${e(selected.id)}">Text (.txt)</button><button class="button button-quiet" type="button" data-action="copy-itinerary" data-id="${e(selected.id)}">Copy selected itinerary</button><button class="button" type="button" data-action="adopt-itinerary" data-id="${e(selected.id)}">Use as my editable plan</button></div>
+        <div class="head-actions"><button class="button button-quiet" type="button" data-action="print-itinerary">Save route as PDF</button><button class="button" type="button" data-action="adopt-itinerary" data-id="${e(selected.id)}">Use this route</button></div>
       </header>
-
-      <section class="route-guidance">
-        <div><span class="route-guidance-label">Same trip structure</span><strong>${e(trip.nights || 21)} nights · Seoul bookend · direct KTX city changes · one base per city</strong></div>
-        <p>${e(trip.flightReconciliation || trip.sourceNote || "Verify all time-sensitive details before booking.")}</p>
-      </section>
-
-      ${renderRoutePrepFacts(trip)}
-      ${renderDecisionTools(blueprints)}
-      ${renderRouteEfficiency(blueprints)}
-      ${renderDayComparison(blueprints)}
-
+      ${banner}
       <section class="route-comparison-grid" aria-label="Compare route blueprints">
-        ${blueprints.map((item) => renderRouteOptionCard(item, item.id === selected.id)).join("")}
+        ${blueprints.map((item) => {
+          const vibe = item.id.includes("daejeon") ? "More to explore" : "Smoothest together";
+          const hide = itinFilter!=="all" && !( (itinFilter==="Classic & Easy" && item.id.includes("cheonan")) || (itinFilter==="Balanced" && item.id.includes("daejeon")) );
+          return `<article class="itin-card-streamlined ${hide?"css-hidden":""}" style="${itinFilter!=="all" && hide ? "display:none":""}">
+            <div class="itin-card-top"><span class="itin-num">${e(item.shortTitle.split("·")[0]||item.shortTitle)}</span><span class="itin-vibe">${e(vibe)}</span><span class="itin-num" style="background:#edf7f1;color:#2e6958;border:1px solid #d5e8df">${e(item.badge)}</span></div>
+            <h3>${e(item.title)}</h3>
+            <p>${e(item.bestFor)}</p>
+            <div class="itin-meta"><span>${e(item.bases?.[0]?.nights||9)} nights Seoul</span><span>${e(item.bases?.[1]?.city||"middle")} · 5 nights</span><span>Busan · 7</span></div>
+            <div class="itin-actions"><button class="button ${item.id===selected.id?"button-soft":"button-quiet"} button-small" type="button" data-action="select-itinerary" data-id="${e(item.id)}">${item.id===selected.id?"Viewing":"View day-by-day"}</button><button class="button button-link" type="button" data-action="adopt-itinerary" data-id="${e(item.id)}">Use it →</button></div>
+          </article>`;
+        }).join("")}
       </section>
-
+      ${chips}
       <section class="route-detail-panel">
         <div class="route-detail-head">
-          <div><span class="eyebrow">Selected route</span><h2>${e(selected.title)}</h2><p>${e(selected.decisionSummary)}</p></div>
+          <div><span class="eyebrow">Selected for you two</span><h2>${e(selected.title)}</h2><p>${e(selected.decisionSummary)}</p></div>
           <span class="route-badge">${e(selected.badge)}</span>
         </div>
         <div class="route-decision-grid">
-          <article><span>Choose this when</span><p>${e(selected.recommendation || selected.bestFor)}</p></article>
-          <article><span>Best for</span><p>${e(selected.bestFor)}</p></article>
-          <article><span>Tradeoff</span><p>${e(selected.tradeoff)}</p></article>
+          <article><span>You’ll love this if</span><p>${e(selected.bestFor)}</p></article>
+          <article><span>Together tradeoff</span><p>${e(selected.tradeoff)}</p></article>
         </div>
         <div class="route-scorecard">${(selected.scorecard || []).map((score) => `<div class="route-score ${e(score.tone || "")}"><span>${e(score.label)}</span><strong>${e(score.value)}</strong></div>`).join("")}</div>
       </section>
@@ -694,19 +702,33 @@
       <section class="route-layout">
         <div class="route-main">
           <section class="panel itinerary-day-panel">
-            <div class="section-head"><div><div class="section-kicker">Day-by-day blueprint</div><h2>22 calendar days, 21 nights</h2><p>Every transfer day has a lighter arrival plan; every sightseeing day has a weather or energy fallback. Open a day for the full sequence.</p></div><button class="button button-soft button-small" type="button" data-action="adopt-itinerary" data-id="${e(selected.id)}">Load into My plan</button></div>
-            <div class="blueprint-days">${(selected.days || []).map((day, index) => renderBlueprintDay(day, index < 2)).join("")}</div>
+            <div class="section-head"><div><div class="section-kicker">3 gentle previews + full 22 days</div><h2>Day-by-day, together pace</h2><p>Each day has a morning · afternoon · evening slot. Tap to expand. Evenings stay simple near your base.</p></div><button class="button button-soft button-small" type="button" data-action="adopt-itinerary" data-id="${e(selected.id)}">Load into My plan</button></div>
+            <div class="blueprint-days">${(selected.days || []).slice(0,6).map((day, index) => renderStreamlinedDay(day, index < 2)).join("")}<details class="blueprint-day" style="padding:12px;text-align:center"><summary style="cursor:pointer;color:#2e6958;font-weight:700">Show all 22 days</summary><div style="display:grid;gap:8px;margin-top:10px">${(selected.days || []).slice(6).map((day)=>renderStreamlinedDay(day,false)).join("")}</div></details></div>
           </section>
         </div>
         <aside class="route-side">
-          <section class="panel"><div class="section-kicker">Hotel-base strategy</div><h2 style="margin:0 0 9px;font-size:17px">Sleep where the route works</h2><div class="base-stack">${(selected.bases || []).map(renderRouteBase).join("")}</div></section>
-          ${renderRouteBudget(selected, trip)}
-          <section class="panel panel-tint"><div class="section-kicker">KTX and airport moves</div><h2 style="margin:0 0 9px;font-size:17px">Why this routing stays calm</h2><div class="transfer-stack">${(selected.transfers || []).map(renderRouteTransfer).join("")}</div></section>
-          <section class="panel panel-warn"><div class="section-kicker">Book in this order</div><h2 style="margin:0 0 9px;font-size:17px">Protect the hard edges</h2><ol class="priority-list">${(selected.bookingPriorities || []).map((item) => `<li>${e(item)}</li>`).join("")}</ol></section>
-          <section class="panel"><div class="section-kicker">Time-sensitive checks</div><h2 style="margin:0 0 9px;font-size:17px">Confirm close to travel</h2><div class="detail-list">${importantDates.map((item) => `<div class="detail-row"><strong>${e(formatDate(item.date))} · ${e(item.label)}</strong><p>${e(item.note)}</p></div>`).join("")}</div></section>
+          <section class="panel"><div class="section-kicker">Where you’ll sleep</div><h2 style="margin:0 0 9px;font-size:16px">One base per city — no repacking</h2><div class="base-stack">${(selected.bases || []).map(renderRouteBase).join("")}</div></section>
+          <section class="panel panel-tint"><div class="section-kicker">Getting around together</div><h2 style="margin:0 0 9px;font-size:16px">Why this stays calm</h2><div class="transfer-stack">${(selected.transfers || []).slice(0,4).map(renderRouteTransfer).join("")}</div></section>
+          <section class="panel panel-warn"><div class="section-kicker">Book together, in order</div><h2 style="margin:0 0 9px;font-size:16px">Protect the easy wins</h2><ol class="priority-list">${(selected.bookingPriorities || []).slice(0,3).map((item) => `<li>${e(item)}</li>`).join("")}</ol></section>
+          <section class="panel"><div class="section-kicker">Good to know</div><h2 style="margin:0 0 9px;font-size:16px">Time-sensitive checks</h2><div class="detail-list">${importantDates.map((item) => `<div class="detail-row"><strong>${e(formatDate(item.date))} · ${e(item.label)}</strong><p>${e(item.note)}</p></div>`).join("")}</div></section>
         </aside>
       </section>
     </section>`;
+  }
+
+  function renderStreamlinedDay(day, open){
+    const dayNumber = dateParts(day.date).day;
+    const schedule = Array.isArray(day.schedule) ? day.schedule.slice(0,3) : [];
+    return `<details class="blueprint-day streamlined" ${open ? "open" : ""}>
+      <summary><span class="blueprint-date"><b>${e(day.day)}</b><strong>${e(dayNumber)}</strong><small>${e(dateParts(day.date).month)}</small></span><span class="blueprint-summary"><span>${e(day.phase)} · ${e(day.city)}</span><strong>${e(day.title)}</strong><small>${e(day.anchor)}</small></span><span class="blueprint-toggle" aria-hidden="true">⌄</span></summary>
+      <div class="blueprint-body">
+        <div style="display:grid;gap:6px;margin-bottom:8px">
+          ${schedule.map(item=>`<div class="slot-row"><span class="slot-badge ${e(item.time.includes("Morning")||item.time.includes("09")?"morning":item.time.includes("Afternoon")?"afternoon":"evening")}">${e(item.time.split("–")[0].trim().slice(0,8))}</span><div><strong style="font-size:12px">${e(item.title)}</strong><p style="margin:2px 0 0;font-size:11px;color:#52615c">${e(item.detail)}</p></div></div>`).join("")}
+          ${(day.blocks||[]).slice(0,1).map(b=>`<div style="padding:8px 10px;background:#fbfcf9;border:1px solid #e6e6de;border-radius:10px"><span style="font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#2e6958;font-weight:700">${e(b.label)}</span><p style="margin:3px 0 0;font-size:11px;color:#52615c">${e(b.text)}</p></div>`).join("")}
+        </div>
+        <div class="blueprint-footnotes" style="grid-template-columns:1fr 1fr"><div><span>Food</span><p>${e(day.food||"Nearby choice")}</p></div><div><span>If tired</span><p>${e(day.planB||"Keep it cozy near base")}</p></div></div>
+      </div>
+    </details>`;
   }
 
   function routeDecisionScores(route) {
@@ -1406,6 +1428,10 @@
       case "reload": window.location.reload(); break;
       case "open-profile": openProfileModal(); break;
       case "go-discover": navigate("discover"); break;
+      case "filter-itineraries":
+        itinFilter = button.dataset.filter || "all";
+        renderCurrentView();
+        break;
       case "select-itinerary":
         ui.itineraryId = button.dataset.id || ui.itineraryId;
         window.history.replaceState(null, "", `${viewHash("itineraries")}/${ui.itineraryId}`);

@@ -3,162 +3,194 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Seoul hotel-comparison · 20 itineraries</title>
-<link rel="stylesheet" href="../styles.css" />
+<title>Seoul for Two · 20 itineraries · First time in Korea</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fafaf7;color:#1a2b27;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 20px 50px}
+.hero{background:linear-gradient(135deg,#14332d 0%,#2a5a4b 70%,#3a7a65 100%);color:#fff;border-radius:22px;padding:26px 26px 22px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-40px;top:-40px;width:220px;height:220px;background:rgba(255,255,255,.08);border-radius:50%}
+.hero h1{margin:8px 0 8px;font-size:1.7rem;letter-spacing:-.03em;line-height:1.2;position:relative}
+.hero p{margin:0;color:rgba(255,255,255,.86);font-size:.93rem;max-width:640px;position:relative}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:5px 11px;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.filters{margin:18px 0 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filter-btn{border:1px solid #dddcd2;background:#fff;border-radius:999px;padding:7px 12px;font-size:.82rem;cursor:pointer;color:#4a5a56;font-weight:500}
+.filter-btn.is-active{background:#14332d;color:#fff;border-color:#14332d}
+.hotel-section{margin-top:22px}
+.hotel-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.hotel-head h2{margin:0;font-size:1.08rem;color:#14332d;letter-spacing:-.02em}
+.hotel-head span{font-size:.8rem;color:#6b7a74}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.card{display:grid;gap:6px;background:#fff;border:1px solid #e8e2d6;border-radius:16px;padding:14px 14px;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(22,35,29,.08);border-color:#d5cdb8}
+.card-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.num{background:#14332d;color:#fff;font-weight:700;border-radius:8px;padding:3px 7px;font-size:.74rem}
+.vibe{background:#edf7f1;color:#2e6958;border:1px solid #d5e8df;border-radius:999px;padding:3px 8px;font-size:.68rem;font-weight:600}
+.pace{color:#6b7a74;font-size:.72rem}
+.card h3{margin:0;font-size:.96rem;letter-spacing:-.015em;color:#14332d;line-height:1.3}
+.card p{margin:0;font-size:.82rem;color:#5a6b66;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-foot{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:.74rem;color:#2e6958;font-weight:600}
+.card-foot span{color:#a8b0ad;font-weight:400}
+.foot{margin-top:28px;text-align:center;font-size:.76rem;color:#8b8577}
+@media(max-width:740px){.cards{grid-template-columns:1fr}.hero{padding:22px 18px}}
+</style>
 </head>
 <body>
-<div class="page index-page">
-  <header class="index-head">
-    <p class="kicker">Hotel-comparison plans for review · 20 itineraries</p>
-    <h1>Seoul — What to do & eat around each hotel choice</h1>
-    <p class="frame">Trip frame: <strong>Sun, Nov 1, 2026, 21:00</strong> → <strong>Sun, Nov 22, 2026, 13:00</strong> · 21 nights · 2 adults (couple — just the two of you). Each itinerary assumes ONE Seoul hotel as the base for the whole Seoul stay — the point is to compare bases, not to switch hotels. Dates are the planning frame from the master planner. Verify with the actual flight booking.</p>
-    <p class="hint no-print">Every plan assumes one Seoul hotel as the base for the whole stay — the point is to compare bases. Each card opens as a printable document. Regenerate with <code>python3 scripts/build_seoul_hotel_itineraries.py</code> after editing the ingestion files.</p>
+<div class="wrap">
+  <header class="hero">
+    <span class="badge">♡ Made for two · late 30s · first time in Korea</span>
+    <h1>Seoul — what to do & eat around each hotel</h1>
+    <p>20 easy-to-scan itineraries, all built for a couple's first Seoul trip. Same Seoul base every night, one gentle idea before lunch + one after, cozy evenings together.</p>
+    <p style="margin-top:10px;font-size:.82rem;color:rgba(255,255,255,.9)">Trip frame: <strong>Sun, Nov 1, 2026, 21:00</strong> → <strong>Sun, Nov 22, 2026, 13:00</strong> · 21 nights · 2 adults (couple — just the two of you). Each itinerary assumes ONE Seoul hotel as the base for the whole Seoul stay — the point is to compare bases, not to switch hotels. Dates are the planning frame from the master planner. Verify with the actual flight booking.</p>
   </header>
+  <div class="filters" id="filters">
+    <button class="filter-btn is-active" data-filter="all">All 20</button>
+    <button class="filter-btn" data-filter="Classic & Easy">Classic & Easy</button>
+    <button class="filter-btn" data-filter="Food Together">Food Together</button>
+    <button class="filter-btn" data-filter="Romantic & Slow">Romantic & Slow</button>
+    <button class="filter-btn" data-filter="Explore & Play">Explore & Play</button>
+    <button class="filter-btn" data-filter="Balanced">Balanced</button>
+  </div>
   <section class="route-section"><h2>Four Points Seoul Station</h2><p class="route-blurb">Seoul Station / Yongsan (transport hub) · Connected to Seoul Station via the Exit 12 underground passage; easy access to AREX, KTX, GTX-A, and Subway Lines 1 & 4 · ~$155–$230/night</p><div class="cards">
-      <a class="card" href="itineraries/classic-first-timer-highlights-at-four-points-josun-station.html">
-        <span class="badge">S01</span>
-        <span class="card-title">Classic First-Timer Highlights</span>
-        <span class="card-nights">Moderate–full days</span>
-        <span class="card-summary">Her first Seoul trip (or yours together) and she wants the famous sights plus a real feel for the city.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: activities, fun, convenience</span>
+      <a class="card" href="itineraries/classic-first-timer-highlights-at-four-points-josun-station.html" data-vibe="Classic & Easy">
+        <div class="card-top"><span class="num">S01</span><span class="vibe">Classic & Easy</span><span class="pace">Moderate–full days</span></div>
+        <h3>Classic First-Timer Highlights</h3>
+        <p>You two, first time in Seoul — want the greatest hits without rushing, with time to linger together.</p>
+        <div class="card-foot">Open timeline → <span>· activities, fun, convenience</span></div>
       </a>
-      <a class="card" href="itineraries/cafe-dessert-hop-at-four-points-josun-station.html">
-        <span class="badge">S02</span>
-        <span class="card-title">Cafe & Dessert Hop</span>
-        <span class="card-nights">Cafe-paced — sit, sip, stroll</span>
-        <span class="card-summary">She collects cafes and dessert shots; wants an Insta-worthy but unhurried Seoul.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, value</span>
+      <a class="card" href="itineraries/cafe-dessert-hop-at-four-points-josun-station.html" data-vibe="Food Together">
+        <div class="card-top"><span class="num">S02</span><span class="vibe">Food Together</span><span class="pace">Cafe-paced — sit, sip, stroll</span></div>
+        <h3>Cafe & Dessert Hop</h3>
+        <p>For two cafe lovers — slow mornings, beautiful spaces, dessert second-dates in every neighborhood.</p>
+        <div class="card-foot">Open timeline → <span>· fun, value</span></div>
       </a>
-      <a class="card" href="itineraries/shopping-beauty-haul-at-four-points-josun-station.html">
-        <span class="badge">S03</span>
-        <span class="card-title">Shopping & Beauty Haul</span>
-        <span class="card-nights">Market-paced — shop, compare, pack</span>
-        <span class="card-summary">She wants the beauty/souvenir/fashion haul without decision fatigue or overpaying.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: value, fun, convenience</span>
+      <a class="card" href="itineraries/shopping-beauty-haul-at-four-points-josun-station.html" data-vibe="Explore & Play">
+        <div class="card-top"><span class="num">S03</span><span class="vibe">Explore & Play</span><span class="pace">Market-paced — shop, compare, pack</span></div>
+        <h3>Shopping & Beauty Haul</h3>
+        <p>You two want to shop smart together — beauty, souvenirs, and gift hunting with easy hotel drop-offs.</p>
+        <div class="card-foot">Open timeline → <span>· value, fun, convenience</span></div>
       </a>
-      <a class="card" href="itineraries/museums-galleries-at-four-points-josun-station.html">
-        <span class="badge">S04</span>
-        <span class="card-title">Museums & Galleries</span>
-        <span class="card-nights">Museum-paced — one ticketed anchor per day</span>
-        <span class="card-summary">She reads every wall text and wants exhibitions over street crowds.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: activities, convenience</span>
+      <a class="card" href="itineraries/museums-galleries-at-four-points-josun-station.html" data-vibe="Classic & Easy">
+        <div class="card-top"><span class="num">S04</span><span class="vibe">Classic & Easy</span><span class="pace">Museum-paced — one ticketed anchor per day</span></div>
+        <h3>Museums & Galleries</h3>
+        <p>You two enjoy museums at your own pace — one thoughtful exhibition a day, no crowds to battle.</p>
+        <div class="card-foot">Open timeline → <span>· activities, convenience</span></div>
       </a>
-      <a class="card" href="itineraries/day-trip-base-camp-at-four-points-josun-station.html">
-        <span class="badge">S05</span>
-        <span class="card-title">Day-Trip Base Camp</span>
-        <span class="card-nights">Base-camp — big day out, calm day in</span>
-        <span class="card-summary">She wants Seoul PLUS the famous outside-Seoul day trips without moving hotels or packing bags.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: convenience, activities</span>
+      <a class="card" href="itineraries/day-trip-base-camp-at-four-points-josun-station.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S05</span><span class="vibe">Balanced</span><span class="pace">Base-camp — big day out, calm day in</span></div>
+        <h3>Day-Trip Base Camp</h3>
+        <p>You two want one easy day trip from Seoul and still sleep in the same bed that night.</p>
+        <div class="card-foot">Open timeline → <span>· convenience, activities</span></div>
       </a>
-      <a class="card" href="itineraries/rainy-day-indoor-plan-at-four-points-josun-station.html">
-        <span class="badge">S06</span>
-        <span class="card-title">Rainy-Day Indoor Plan</span>
-        <span class="card-nights">Weather-proof — indoors, connected by subway</span>
-        <span class="card-summary">November drizzle/forecast says rain and she still wants a great day.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: convenience, activities</span>
+      <a class="card" href="itineraries/rainy-day-indoor-plan-at-four-points-josun-station.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S06</span><span class="vibe">Balanced</span><span class="pace">Weather-proof — indoors, connected by subway</span></div>
+        <h3>Rainy-Day Indoor Plan</h3>
+        <p>You two want a weather-proof plan — malls, museums, and a warm jjimjilbang evening.</p>
+        <div class="card-foot">Open timeline → <span>· convenience, activities</span></div>
       </a>
-      <a class="card" href="itineraries/photo-golden-hour-loop-at-four-points-josun-station.html">
-        <span class="badge">S07</span>
-        <span class="card-title">Photo & Golden-Hour Loop</span>
-        <span class="card-nights">Early starts — golden & blue hour anchors</span>
-        <span class="card-summary">She shoots (phone or camera) and plans days around light.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, activities</span>
+      <a class="card" href="itineraries/photo-golden-hour-loop-at-four-points-josun-station.html" data-vibe="Romantic & Slow">
+        <div class="card-top"><span class="num">S07</span><span class="vibe">Romantic & Slow</span><span class="pace">Early starts — golden & blue hour anchors</span></div>
+        <h3>Photo & Golden-Hour Loop</h3>
+        <p>You two love golden-hour photos together — palaces, river, and neon at blue hour.</p>
+        <div class="card-foot">Open timeline → <span>· fun, activities</span></div>
       </a>
-      <a class="card" href="itineraries/neighborhood-immersion-at-four-points-josun-station.html">
-        <span class="badge">S08</span>
-        <span class="card-title">Neighborhood Immersion</span>
-        <span class="card-nights">Moderate — one neighborhood per half-day, no backtracking</span>
-        <span class="card-summary">Returners or curious travelers who prefer texture over tick-list sights.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: activities, fun</span>
+      <a class="card" href="itineraries/neighborhood-immersion-at-four-points-josun-station.html" data-vibe="Explore & Play">
+        <div class="card-top"><span class="num">S08</span><span class="vibe">Explore & Play</span><span class="pace">Moderate — one neighborhood per half-day, no backtracking</span></div>
+        <h3>Neighborhood Immersion</h3>
+        <p>You two want neighborhood texture — alleys, cafes, and local streets without backtracking.</p>
+        <div class="card-foot">Open timeline → <span>· activities, fun</span></div>
       </a>
-      <a class="card" href="itineraries/romance-date-night-at-four-points-josun-station.html">
-        <span class="badge">S09</span>
-        <span class="card-title">Romance & Date Night</span>
-        <span class="card-nights">Polished — golden hours and good tables</span>
-        <span class="card-summary">The trip is partly a getaway — she wants a few properly romantic days.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, activities</span>
+      <a class="card" href="itineraries/romance-date-night-at-four-points-josun-station.html" data-vibe="Romantic & Slow">
+        <div class="card-top"><span class="num">S09</span><span class="vibe">Romantic & Slow</span><span class="pace">Polished — golden hours and good tables</span></div>
+        <h3>Romance & Date Night</h3>
+        <p>You two want a proper date — sunset tower, nice dinner, night walk, river cruise.</p>
+        <div class="card-foot">Open timeline → <span>· fun, activities</span></div>
       </a>
-      <a class="card" href="itineraries/night-market-food-marathon-at-four-points-josun-station.html">
-        <span class="badge">S10</span>
-        <span class="card-title">Night Market & Food Marathon</span>
-        <span class="card-nights">Marathon — but it's eating, so it's fine</span>
-        <span class="card-summary">Food maximalists — she plans days around where she'll eat at night.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, value</span>
+      <a class="card" href="itineraries/night-market-food-marathon-at-four-points-josun-station.html" data-vibe="Food Together">
+        <div class="card-top"><span class="num">S10</span><span class="vibe">Food Together</span><span class="pace">Marathon — but it's eating, so it's fine</span></div>
+        <h3>Night Market & Food Marathon</h3>
+        <p>You two want to eat your way through Seoul at night — market stalls to late BBQ, together.</p>
+        <div class="card-foot">Open timeline → <span>· fun, value</span></div>
       </a>
   </div></section>
 <section class="route-section"><h2>Ibis Styles Myeongdong</h2><p class="route-blurb">Myeongdong · Central Myeongdong; within walking distance of N Seoul Tower cable car & airport limousine stops · ~$90–$130/night</p><div class="cards">
-      <a class="card" href="itineraries/market-street-food-crawl-at-ibis-styles.html">
-        <span class="badge">S11</span>
-        <span class="card-title">Market & Street-Food Crawl</span>
-        <span class="card-nights">Grazing pace — meals are the anchors</span>
-        <span class="card-summary">Food-first travelers — she wants to taste Seoul rather than tick sights.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: value, fun</span>
+      <a class="card" href="itineraries/market-street-food-crawl-at-ibis-styles.html" data-vibe="Food Together">
+        <div class="card-top"><span class="num">S11</span><span class="vibe">Food Together</span><span class="pace">Grazing pace — meals are the anchors</span></div>
+        <h3>Market & Street-Food Crawl</h3>
+        <p>You two love to eat together — markets and street-food alleys at a grazing, hand-in-hand pace.</p>
+        <div class="card-foot">Open timeline → <span>· value, fun</span></div>
       </a>
-      <a class="card" href="itineraries/palaces-heritage-walk-at-ibis-styles.html">
-        <span class="badge">S12</span>
-        <span class="card-title">Palaces & Heritage Walk</span>
-        <span class="card-nights">Steady — one palace per morning, tea in the afternoons</span>
-        <span class="card-summary">History and architecture lovers; nearly weather-proof because half the day is indoors.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: activities, convenience</span>
+      <a class="card" href="itineraries/palaces-heritage-walk-at-ibis-styles.html" data-vibe="Classic & Easy">
+        <div class="card-top"><span class="num">S12</span><span class="vibe">Classic & Easy</span><span class="pace">Steady — one palace per morning, tea in the afternoons</span></div>
+        <h3>Palaces & Heritage Walk</h3>
+        <p>You two want classic Seoul history together — palaces by morning, tea houses by afternoon.</p>
+        <div class="card-foot">Open timeline → <span>· activities, convenience</span></div>
       </a>
-      <a class="card" href="itineraries/nightlife-late-night-eats-at-ibis-styles.html">
-        <span class="badge">S13</span>
-        <span class="card-title">Nightlife & Late-Night Eats</span>
-        <span class="card-nights">Late shift — slow mornings, late nights</span>
-        <span class="card-summary">Night owls — she wants Seoul's after-dark energy, not early palace gates.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, activities</span>
+      <a class="card" href="itineraries/nightlife-late-night-eats-at-ibis-styles.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S13</span><span class="vibe">Balanced</span><span class="pace">Late shift — slow mornings, late nights</span></div>
+        <h3>Nightlife & Late-Night Eats</h3>
+        <p>You two want Seoul after dark — neon alleys, a show, late-night eats, cozy walk home together.</p>
+        <div class="card-foot">Open timeline → <span>· fun, activities</span></div>
       </a>
-      <a class="card" href="itineraries/han-river-parks-at-ibis-styles.html">
-        <span class="badge">S14</span>
-        <span class="card-title">Han River & Parks</span>
-        <span class="card-nights">Outdoorsy but gentle — one park anchor per day</span>
-        <span class="card-summary">She wants fresh air and river views between the city days; loves a sunset picnic.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: activities, fun, value</span>
+      <a class="card" href="itineraries/han-river-parks-at-ibis-styles.html" data-vibe="Romantic & Slow">
+        <div class="card-top"><span class="num">S14</span><span class="vibe">Romantic & Slow</span><span class="pace">Outdoorsy but gentle — one park anchor per day</span></div>
+        <h3>Han River & Parks</h3>
+        <p>You two want fresh air together — Han River picnics, sunset views, gentle bike rides.</p>
+        <div class="card-foot">Open timeline → <span>· activities, fun, value</span></div>
       </a>
-      <a class="card" href="itineraries/k-culture-pop-up-circuit-at-ibis-styles.html">
-        <span class="badge">S15</span>
-        <span class="card-title">K-Culture & Pop-Up Circuit</span>
-        <span class="card-nights">Late-ish — pop-ups, stages, and screen culture</span>
-        <span class="card-summary">K-culture fans — she wants the 'now' of Seoul: trends, idols, gaming, and stage culture.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, activities</span>
+      <a class="card" href="itineraries/k-culture-pop-up-circuit-at-ibis-styles.html" data-vibe="Explore & Play">
+        <div class="card-top"><span class="num">S15</span><span class="vibe">Explore & Play</span><span class="pace">Late-ish — pop-ups, stages, and screen culture</span></div>
+        <h3>K-Culture & Pop-Up Circuit</h3>
+        <p>You two are K-culture curious — pop-ups, music, and playful photo spots together.</p>
+        <div class="card-foot">Open timeline → <span>· fun, activities</span></div>
       </a>
-      <a class="card" href="itineraries/budget-smart-seoul-at-ibis-styles.html">
-        <span class="badge">S16</span>
-        <span class="card-title">Budget-Smart Seoul</span>
-        <span class="card-nights">Moderate — wallet-first, free first</span>
-        <span class="card-summary">She wants the trip to feel rich without spending like it; great for the 'value' line of the comparison.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: value, convenience</span>
+      <a class="card" href="itineraries/budget-smart-seoul-at-ibis-styles.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S16</span><span class="vibe">Balanced</span><span class="pace">Moderate — wallet-first, free first</span></div>
+        <h3>Budget-Smart Seoul</h3>
+        <p>You two want it to feel rich without overspending — free gems, market meals, smart value.</p>
+        <div class="card-foot">Open timeline → <span>· value, convenience</span></div>
       </a>
-      <a class="card" href="itineraries/slow-mornings-spa-recharge-at-ibis-styles.html">
-        <span class="badge">S17</span>
-        <span class="card-title">Slow Mornings & Spa Recharge</span>
-        <span class="card-nights">Very gentle — one anchor per day, late starts</span>
-        <span class="card-summary">She wants to come home rested, not exhausted; recovery days between active ones.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: value, convenience</span>
+      <a class="card" href="itineraries/slow-mornings-spa-recharge-at-ibis-styles.html" data-vibe="Romantic & Slow">
+        <div class="card-top"><span class="num">S17</span><span class="vibe">Romantic & Slow</span><span class="pace">Very gentle — one anchor per day, late starts</span></div>
+        <h3>Slow Mornings & Spa Recharge</h3>
+        <p>You two need to actually recharge — late starts, spas, tea houses, unhurried wandering.</p>
+        <div class="card-foot">Open timeline → <span>· value, convenience</span></div>
       </a>
-      <a class="card" href="itineraries/family-kid-friendly-at-ibis-styles.html">
-        <span class="badge">S18</span>
-        <span class="card-title">Family & Kid-Friendly</span>
-        <span class="card-nights">Kid-paced — short walks, early dinners</span>
-        <span class="card-summary">Traveling with children (or a partner who wants zero stress and maximum fun).</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: fun, convenience, value</span>
+      <a class="card" href="itineraries/family-kid-friendly-at-ibis-styles.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S18</span><span class="vibe">Balanced</span><span class="pace">Kid-paced — short walks, early dinners</span></div>
+        <h3>Family & Kid-Friendly</h3>
+        <p>You two want an easy, low-stress rhythm — gentle walks, early dinners, relaxed evenings together.</p>
+        <div class="card-foot">Open timeline → <span>· fun, convenience, value</span></div>
       </a>
-      <a class="card" href="itineraries/fitness-morning-runs-at-ibis-styles.html">
-        <span class="badge">S19</span>
-        <span class="card-title">Fitness & Morning Runs</span>
-        <span class="card-nights">Active — run/hike/walk first, sightsee after</span>
-        <span class="card-summary">She wants to keep the training habit on vacation (and earn the BBQ).</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: activities, fun</span>
+      <a class="card" href="itineraries/fitness-morning-runs-at-ibis-styles.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S19</span><span class="vibe">Balanced</span><span class="pace">Active — run/hike/walk first, sightsee after</span></div>
+        <h3>Fitness & Morning Runs</h3>
+        <p>You two want to move together — sunrise riverside stroll, easy hike, then big lunch.</p>
+        <div class="card-foot">Open timeline → <span>· activities, fun</span></div>
       </a>
-      <a class="card" href="itineraries/last-day-convenience-airport-flow-at-ibis-styles.html">
-        <span class="badge">S20</span>
-        <span class="card-title">Last-Day Convenience & Airport Flow</span>
-        <span class="card-nights">Easy — zero panic, zero missed flights</span>
-        <span class="card-summary">The final 1–2 nights of the trip — this is the 'come home smooth' plan.</span>
-        <span class="card-links">Read → &nbsp;·&nbsp; focus: convenience, value</span>
+      <a class="card" href="itineraries/last-day-convenience-airport-flow-at-ibis-styles.html" data-vibe="Balanced">
+        <div class="card-top"><span class="num">S20</span><span class="vibe">Balanced</span><span class="pace">Easy — zero panic, zero missed flights</span></div>
+        <h3>Last-Day Convenience & Airport Flow</h3>
+        <p>You two on your last nights — easy shopping, farewell dinner, smooth airport send-off.</p>
+        <div class="card-foot">Open timeline → <span>· convenience, value</span></div>
       </a>
   </div></section>
-  <footer class="doc-foot">Planning documents, not bookings — verify dates, prices, hours, ticket availability, and hotel policies with providers before booking.</footer>
+  <p class="foot">Tap any card → clean, printable page with morning / afternoon / evening timeline. Verify hours & prices before you book.</p>
 </div>
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    const f=btn.dataset.filter;
+    document.querySelectorAll('.card').forEach(c=>{
+      c.style.display=(f==='all'||c.dataset.vibe===f)?'':'none';
+    });
+    document.querySelectorAll('.hotel-section').forEach(s=>{
+      const visible=[...s.querySelectorAll('.card')].some(c=>c.style.display!=='none');
+      s.style.display=visible?'':'none';
+    });
+  });
+});
+</script>
 </body>
 </html>

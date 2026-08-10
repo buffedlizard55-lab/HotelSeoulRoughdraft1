@@ -3,53 +3,91 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>S07 · Photo & Golden-Hour Loop — Four Points Seoul Station · Seoul hotel-comparison itineraries</title>
-<link rel="stylesheet" href="../../styles.css" />
+<title>S07 · Photo & Golden-Hour Loop — Four Points Seoul Station · For Two in Seoul</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fafaf7;color:#1a2b27;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.toolbar{position:sticky;top:0;z-index:10;display:flex;gap:.5rem;align-items:center;background:#14332d;color:#fff;padding:.6rem 1rem;font-size:.88rem}
+.toolbar a{color:#eaf3ef;text-decoration:none;padding:.3rem .6rem;border-radius:6px}
+.toolbar a:hover{background:rgba(255,255,255,.14)}
+.tool-btn{margin-left:auto;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:.35rem .9rem;cursor:pointer}
+.page{max-width:860px;margin:0 auto;padding:28px 22px 60px}
+.hero{background:#fff;border:1px solid #e6e2d6;border-radius:20px;padding:22px 22px 18px;box-shadow:0 6px 24px rgba(22,35,29,.06)}
+.hero-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.badge-num{background:#14332d;color:#fff;font-weight:700;border-radius:999px;padding:4px 10px;font-size:.78rem}
+.badge-couple{background:#fff0f0;color:#b23a3a;border:1px solid #f1c6c6;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:700;letter-spacing:.02em}
+.badge-pace{background:#edf7f1;color:#2e6958;border:1px solid #d5e8df;border-radius:999px;padding:4px 10px;font-size:.72rem;font-weight:600}
+.hero h1{margin:6px 0 8px;font-size:1.55rem;letter-spacing:-.02em;line-height:1.25;color:#14332d}
+.hero-sub{color:#5a6b66;font-size:.93rem;margin:0}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.meta-card{background:#fafaf7;border:1px solid #ece8da;border-radius:12px;padding:10px 12px}
+.meta-card b{display:block;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:#2e6958;margin-bottom:3px}
+.meta-card span{font-size:.86rem;color:#1a2b27}
+.couple-note{margin-top:12px;background:#fff8e6;border:1px solid #f2d99d;border-radius:12px;padding:10px 12px;display:flex;gap:10px;align-items:start}
+.couple-note .icon{font-size:1.1rem}
+.couple-note p{margin:0;font-size:.86rem;color:#6b5a2a;line-height:1.5}
+.couple-note strong{color:#5a4310}
+.section{margin-top:22px;background:#fff;border:1px solid #e8e2d6;border-radius:16px;padding:18px 18px 14px;box-shadow:0 2px 10px rgba(22,35,29,.04)}
+.section h2{margin:0 0 10px;font-size:1.02rem;letter-spacing:-.02em;color:#14332d;display:flex;align-items:center;gap:8px}
+.section h2 small{font-weight:500;color:#6b7a74;font-size:.78rem}
+.pill-grid{display:flex;flex-wrap:wrap;gap:7px}
+.pill{background:#f6f7f4;border:1px solid #e2e6de;border-radius:999px;padding:6px 11px;font-size:.8rem;color:#2b3a36;display:inline-flex;align-items:center;gap:6px}
+.pill em{font-style:normal;background:#fff;border:1px solid #e2e6de;border-radius:999px;padding:1px 6px;font-size:.7rem;color:#6b7a74}
+.food-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.food-item{background:#fafaf7;border:1px solid #ece8da;border-radius:12px;padding:9px 11px;display:grid;gap:2px}
+.food-item a{color:#14332d;font-weight:600;text-decoration:none;font-size:.86rem}
+.food-item a:hover{text-decoration:underline}
+.food-item span{font-size:.75rem;color:#6b7a74}
+.activity-grid{display:grid;grid-template-columns:1fr;gap:8px}
+.act-item{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:start;background:#fbfcf9;border:1px solid #dce7de;border-radius:12px;padding:10px 12px}
+.act-item b{font-size:.86rem;color:#14332d}
+.act-item p{margin:3px 0 0;font-size:.8rem;color:#5a6b66;line-height:1.45}
+.act-item a{font-size:.78rem;color:#2e6958;text-decoration:none;white-space:nowrap}
+.act-item a:hover{text-decoration:underline}
+.timeline{display:grid;gap:14px}
+.day-card{border:1px solid #e6e2d6;border-radius:16px;overflow:hidden;background:#fff}
+.day-head{display:flex;align-items:center;gap:10px;padding:12px 14px;background:linear-gradient(135deg,#14332d,#2a5a4b);color:#fff}
+.day-num{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:4px 8px;font-weight:700;font-size:.78rem}
+.day-title{font-weight:700;font-size:.95rem}
+.day-body{padding:12px 14px;display:grid;gap:8px}
+.slot{display:grid;grid-template-columns:72px 1fr;gap:10px;align-items:start}
+.slot-label{font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#fff;background:#2e6958;border-radius:7px;padding:4px 7px;text-align:center;line-height:1.2}
+.slot-label.evening{background:#b58a1f}
+.slot-label.night{background:#4a5568}
+.slot p{margin:0;font-size:.84rem;color:#2b3a36;line-height:1.55}
+.eat-line{margin-top:2px;padding:7px 9px;background:#fff8e6;border:1px dashed #f2d99d;border-radius:8px;font-size:.78rem;color:#6b5a2a}
+.extra-grid{display:flex;flex-wrap:wrap;gap:7px}
+.extra-chip{background:#edf7f1;border:1px solid #d5e8df;border-radius:999px;padding:5px 10px;font-size:.78rem;color:#2e6958}
+.verdict{background:linear-gradient(135deg,#fff8e6,#fff);border:1px solid #f2d99d;border-radius:12px;padding:12px 14px}
+.verdict strong{color:#7a5a10}
+.foot{margin-top:18px;padding-top:12px;border-top:1px solid #e6e2d6;font-size:.78rem;color:#8b8577;text-align:center}
+@media(max-width:640px){.page{padding:16px 14px 40px}.meta-grid{grid-template-columns:1fr}.food-grid{grid-template-columns:1fr}}
+@media print{body{background:#fff}.toolbar{display:none}.page{padding:0;max-width:none}.hero,.section{box-shadow:none;break-inside:avoid}}
+</style>
 </head>
 <body>
-<nav class="toolbar no-print">
-  <a class="tool" href="../index.html">← All 20 hotel itineraries</a>
-  <span class="tool-spacer"></span>
+<nav class="toolbar">
+  <a href="../index.html">← All itineraries</a>
+  <span style="flex:1"></span>
   <a class="tool" href="rainy-day-indoor-plan-at-four-points-josun-station.html">← S06</a><a class="tool" href="neighborhood-immersion-at-four-points-josun-station.html">S08 →</a>
-  <button class="tool tool-btn" type="button" onclick="window.print()">🖨 Print / Save PDF</button>
+  <button class="tool-btn" onclick="window.print()">Print / Save PDF</button>
 </nav>
 <div class="page">
-<h1>S07 · Photo &amp; Golden-Hour Loop — base: Four Points Seoul Station</h1>
-<blockquote class="meta-block"><p><strong>Hotel base:</strong> Four Points by Sheraton Josun, Seoul Station · Seoul Station / Yongsan (transport hub)</p><p><strong>Neighborhood:</strong> Connected to Seoul Station via the Exit 12 underground passage; easy access to AREX, KTX, GTX-A, and Subway Lines 1 &amp; 4</p><p><strong>Trip frame:</strong> Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00 · 21 nights (ICN)</p><p><strong>Pace:</strong> Early starts — golden &amp; blue hour anchors · <strong>Focus:</strong> fun, activities</p><p><strong>Theme #:</strong> 7/20 · <strong>Hotel tier:</strong> mid-range · <strong>~$155–$230/night (research range)</strong></p><p><strong>Review notes:</strong> <em>(leave decisions/comments here)</em></p></blockquote>
-<h2>Who this suits</h2>
-<p>She shoots (phone or camera) and plans days around light. A photographer's Seoul: dawn light on the city wall, palace geometry at opening, neon at dusk, and night views — with efficient routes back to Four Points Seoul Station.</p>
-<h2>Why Four Points Seoul Station for this plan</h2>
-<p>Transport-first option — direct Seoul Station / AREX / KTX access is the main advantage. The plan is routed so the sightseeing loops return to Four Points Seoul Station each evening — most days end a short stroll (or one subway stop) from the front door.</p>
-<h2>Around Seoul Station / Yongsan (transport hub) — what's close</h2>
-<ul><li><strong>Station:</strong> Connected via Seoul Station Exit 12 passage; roughly 3–10 min depending on platform</li><li><strong>Airport transfer:</strong> Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.</li><li><strong>Arrival night:</strong> If this is the arrival-night hotel, verify the <strong>24-hour front desk</strong> at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.</li></ul>
-<h3>Eat around here (10 picks from the research catalog)</h3>
-<table><thead><tr><th>Spot</th><th>Category</th><th>Price tier</th></tr></thead><tbody><tr><td><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949">Hadongkwan Main Store (하동관 본점)</a></td><td>Classic Korean</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925">Myeongdong Kyoja (명동교자 본점)</a></td><td>Classic Korean</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://map.naver.com/p/search/홍콩반점0410">Hong Kong Banjum 0410 (홍콩반점0410)</a></td><td>Jajangmyeon</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/멘텐">Menten (멘텐)</a></td><td>Ramen</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 카페 1">Seoul Local Cafe 1 (서울 로컬 카페 1)</a></td><td>Cafe</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 카페 14">Seoul Local Cafe 14 (서울 로컬 카페 14)</a></td><td>Cafe</td><td>Budget-to-Mid</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 한식 1">Seoul Local Classic Korean 1 (서울 로컬 한식 1)</a></td><td>Classic Korean</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 BBQ 1">Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)</a></td><td>AYCE BBQ</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 BBQ 27">Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)</a></td><td>AYCE BBQ</td><td>Budget</td></tr><tr><td><a href="https://map.naver.com/p/search/서울 로컬 짜장면 1">Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)</a></td><td>Jajangmyeon</td><td>Budget</td></tr></tbody></table>
-<p><em>Full hours, signature dishes, and quality notes: <code>research/sources/food/cities/seoul.md</code>.</em></p>
-<h3>Do around here (8 picks matched to this theme)</h3>
-<table><thead><tr><th>Activity</th><th>Category</th><th>Why it's here</th></tr></thead><tbody><tr><td><a href="https://www.seoul.go.kr">Inwangsan Mountain Seoul City Wall Sunrise Trail</a></td><td>Free &amp; always-on culture</td><td>Incredible night skyline view.</td></tr><tr><td><a href="https://www.seoul.go.kr">Inwangsan Mountain Sunrise &amp; City Wall Night Walk</a></td><td>Free &amp; always-on culture</td><td>Wooden stair trail is illuminated at night; 45–60 min hike to summit.</td></tr><tr><td><a href="https://www.cablecar.co.kr">Namsan Cable Car &amp; N Seoul Tower Observatory</a></td><td>Free &amp; always-on culture</td><td>Night lighting on the tower displays air quality status (Blue = Good, Green = Fair, Yellow = Poor, Red = Bad). The base plaza features the famous "Love Locks" fence and outdoor terraces (free access). Alternative ascent: Namsan Sunhwan Bus 01 from Myeongdong/Chungmuro or scenic autumn foliage hiking trails u…</td></tr><tr><td><a href="https://www.seoultower.co.kr">Namsan Park N Seoul Tower Sunset &amp; Night Skyline Walk</a></td><td>Free &amp; always-on culture</td><td>Sunset walk along Namsan's autumn maple trails.</td></tr><tr><td><a href="https://hangang.seoul.go.kr">Banpo Hangang Park Moonlight Square &amp; Riverfront</a></td><td>Free &amp; always-on culture</td><td>Popular night picnic spot.</td></tr><tr><td><a href="https://ddp.or.kr">DDP Design Museum &amp; Art Hall Exhibitions</a></td><td>Free &amp; always-on culture</td><td>Combine daytime design exhibits with the free nightly DDP Dream in Light show (20).</td></tr><tr><td><a href="https://ddp.or.kr">DDP Dream in Light</a></td><td>Free &amp; always-on culture</td><td>Free, walk-up, spectacular; combine with the Dongdaemun night market/street food nearby.</td></tr><tr><td><a href="https://www.elandcruise.com">Eland Han River Moonlight Night View Cruise</a></td><td>Free &amp; always-on culture</td><td>Night city lights cruise.</td></tr></tbody></table>
-<p><em>Status and booking notes: <code>research/sources/fun/seoul.md</code> and <code>data/collections/activities.json</code>.</em></p>
-<h2>Day-by-day (3-day sample window)</h2>
-<h3>Day 1</h3>
-<p><strong>Old city light</strong></p>
-<ul><li><strong>Dawn:</strong> Naksan city wall sunrise walk (city wall + old-town rooftops).</li><li><strong>Eat around here:</strong> <a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949">Hadongkwan Main Store (하동관 본점)</a> — Classic Korean · Budget-to-Mid; <a href="https://map.naver.com/p/search/홍콩반점0410">Hong Kong Banjum 0410 (홍콩반점0410)</a> — Jajangmyeon · Budget.</li></ul>
-<h3>Day 2</h3>
-<p><strong>Neon &amp; design night</strong></p>
-<ul><li><strong>Night:</strong> Dongdaemun night market neon; long-exposure practice.</li><li><strong>Eat around here:</strong> <a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925">Myeongdong Kyoja (명동교자 본점)</a> — Classic Korean · Budget-to-Mid; <a href="https://map.naver.com/p/search/멘텐">Menten (멘텐)</a> — Ramen · Budget-to-Mid.</li></ul>
-<h3>Day 3</h3>
-<p><strong>River &amp; sky</strong></p>
-<ul><li><strong>Dawn:</strong> Haneul Park silver grass at first light (misty, seasonal peak).</li><li><strong>Eat around here:</strong> <a href="https://map.naver.com/p/search/홍콩반점0410">Hong Kong Banjum 0410 (홍콩반점0410)</a> — Jajangmyeon · Budget; <a href="https://map.naver.com/p/search/서울 로컬 카페 1">Seoul Local Cafe 1 (서울 로컬 카페 1)</a> — Cafe · Budget.</li></ul>
-<p><strong>Plan B (rain / low energy):</strong> Grey sky: pivot to interiors — SeMoCA craft museum, Hyundai Seoul ALT.1, Starfield Library — where light doesn't matter.</p>
-<h2>If you have more nights</h2>
-<ul><li>Eungbongsan night viewpoint.</li><li>Changdeokgung Huwon autumn foliage at opening light.</li><li>Cheonggyecheon lantern/night stream walk.</li><li>Gwangnaru reeds at golden hour.</li></ul>
-<h2>Transit &amp; convenience</h2>
-<ul><li><strong>Last-train habit:</strong> check the last train on your line home each night (Seoul Metro typically ~23:30–00:00; late buses and Kakao T are the fallback).</li><li><strong>Payments:</strong> T-money card for the metro + a little cash (₩50k–100k) for markets; cards work at most restaurants.</li><li><strong>This base:</strong> Connected via Seoul Station Exit 12 passage; roughly 3–10 min depending on platform.</li><li><strong>Weather:</strong> November is crisp and dry; pack layers and a light rain shell. The theme's Plan B covers a rainy day.</li></ul>
-<h2>Value notes</h2>
-<ul><li><strong>Hotel:</strong> $155–$230/night (research range) — mid-range tier in Seoul Station / Yongsan (transport hub).</li><li><strong>Food:</strong> nearby picks span Budget, Budget-to-Mid tiers; street food and market meals are the value anchors of this plan.</li><li><strong>Free wins:</strong> 3 of the featured activities are free or free-with-reservation.</li><li><strong>Splurge vs save:</strong> this theme leans <strong>fun, activities</strong> — where it says book ahead (cable car, Secret Garden, cruises, shows), booking early is the real money-saver.</li></ul>
-<h2>Verdict</h2>
-<p><strong>Pick S07 (Photo &amp; Golden-Hour Loop at Four Points Seoul Station) if</strong> she shoots (phone or camera) and plans days around light. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.</p>
-<hr />
-<p><em>Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by <code>scripts/build_seoul_hotel_itineraries.py</code> from <code>seoul-hotel-itineraries/</code> ingestion files + <code>data/collections/</code> research catalogs.</em></p>
-<footer class="doc-foot">Generated 2026-08-10 from <code>seoul-hotel-itineraries/</code> — edit the ingestion files, run <code>python3 scripts/build_seoul_hotel_itineraries.py</code>.</footer>
+
+    <section class="hero">
+      <div class="hero-top"><span class="badge-num">S07</span><span class="badge-couple">For two · late 30s · first time</span><span class="badge-pace">Early starts — golden & blue hour anchors</span><span class="pill">Romantic & Slow</span></div>
+      <h1>Photo & Golden-Hour Loop — at Four Points Seoul Station</h1>
+      <p class="hero-sub">You two love golden-hour photos together — palaces, river, and neon at blue hour.</p>
+      <div class="meta-grid">
+        <div class="meta-card"><b>Base</b><span>Four Points by Sheraton Josun, Seoul Station · Seoul Station / Yongsan (transport hub)</span></div>
+        <div class="meta-card"><b>Price</b><span>$155–$230/night</span></div>
+        <div class="meta-card"><b>Stay</b><span>Connected to Seoul Station via the Exit 12 underground passage; easy access to AREX, KTX, GTX-A, and Subway Lines 1 & 4</span></div>
+        <div class="meta-card"><b>Flow</b><span>Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00</span></div>
+      </div>
+      <div class="couple-note"><span class="icon">♡</span><p><strong>Together pace:</strong> One main idea before lunch, one after — evenings are cozy and close to Four Points Seoul Station. No rushing, lots of time for photos, coffee, and wandering.</p></div>
+    </section>
+    <section class="section"><h2>☕ Eat together near Four Points Seoul Station <small>tap to open map</small></h2><div class="food-grid"><div class="food-item"><a href="https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949" target="_blank" rel="noreferrer">Hadongkwan Main Store</a><span>Classic Korean · Budget-to-Mid</span></div><div class="food-item"><a href="https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925" target="_blank" rel="noreferrer">Myeongdong Kyoja</a><span>Classic Korean · Budget-to-Mid</span></div><div class="food-item"><a href="https://map.naver.com/p/search/홍콩반점0410" target="_blank" rel="noreferrer">Hong Kong Banjum 0410</a><span>Jajangmyeon · Budget</span></div><div class="food-item"><a href="https://map.naver.com/p/search/멘텐" target="_blank" rel="noreferrer">Menten</a><span>Ramen · Budget-to-Mid</span></div><div class="food-item"><a href="https://map.naver.com/p/search/서울 로컬 카페 1" target="_blank" rel="noreferrer">Seoul Local Cafe 1</a><span>Cafe · Budget</span></div><div class="food-item"><a href="https://map.naver.com/p/search/서울 로컬 카페 14" target="_blank" rel="noreferrer">Seoul Local Cafe 14</a><span>Cafe · Budget-to-Mid</span></div></div></section><section class="section"><h2>✦ Do together <small>matched to this theme</small></h2><div class="activity-grid"><div class="act-item"><div><b>Inwangsan Mountain Seoul City Wall Sunrise Trail</b><p>Incredible night skyline view.</p></div><a href="https://www.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Inwangsan Mountain Sunrise & City Wall Night Walk</b><p>Wooden stair trail is illuminated at night; 45–60 min hike to summit.</p></div><a href="https://www.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Namsan Cable Car & N Seoul Tower Observatory</b><p>Night lighting on the tower displays air quality status (Blue = Good, Green = Fair, Yellow = Poor, Red = Bad). The base plaza features the famous "Love Locks" f</p></div><a href="https://www.cablecar.co.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Namsan Park N Seoul Tower Sunset & Night Skyline Walk</b><p>Sunset walk along Namsan's autumn maple trails.</p></div><a href="https://www.seoultower.co.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>Banpo Hangang Park Moonlight Square & Riverfront</b><p>Popular night picnic spot.</p></div><a href="https://hangang.seoul.go.kr" target="_blank" rel="noreferrer">Open ↗</a></div><div class="act-item"><div><b>DDP Design Museum & Art Hall Exhibitions</b><p>Combine daytime design exhibits with the free nightly DDP Dream in Light show (20).</p></div><a href="https://ddp.or.kr" target="_blank" rel="noreferrer">Open ↗</a></div></div></section><section class="section"><h2>🗓 Your 3-day sample together</h2><div class="timeline"><article class="day-card"><div class="day-head"><span class="day-num">Day 1</span><span class="day-title">Old city light</span></div><div class="day-body"><div class="slot"><span class="slot-label dawn">dawn</span><p>🌅 Naksan city wall sunrise walk (city wall + old-town rooftops).</p></div><div class="eat-line">🍜 Together bite: <b>Hadongkwan Main Store</b> and <b>Hong Kong Banjum 0410</b> — both a short walk from Four Points Seoul Station.</div></div></article><article class="day-card"><div class="day-head"><span class="day-num">Day 2</span><span class="day-title">Neon & design night</span></div><div class="day-body"><div class="slot"><span class="slot-label night">night</span><p>🌙 Dongdaemun night market neon; long-exposure practice.</p></div><div class="eat-line">🍜 Together bite: <b>Myeongdong Kyoja</b> and <b>Menten</b> — both a short walk from Four Points Seoul Station.</div></div></article><article class="day-card"><div class="day-head"><span class="day-num">Day 3</span><span class="day-title">River & sky</span></div><div class="day-body"><div class="slot"><span class="slot-label dawn">dawn</span><p>🌅 Haneul Park silver grass at first light (misty, seasonal peak).</p></div><div class="eat-line">🍜 Together bite: <b>Hong Kong Banjum 0410</b> and <b>Seoul Local Cafe 1</b> — both a short walk from Four Points Seoul Station.</div></div></article></div><div style="margin-top:10px;padding:10px 12px;background:#f6f7f4;border-radius:10px;font-size:.82rem;color:#5a6b66">☔ <b>Together Plan B:</b> Grey sky: pivot to interiors — SeMoCA craft museum, Hyundai Seoul ALT.1, Starfield Library — where light doesn't matter.</div></section><section class="section"><h2>＋ If you have more nights</h2><div class="extra-grid"><span class="extra-chip">Eungbongsan night viewpoint.</span><span class="extra-chip">Changdeokgung Huwon autumn foliage at opening light.</span><span class="extra-chip">Cheonggyecheon lantern/night stream walk.</span><span class="extra-chip">Gwangnaru reeds at golden hour.</span></div></section><section class="section"><h2>🚇 Getting around together</h2><p style="font-size:.86rem;color:#2b3a36;margin:0">Station: Connected via Seoul Station Exit 12 passage; roughly 3–10 min depending on platform. Airport: Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback. Last trains ~23:30 — grab a taxi together if you stay out late.</p><p style="font-size:.82rem;color:#6b7a74;margin:8px 0 0">November is crisp — layers + light shell. T-money for two, small cash for markets.</p></section><section class="section verdict"><h2>♡ Verdict for you two</h2><p><strong>Pick this if</strong> you two love golden-hour photos together — palaces, river, and neon at blue hour. It keeps evenings simple near Four Points Seoul Station, with one lovely thing to share each half-day.</p></section>
+<footer class="foot">Made for two · first time in Korea · late 30s · Print this page for offline use</footer>
 </div>
 </body>
 </html>

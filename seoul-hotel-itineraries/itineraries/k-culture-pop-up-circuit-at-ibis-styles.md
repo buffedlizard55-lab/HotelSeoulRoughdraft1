@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-K-culture fans — she wants the 'now' of Seoul: trends, idols, gaming, and stage culture. K-pop, K-drama, gaming, and pop culture: HiKR Ground, HYBE strolls, PC bangs, noraebang, and whatever pop-ups are running — with Ibis Styles Myeongdong as the transit hub.
+You two are K-culture curious — pop-ups, music, and playful photo spots together. K-pop, K-drama, gaming, and pop culture: HiKR Ground, HYBE strolls, PC bangs, noraebang, and whatever pop-ups are running — with Ibis Styles Myeongdong as the transit hub.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S15 (K-Culture & Pop-Up Circuit at Ibis Styles Myeongdong) if** k-culture fans — she wants the 'now' of Seoul: trends, idols, gaming, and stage culture. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S15 (K-Culture & Pop-Up Circuit at Ibis Styles Myeongdong) if** you two are K-culture curious — pop-ups, music, and playful photo spots together. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

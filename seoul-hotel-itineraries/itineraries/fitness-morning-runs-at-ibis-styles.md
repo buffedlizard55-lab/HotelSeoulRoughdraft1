@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-She wants to keep the training habit on vacation (and earn the BBQ). A movement-first Seoul: riverside runs, a mountain morning, bike loops, and stretching breaks — with shower-and-refuel at Ibis Styles Myeongdong after each session.
+You two want to move together — sunrise riverside stroll, easy hike, then big lunch. A movement-first Seoul: riverside runs, a mountain morning, bike loops, and stretching breaks — with shower-and-refuel at Ibis Styles Myeongdong after each session.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -101,7 +101,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S19 (Fitness & Morning Runs at Ibis Styles Myeongdong) if** she wants to keep the training habit on vacation (and earn the BBQ). The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S19 (Fitness & Morning Runs at Ibis Styles Myeongdong) if** you two want to move together — sunrise riverside stroll, easy hike, then big lunch. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

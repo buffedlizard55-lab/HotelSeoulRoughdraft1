@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-She reads every wall text and wants exhibitions over street crowds. A dry-weather-proof plan across Seoul's best museums, galleries, and exhibition spaces — most anchors free or cheap, all within 30–40 min of Four Points Seoul Station.
+You two enjoy museums at your own pace — one thoughtful exhibition a day, no crowds to battle. A dry-weather-proof plan across Seoul's best museums, galleries, and exhibition spaces — most anchors free or cheap, all within 30–40 min of Four Points Seoul Station.
 
 ## Why Four Points Seoul Station for this plan
 
@@ -104,7 +104,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 
 ## Verdict
 
-**Pick S04 (Museums & Galleries at Four Points Seoul Station) if** she reads every wall text and wants exhibitions over street crowds. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S04 (Museums & Galleries at Four Points Seoul Station) if** you two enjoy museums at your own pace — one thoughtful exhibition a day, no crowds to battle. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-November drizzle/forecast says rain and she still wants a great day. Seoul's weather insurance: a full indoor itinerary of malls, museums, spas, and food halls — each anchor reachable from Four Points Seoul Station without stepping outside for more than a block.
+You two want a weather-proof plan — malls, museums, and a warm jjimjilbang evening. Seoul's weather insurance: a full indoor itinerary of malls, museums, spas, and food halls — each anchor reachable from Four Points Seoul Station without stepping outside for more than a block.
 
 ## Why Four Points Seoul Station for this plan
 
@@ -104,7 +104,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 
 ## Verdict
 
-**Pick S06 (Rainy-Day Indoor Plan at Four Points Seoul Station) if** november drizzle/forecast says rain and she still wants a great day. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S06 (Rainy-Day Indoor Plan at Four Points Seoul Station) if** you two want a weather-proof plan — malls, museums, and a warm jjimjilbang evening. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

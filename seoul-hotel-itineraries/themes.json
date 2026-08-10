@@ -5,9 +5,13 @@
       "id": "classic-highlights",
       "title": "Classic First-Timer Highlights",
       "pace": "Moderate–full days",
-      "focus": ["activities", "fun", "convenience"],
+      "focus": [
+        "activities",
+        "fun",
+        "convenience"
+      ],
       "blurb": "The greatest-hits Seoul loop: palaces, a market day, N Seoul Tower, and a hanok evening — all routed so you return to {hotel} at night without wasted transfers.",
-      "bestFor": "Her first Seoul trip (or yours together) and she wants the famous sights plus a real feel for the city.",
+      "bestFor": "You two, first time in Seoul — want the greatest hits without rushing, with time to linger together.",
       "days": [
         {
           "title": "Palace core & old city",
@@ -28,23 +32,44 @@
           "evening": "DDP Dream in Light free light show (nightly) or a show like JUMP/CHEF (non-verbal, zero Korean needed)."
         }
       ],
-      "activityKeywords": ["Gyeongbokgung", "Bukchon", "Insadong", "Gwangjang", "Ikseon", "Namsan", "N Seoul Tower", "Cheonggyecheon", "DDP", "Han River", "Myeongdong", "Hanbok", "palace"],
-      "foodPriority": ["Classic Korean"],
+      "activityKeywords": [
+        "Gyeongbokgung",
+        "Bukchon",
+        "Insadong",
+        "Gwangjang",
+        "Ikseon",
+        "Namsan",
+        "N Seoul Tower",
+        "Cheonggyecheon",
+        "DDP",
+        "Han River",
+        "Myeongdong",
+        "Hanbok",
+        "palace"
+      ],
+      "foodPriority": [
+        "Classic Korean"
+      ],
       "extraNights": [
         "Changdeokgung Huwon (Secret Garden) — book the guided slot in advance; autumn peak.",
         "Jongmyo Shrine + Seochon village tea-house afternoon.",
         "Lotte World Tower (Seoul Sky observatory) or COEX Aquarium if you want a big 'wow' day.",
         "Free Seoul Walking Tour (reserve via english.visitseoul.net)."
       ],
-      "planB": "Rainy: swap outdoor palace time for National Palace Museum / National Folk Museum (both free, inside Gyeongbokgung) and the DDP museum."
+      "planB": "Rainy: swap outdoor palace time for National Palace Museum / National Folk Museum (both free, inside Gyeongbokgung) and the DDP museum.",
+      "coupleVibe": "You two, first time in Seoul — want the greatest hits without rushing, with time to linger together.",
+      "coupleTag": "Classic & Easy"
     },
     {
       "id": "food-market-crawl",
       "title": "Market & Street-Food Crawl",
       "pace": "Grazing pace — meals are the anchors",
-      "focus": ["value", "fun"],
+      "focus": [
+        "value",
+        "fun"
+      ],
       "blurb": "A eat-your-way-across-Seoul plan built around the markets and food alleys, with {hotel} as the evening reset point. Most meals are under ~₩12,000.",
-      "bestFor": "Food-first travelers — she wants to taste Seoul rather than tick sights.",
+      "bestFor": "You two love to eat together — markets and street-food alleys at a grazing, hand-in-hand pace.",
       "days": [
         {
           "title": "Gwangjang & Dongdaemun",
@@ -65,23 +90,44 @@
           "evening": "AYCE BBQ night (Korean BBQ all-you-can-eat, ~₩20–35k) near {hotel}, then pojangmacha-style street snack on the way back."
         }
       ],
-      "activityKeywords": ["Gwangjang", "Tongin", "Insadong", "Ikseon", "Myeongdong", "Dongdaemun", "Jangchung", "market", "Street", "Food", "jokbal"],
-      "foodPriority": ["Classic Korean", "AYCE BBQ", "Cafe"],
+      "activityKeywords": [
+        "Gwangjang",
+        "Tongin",
+        "Insadong",
+        "Ikseon",
+        "Myeongdong",
+        "Dongdaemun",
+        "Jangchung",
+        "market",
+        "Street",
+        "Food",
+        "jokbal"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "AYCE BBQ",
+        "Cafe"
+      ],
       "extraNights": [
         "Mangwon Market + Seoul Battleship Park riverside walk.",
         "Noryangjin Fish Market for a raw-fish (hoetjip) lunch — choose your fish upstairs.",
         "Seongsu-dong cafe-and-bakery crawl (vegan/brunch spots included).",
         "Hongdae food street after dark — tteokbokki, sundae, and street performers."
       ],
-      "planB": "Rainy: swap market mornings for an indoor food hall (The Hyundai Seoul food court, Starfield COEX) — same grazing, dry feet."
+      "planB": "Rainy: swap market mornings for an indoor food hall (The Hyundai Seoul food court, Starfield COEX) — same grazing, dry feet.",
+      "coupleVibe": "You two love to eat together — markets and street-food alleys at a grazing, hand-in-hand pace.",
+      "coupleTag": "Food Together"
     },
     {
       "id": "cafe-dessert-hop",
       "title": "Cafe & Dessert Hop",
       "pace": "Cafe-paced — sit, sip, stroll",
-      "focus": ["fun", "value"],
+      "focus": [
+        "fun",
+        "value"
+      ],
       "blurb": "Three neighborhoods a day, two or three cafes each, one great lunch — a photo-worthy, low-exertion plan that always ends within an easy ride of {hotel}.",
-      "bestFor": "She collects cafes and dessert shots; wants an Insta-worthy but unhurried Seoul.",
+      "bestFor": "For two cafe lovers — slow mornings, beautiful spaces, dessert second-dates in every neighborhood.",
       "days": [
         {
           "title": "Ikseon-dong & Insadong",
@@ -102,23 +148,44 @@
           "evening": "Han River picnic dessert stop (Gyeongui Line Forest Park) then back to {hotel}."
         }
       ],
-      "activityKeywords": ["Ikseon", "Insadong", "Seongsu", "Euljiro", "Hongdae", "Yeonnam", "cafe", "Cafe", "Dessert", "Bakery", "Coffee", "tea", "Tea"],
-      "foodPriority": ["Cafe"],
+      "activityKeywords": [
+        "Ikseon",
+        "Insadong",
+        "Seongsu",
+        "Euljiro",
+        "Hongdae",
+        "Yeonnam",
+        "cafe",
+        "Cafe",
+        "Dessert",
+        "Bakery",
+        "Coffee",
+        "tea",
+        "Tea"
+      ],
+      "foodPriority": [
+        "Cafe"
+      ],
       "extraNights": [
         "Hannam-dong / Itaewon design-row coffee walk.",
         "Cheongdam-dong dessert flagship stores (late opens, 12:00+).",
         "Traditional tea ritual at a hanok tea house near Anguk.",
         "Night bakery tour in Mapo — late-open specialty bakes."
       ],
-      "planB": "Energy dip: skip the third neighborhood and camp at one great cafe with a view — the day still delivers."
+      "planB": "Energy dip: skip the third neighborhood and camp at one great cafe with a view — the day still delivers.",
+      "coupleVibe": "For two cafe lovers — slow mornings, beautiful spaces, dessert second-dates in every neighborhood.",
+      "coupleTag": "Food Together"
     },
     {
       "id": "palace-heritage",
       "title": "Palaces & Heritage Walk",
       "pace": "Steady — one palace per morning, tea in the afternoons",
-      "focus": ["activities", "convenience"],
+      "focus": [
+        "activities",
+        "convenience"
+      ],
       "blurb": "The old-city Seoul of palaces, shrines, and hanok — most of it walkable from a Jongno/Insadong base and a short Line 3/1/4 ride from {hotel}.",
-      "bestFor": "History and architecture lovers; nearly weather-proof because half the day is indoors.",
+      "bestFor": "You two want classic Seoul history together — palaces by morning, tea houses by afternoon.",
       "days": [
         {
           "title": "Gyeongbokgung & Seochon",
@@ -139,23 +206,48 @@
           "evening": "Namsangol Hanok Village (free, folk games, tea) then Namsan cable car sunset if energy allows."
         }
       ],
-      "activityKeywords": ["Gyeongbokgung", "Changdeokgung", "Changgyeonggung", "Deoksugung", "Jongmyo", "Bukchon", "Seochon", "Unhyeongung", "Namdaemun", "Namsangol", "Cheong Wa Dae", "Huwon", "Secret Garden", "heritage", "Hanok"],
-      "foodPriority": ["Classic Korean", "Cafe"],
+      "activityKeywords": [
+        "Gyeongbokgung",
+        "Changdeokgung",
+        "Changgyeonggung",
+        "Deoksugung",
+        "Jongmyo",
+        "Bukchon",
+        "Seochon",
+        "Unhyeongung",
+        "Namdaemun",
+        "Namsangol",
+        "Cheong Wa Dae",
+        "Huwon",
+        "Secret Garden",
+        "heritage",
+        "Hanok"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe"
+      ],
       "extraNights": [
         "Gyeonghuigung Palace + Seoul Museum of History (free).",
         "Seoul City Wall walk: Naksan → Hyehwa section at golden hour.",
         "Eunpyeong Hanok Village (calmer, newer) + Jingwansa temple lunch.",
         "Museum Kimchikan kimchi-making class (Insadong, Tue–Sun)."
       ],
-      "planB": "Rainy: palace courtyards swap for museum interiors — National Museum of Korean Contemporary History (free, rooftop panorama) and the craft museum SeMoCA."
+      "planB": "Rainy: palace courtyards swap for museum interiors — National Museum of Korean Contemporary History (free, rooftop panorama) and the craft museum SeMoCA.",
+      "coupleVibe": "You two want classic Seoul history together — palaces by morning, tea houses by afternoon.",
+      "coupleTag": "Classic & Easy"
     },
     {
       "id": "shop-beauty-haul",
       "title": "Shopping & Beauty Haul",
       "pace": "Market-paced — shop, compare, pack",
-      "focus": ["value", "fun", "convenience"],
+      "focus": [
+        "value",
+        "fun",
+        "convenience"
+      ],
       "blurb": "A shopping plan tuned for a serious haul: duty-free comparisons, Olive Young strategy, tax refunds, and luggage-friendly returns to {hotel}.",
-      "bestFor": "She wants the beauty/souvenir/fashion haul without decision fatigue or overpaying.",
+      "bestFor": "You two want to shop smart together — beauty, souvenirs, and gift hunting with easy hotel drop-offs.",
       "days": [
         {
           "title": "Myeongdong beauty core",
@@ -176,23 +268,42 @@
           "evening": "Pack-and-sort night: organize receipts for the instant tax refund (keep purchases in original bags), then a farewell BBQ dinner."
         }
       ],
-      "activityKeywords": ["Myeongdong", "Dongdaemun", "Namdaemun", "Insadong", "Euljiro", "shopping", "underground", "duty", "DDP", "fashion"],
-      "foodPriority": ["Classic Korean", "Cafe"],
+      "activityKeywords": [
+        "Myeongdong",
+        "Dongdaemun",
+        "Namdaemun",
+        "Insadong",
+        "Euljiro",
+        "shopping",
+        "underground",
+        "duty",
+        "DDP",
+        "fashion"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe"
+      ],
       "extraNights": [
         "Gangnam underground shopping center + Starfield COEX (Starfield Library, K-pop merch).",
         "Hyundai Seoul (Yeouido) — the current mega-mall experience with a rooftop garden.",
         "Ewha fashion street + boutique alleys near Ewha Womans University.",
         "Garak Market for wholesale fruit/gifts to take home."
       ],
-      "planB": "Rainy: underground malls and department stores (Lotte Young Plaza, Hyundai) keep the haul going dry."
+      "planB": "Rainy: underground malls and department stores (Lotte Young Plaza, Hyundai) keep the haul going dry.",
+      "coupleVibe": "You two want to shop smart together — beauty, souvenirs, and gift hunting with easy hotel drop-offs.",
+      "coupleTag": "Explore & Play"
     },
     {
       "id": "nightlife-late-eats",
       "title": "Nightlife & Late-Night Eats",
       "pace": "Late shift — slow mornings, late nights",
-      "focus": ["fun", "activities"],
+      "focus": [
+        "fun",
+        "activities"
+      ],
       "blurb": "Seoul after dark: neon alleys, pojangmacha tents, noraebang, live stages, and 24-hour supper — with {hotel} close to the last train home.",
-      "bestFor": "Night owls — she wants Seoul's after-dark energy, not early palace gates.",
+      "bestFor": "You two want Seoul after dark — neon alleys, a show, late-night eats, cozy walk home together.",
       "days": [
         {
           "title": "Euljiro & Jongno after dark",
@@ -213,23 +324,44 @@
           "night": "Late-night fried chicken (chimaek) delivery to the hotel — the true Korean ritual."
         }
       ],
-      "activityKeywords": ["Euljiro", "Hongdae", "DDP", "Dongdaemun", "night", "Night", "JUMP", "CHEF", "live", "noraebang", "alley", "Nogari"],
-      "foodPriority": ["Classic Korean", "AYCE BBQ"],
+      "activityKeywords": [
+        "Euljiro",
+        "Hongdae",
+        "DDP",
+        "Dongdaemun",
+        "night",
+        "Night",
+        "JUMP",
+        "CHEF",
+        "live",
+        "noraebang",
+        "alley",
+        "Nogari"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "AYCE BBQ"
+      ],
       "extraNights": [
         "Itaewon/Hannam global bar street (wider world-cuisine night).",
         "Gyeongui Line Forest Park late-night food trucks (Fri–Sat).",
         "Changgyeonggung 'Mulbit Yeonhwa' palace night light art (through Nov 8).",
         "Jamsil night: Lotte World Tower observatory after dark + Seokchon Lake lights."
       ],
-      "planB": "Jet-lag early night: pivot to a 20:00 dinner + DDP lights + convenience-store dessert — still a Seoul night."
+      "planB": "Jet-lag early night: pivot to a 20:00 dinner + DDP lights + convenience-store dessert — still a Seoul night.",
+      "coupleVibe": "You two want Seoul after dark — neon alleys, a show, late-night eats, cozy walk home together.",
+      "coupleTag": "Balanced"
     },
     {
       "id": "museums-galleries",
       "title": "Museums & Galleries",
       "pace": "Museum-paced — one ticketed anchor per day",
-      "focus": ["activities", "convenience"],
+      "focus": [
+        "activities",
+        "convenience"
+      ],
       "blurb": "A dry-weather-proof plan across Seoul's best museums, galleries, and exhibition spaces — most anchors free or cheap, all within 30–40 min of {hotel}.",
-      "bestFor": "She reads every wall text and wants exhibitions over street crowds.",
+      "bestFor": "You two enjoy museums at your own pace — one thoughtful exhibition a day, no crowds to battle.",
       "days": [
         {
           "title": "Gwanghwamun museum row",
@@ -250,23 +382,46 @@
           "evening": "Arario Museum in SPACE (Jongno) evening visit, or a musical/performance — check nol.world for listings."
         }
       ],
-      "activityKeywords": ["Museum", "museum", "Gallery", "gallery", "Exhibition", "DDP", "Leeum", "National Museum", "SeMoCA", "craft", "Art", "exhibition", "History"],
-      "foodPriority": ["Classic Korean", "Cafe"],
+      "activityKeywords": [
+        "Museum",
+        "museum",
+        "Gallery",
+        "gallery",
+        "Exhibition",
+        "DDP",
+        "Leeum",
+        "National Museum",
+        "SeMoCA",
+        "craft",
+        "Art",
+        "exhibition",
+        "History"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe"
+      ],
       "extraNights": [
         "BANKSY: Still Here at The Hyundai Seoul (Yeouido) — CONFIRMED through Nov 3; prebook.",
         "Seoul Museum of History (free, giant city model).",
         "Hyundai Seoul ALT.1 + K-Auction preview circuit.",
         "National Gugak Center Saturday traditional performance (₩10–20k)."
       ],
-      "planB": "Gallery fatigue: one long lunch at a museum cafe (NMK and Leeum both have great ones) and a river walk to reset."
+      "planB": "Gallery fatigue: one long lunch at a museum cafe (NMK and Leeum both have great ones) and a river walk to reset.",
+      "coupleVibe": "You two enjoy museums at your own pace — one thoughtful exhibition a day, no crowds to battle.",
+      "coupleTag": "Classic & Easy"
     },
     {
       "id": "han-river-parks",
       "title": "Han River & Parks",
       "pace": "Outdoorsy but gentle — one park anchor per day",
-      "focus": ["activities", "fun", "value"],
+      "focus": [
+        "activities",
+        "fun",
+        "value"
+      ],
       "blurb": "Seoul's green-and-blue side: Han River parks, bikes, ferries, picnic culture, and a hill view — most of it free.",
-      "bestFor": "She wants fresh air and river views between the city days; loves a sunset picnic.",
+      "bestFor": "You two want fresh air together — Han River picnics, sunset views, gentle bike rides.",
       "days": [
         {
           "title": "Yeouido river day",
@@ -287,23 +442,45 @@
           "evening": "Han River History Tour riverside walk (runs through Nov 30) or Ichon reed-beds sunset."
         }
       ],
-      "activityKeywords": ["Han River", "Hangang", "Banpo", "Yeouido", "Haneul", "Park", "bike", "cruise", "Seoul Forest", "Ttukseom", "Ichon", "Gwangnaru", "ferry"],
-      "foodPriority": ["Classic Korean", "Cafe"],
+      "activityKeywords": [
+        "Han River",
+        "Hangang",
+        "Banpo",
+        "Yeouido",
+        "Haneul",
+        "Park",
+        "bike",
+        "cruise",
+        "Seoul Forest",
+        "Ttukseom",
+        "Ichon",
+        "Gwangnaru",
+        "ferry"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe"
+      ],
       "extraNights": [
         "Gangseo Hangang Park eco-wetland bird-watching morning.",
         "Gwangnaru bike track + reeds, then Amisa temple.",
         "Dream Forest (Buk Seoul) + Wolyeongji pond autumn colors.",
         "Eungbongsan night viewpoint for the Seoul skyline panorama."
       ],
-      "planB": "Cold/rainy: swap to a jjimjilbang day (Aquafield/Dragon Hill) — spa warmth instead of park wind."
+      "planB": "Cold/rainy: swap to a jjimjilbang day (Aquafield/Dragon Hill) — spa warmth instead of park wind.",
+      "coupleVibe": "You two want fresh air together — Han River picnics, sunset views, gentle bike rides.",
+      "coupleTag": "Romantic & Slow"
     },
     {
       "id": "day-trip-base",
       "title": "Day-Trip Base Camp",
       "pace": "Base-camp — big day out, calm day in",
-      "focus": ["convenience", "activities"],
+      "focus": [
+        "convenience",
+        "activities"
+      ],
       "blurb": "Treats {hotel} as the base while you take the best day trips from Seoul: Suwon's fortress, the DMZ corridor, Nami Island, or temple mountains — then come home to the same bed.",
-      "bestFor": "She wants Seoul PLUS the famous outside-Seoul day trips without moving hotels or packing bags.",
+      "bestFor": "You two want one easy day trip from Seoul and still sleep in the same bed that night.",
       "days": [
         {
           "title": "Suwon Hwaseong",
@@ -324,23 +501,39 @@
           "evening": "Chuncheon dakgalbi (spicy stir-fried chicken) before the train home."
         }
       ],
-      "activityKeywords": ["DMZ", "Suwon", "Nami", "Gapyeong", "rail bike", "Imjingak", "fortress", "day trip"],
-      "foodPriority": ["Classic Korean"],
+      "activityKeywords": [
+        "DMZ",
+        "Suwon",
+        "Nami",
+        "Gapyeong",
+        "rail bike",
+        "Imjingak",
+        "fortress",
+        "day trip"
+      ],
+      "foodPriority": [
+        "Classic Korean"
+      ],
       "extraNights": [
         "Everland (book whole-day; Halloween 'Blood City' through early Nov if 2026 dates align).",
         "Bukhansan National Park half-day hike (Baegundae summit, 2–3 hr up).",
         "Incheon Chinatown + Wolmido seaside half-day.",
         "Yongin Korean Folk Village — living-history day out."
       ],
-      "planB": "Tour cancellation (DMZ status fluid): pivot to a Seoul fortress walk — Naksan city wall + DDP instead."
+      "planB": "Tour cancellation (DMZ status fluid): pivot to a Seoul fortress walk — Naksan city wall + DDP instead.",
+      "coupleVibe": "You two want one easy day trip from Seoul and still sleep in the same bed that night.",
+      "coupleTag": "Balanced"
     },
     {
       "id": "k-culture-circuit",
       "title": "K-Culture & Pop-Up Circuit",
       "pace": "Late-ish — pop-ups, stages, and screen culture",
-      "focus": ["fun", "activities"],
+      "focus": [
+        "fun",
+        "activities"
+      ],
       "blurb": "K-pop, K-drama, gaming, and pop culture: HiKR Ground, HYBE strolls, PC bangs, noraebang, and whatever pop-ups are running — with {hotel} as the transit hub.",
-      "bestFor": "K-culture fans — she wants the 'now' of Seoul: trends, idols, gaming, and stage culture.",
+      "bestFor": "You two are K-culture curious — pop-ups, music, and playful photo spots together.",
       "days": [
         {
           "title": "HiKR Ground & Gwanghwamun",
@@ -361,23 +554,47 @@
           "evening": "Lotte World Tower night view or a K-musical — check nol.world for what's on."
         }
       ],
-      "activityKeywords": ["HiKR", "K-Pop", "K-pop", "HYBE", "Mnet", "CJ ENM", "PC Bang", "pop-up", "Pop", "JYP", "DMC", "Star Avenue", "Hallyu", "taping", "K-Performance"],
-      "foodPriority": ["Classic Korean", "Cafe"],
+      "activityKeywords": [
+        "HiKR",
+        "K-Pop",
+        "K-pop",
+        "HYBE",
+        "Mnet",
+        "CJ ENM",
+        "PC Bang",
+        "pop-up",
+        "Pop",
+        "JYP",
+        "DMC",
+        "Star Avenue",
+        "Hallyu",
+        "taping",
+        "K-Performance"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe"
+      ],
       "extraNights": [
         "Gangnam K-Drama/Hallyu Star Avenue walk + JYP Soulcup cafe (Gangdong).",
         "WILD WILD K-performance dance show (adult-leaning, Euljiro 3-ga).",
         "LoL/e-sports watch party if a major tournament is live (check dates).",
         "Idol-themed cafes and photocard hunting in Hongdae."
       ],
-      "planB": "Pop-up closures: the HiKR Ground + PC bang + noraebang core still delivers a full K-culture day."
+      "planB": "Pop-up closures: the HiKR Ground + PC bang + noraebang core still delivers a full K-culture day.",
+      "coupleVibe": "You two are K-culture curious — pop-ups, music, and playful photo spots together.",
+      "coupleTag": "Explore & Play"
     },
     {
       "id": "rainy-indoor",
       "title": "Rainy-Day Indoor Plan",
       "pace": "Weather-proof — indoors, connected by subway",
-      "focus": ["convenience", "activities"],
+      "focus": [
+        "convenience",
+        "activities"
+      ],
       "blurb": "Seoul's weather insurance: a full indoor itinerary of malls, museums, spas, and food halls — each anchor reachable from {hotel} without stepping outside for more than a block.",
-      "bestFor": "November drizzle/forecast says rain and she still wants a great day.",
+      "bestFor": "You two want a weather-proof plan — malls, museums, and a warm jjimjilbang evening.",
       "days": [
         {
           "title": "Mega-mall loop",
@@ -398,23 +615,46 @@
           "evening": "Korean-Japanese dinner (ramen) near {hotel} — Menten or a local favorite, then convenience-store dessert."
         }
       ],
-      "activityKeywords": ["COEX", "Hyundai", "IFC", "museum", "Museum", "DDP", "jjimjilbang", "Aquafield", "Dragon Hill", "Gangnam Underground", "Starfield", "underground", "Mall"],
-      "foodPriority": ["Ramen", "Jajangmyeon", "Classic Korean"],
+      "activityKeywords": [
+        "COEX",
+        "Hyundai",
+        "IFC",
+        "museum",
+        "Museum",
+        "DDP",
+        "jjimjilbang",
+        "Aquafield",
+        "Dragon Hill",
+        "Gangnam Underground",
+        "Starfield",
+        "underground",
+        "Mall"
+      ],
+      "foodPriority": [
+        "Ramen",
+        "Jajangmyeon",
+        "Classic Korean"
+      ],
       "extraNights": [
         "Lotte World Adventure (mostly indoor) — Halloween decor through mid-Nov if 2026 dates align.",
         "Arario Museum in SPACE (Jongno).",
         "Gotomall (Express Bus Terminal underground mall) + Gangnam food hall.",
         "Ewha ECC complex + Sinchon indoor shopping street."
       ],
-      "planB": "The day IS the plan B — rainy-day itineraries just swap anchors if a venue closes."
+      "planB": "The day IS the plan B — rainy-day itineraries just swap anchors if a venue closes.",
+      "coupleVibe": "You two want a weather-proof plan — malls, museums, and a warm jjimjilbang evening.",
+      "coupleTag": "Balanced"
     },
     {
       "id": "budget-smart",
       "title": "Budget-Smart Seoul",
       "pace": "Moderate — wallet-first, free first",
-      "focus": ["value", "convenience"],
+      "focus": [
+        "value",
+        "convenience"
+      ],
       "blurb": "The full Seoul experience at the lowest sensible spend: free museums, hanbok-for-free-entry tricks, ₩ lunchboxes, street food over sit-down, and transit passes — all routed from {hotel}.",
-      "bestFor": "She wants the trip to feel rich without spending like it; great for the 'value' line of the comparison.",
+      "bestFor": "You two want it to feel rich without overspending — free gems, market meals, smart value.",
       "days": [
         {
           "title": "Free old-city day",
@@ -435,23 +675,44 @@
           "evening": "AYCE BBQ at a budget chain (~₩20k) or jjimjilbang overnight option (spa + sleep = free hotel night hack)."
         }
       ],
-      "activityKeywords": ["free", "Free", "market", "Market", "Gwangjang", "Tongin", "Han River", "DDP", "museum", "jjimjilbang", "Seoul Plaza"],
-      "foodPriority": ["Classic Korean", "Jajangmyeon", "Ramen"],
+      "activityKeywords": [
+        "free",
+        "Free",
+        "market",
+        "Market",
+        "Gwangjang",
+        "Tongin",
+        "Han River",
+        "DDP",
+        "museum",
+        "jjimjilbang",
+        "Seoul Plaza"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Jajangmyeon",
+        "Ramen"
+      ],
       "extraNights": [
         "Free Seoul Walking Tour (reserve).",
         "Budget day-trip: Suwon fortress (cheap rail + ₩ entry) instead of DMZ.",
         "Jeongdong Theater 'free preview' performances when available.",
         "Lotte Mart last-day grocery run for gifts (instant tax refund ≥₩15,000)."
       ],
-      "planB": "Rainy budget day: National Museum (free) + COEX library (free) + cheap ramen lunch."
+      "planB": "Rainy budget day: National Museum (free) + COEX library (free) + cheap ramen lunch.",
+      "coupleVibe": "You two want it to feel rich without overspending — free gems, market meals, smart value.",
+      "coupleTag": "Balanced"
     },
     {
       "id": "photo-golden-hour",
       "title": "Photo & Golden-Hour Loop",
       "pace": "Early starts — golden & blue hour anchors",
-      "focus": ["fun", "activities"],
+      "focus": [
+        "fun",
+        "activities"
+      ],
       "blurb": "A photographer's Seoul: dawn light on the city wall, palace geometry at opening, neon at dusk, and night views — with efficient routes back to {hotel}.",
-      "bestFor": "She shoots (phone or camera) and plans days around light.",
+      "bestFor": "You two love golden-hour photos together — palaces, river, and neon at blue hour.",
       "days": [
         {
           "title": "Old city light",
@@ -472,23 +733,47 @@
           "dusk": "Banpo Moonlight Rainbow Fountain (seasonal) or Eland cruise at sunset."
         }
       ],
-      "activityKeywords": ["photo", "light", "Sunset", "sunrise", "Sunrise", "Night", "night", "Viewpoint", "DDP", "Haneul", "Naksan", "N Seoul Tower", "Namsan", "city wall", "Moonlight"],
-      "foodPriority": ["Cafe", "Classic Korean"],
+      "activityKeywords": [
+        "photo",
+        "light",
+        "Sunset",
+        "sunrise",
+        "Sunrise",
+        "Night",
+        "night",
+        "Viewpoint",
+        "DDP",
+        "Haneul",
+        "Naksan",
+        "N Seoul Tower",
+        "Namsan",
+        "city wall",
+        "Moonlight"
+      ],
+      "foodPriority": [
+        "Cafe",
+        "Classic Korean"
+      ],
       "extraNights": [
         "Eungbongsan night viewpoint.",
         "Changdeokgung Huwon autumn foliage at opening light.",
         "Cheonggyecheon lantern/night stream walk.",
         "Gwangnaru reeds at golden hour."
       ],
-      "planB": "Grey sky: pivot to interiors — SeMoCA craft museum, Hyundai Seoul ALT.1, Starfield Library — where light doesn't matter."
+      "planB": "Grey sky: pivot to interiors — SeMoCA craft museum, Hyundai Seoul ALT.1, Starfield Library — where light doesn't matter.",
+      "coupleVibe": "You two love golden-hour photos together — palaces, river, and neon at blue hour.",
+      "coupleTag": "Romantic & Slow"
     },
     {
       "id": "slow-spa-recharge",
       "title": "Slow Mornings & Spa Recharge",
       "pace": "Very gentle — one anchor per day, late starts",
-      "focus": ["value", "convenience"],
+      "focus": [
+        "value",
+        "convenience"
+      ],
       "blurb": "The reset trip: late breakfasts, jjimjilbang sessions, tea houses, and unhurried neighborhoods — everything within an easy ride of {hotel}.",
-      "bestFor": "She wants to come home rested, not exhausted; recovery days between active ones.",
+      "bestFor": "You two need to actually recharge — late starts, spas, tea houses, unhurried wandering.",
       "days": [
         {
           "title": "Spa & tea day",
@@ -509,23 +794,45 @@
           "evening": "Picnic dinner on the riverbank or room-service-style takeout at {hotel}."
         }
       ],
-      "activityKeywords": ["jjimjilbang", "Aquafield", "Dragon Hill", "tea", "Tea", "Seochon", "Han River", "Banpo", "Sevit", "park", "Park", "calm", "meditation"],
-      "foodPriority": ["Cafe", "Classic Korean"],
+      "activityKeywords": [
+        "jjimjilbang",
+        "Aquafield",
+        "Dragon Hill",
+        "tea",
+        "Tea",
+        "Seochon",
+        "Han River",
+        "Banpo",
+        "Sevit",
+        "park",
+        "Park",
+        "calm",
+        "meditation"
+      ],
+      "foodPriority": [
+        "Cafe",
+        "Classic Korean"
+      ],
       "extraNights": [
         "Bukchon slow photo walk before 10:00.",
         "Templestay night (Jogyesa area / Hwagyesa) — English programs bookable.",
         "Haneul Park easy sunset (short walk from World Cup Stadium).",
         "Massage/foot-spa session in Myeongdong's spa district."
       ],
-      "planB": "Energy returns mid-day: add one spontaneous neighborhood — the itinerary is designed to flex."
+      "planB": "Energy returns mid-day: add one spontaneous neighborhood — the itinerary is designed to flex.",
+      "coupleVibe": "You two need to actually recharge — late starts, spas, tea houses, unhurried wandering.",
+      "coupleTag": "Romantic & Slow"
     },
     {
       "id": "neighborhood-immersion",
       "title": "Neighborhood Immersion",
       "pace": "Moderate — one neighborhood per half-day, no backtracking",
-      "focus": ["activities", "fun"],
+      "focus": [
+        "activities",
+        "fun"
+      ],
       "blurb": "Live Seoul like a local: one distinct neighborhood after another — markets, alley bars, campus streets, and village lanes — chained into loops that start and end near {hotel}.",
-      "bestFor": "Returners or curious travelers who prefer texture over tick-list sights.",
+      "bestFor": "You two want neighborhood texture — alleys, cafes, and local streets without backtracking.",
       "days": [
         {
           "title": "Jongno to Euljiro loop",
@@ -546,23 +853,50 @@
           "evening": "Sungsu evening restaurants (gopchang, pasta, wine bars) then home."
         }
       ],
-      "activityKeywords": ["Hongdae", "Seongsu", "Euljiro", "Mapo", "Gongdeok", "Mangwon", "Yeonnam", "alley", "Alley", "neighborhood", "market", "Market", "street", "Street", "busking", "village"],
-      "foodPriority": ["Classic Korean", "Cafe", "AYCE BBQ"],
+      "activityKeywords": [
+        "Hongdae",
+        "Seongsu",
+        "Euljiro",
+        "Mapo",
+        "Gongdeok",
+        "Mangwon",
+        "Yeonnam",
+        "alley",
+        "Alley",
+        "neighborhood",
+        "market",
+        "Market",
+        "street",
+        "Street",
+        "busking",
+        "village"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe",
+        "AYCE BBQ"
+      ],
       "extraNights": [
         "Itaewon/Hannam global-village crawl.",
         "Mangwon Market morning + Yeonnam-dong roasteries.",
         "Changsin-dong market alleys + Ihwa mural village.",
         "Sinchon/Ewha campus streets for young-Seoul energy."
       ],
-      "planB": "Weather: pick the covered versions — underground mall neighborhoods (Gangnam, Express Bus Terminal) instead of alleys."
+      "planB": "Weather: pick the covered versions — underground mall neighborhoods (Gangnam, Express Bus Terminal) instead of alleys.",
+      "coupleVibe": "You two want neighborhood texture — alleys, cafes, and local streets without backtracking.",
+      "coupleTag": "Explore & Play"
     },
     {
       "id": "family-kid-friendly",
       "title": "Family & Kid-Friendly",
       "pace": "Kid-paced — short walks, early dinners",
-      "focus": ["fun", "convenience", "value"],
+      "focus": [
+        "fun",
+        "convenience",
+        "value"
+      ],
       "blurb": "Seoul that works with kids: aquariums, amusement parks, hands-on museums, and early-friendly food — with {hotel}'s central location keeping meltdown-transit short.",
-      "bestFor": "Traveling with children (or a partner who wants zero stress and maximum fun).",
+      "bestFor": "You two want an easy, low-stress rhythm — gentle walks, early dinners, relaxed evenings together.",
       "days": [
         {
           "title": "Lotte World & aquarium",
@@ -583,23 +917,44 @@
           "evening": "Family jjimjilbang night — kids love the pools and snack bar."
         }
       ],
-      "activityKeywords": ["Lotte World", "COEX Aquarium", "aquarium", "Seoul Grand Park", "Seoul Forest", "Children", "kids", "family", "Tongin", "Lotte", "jungle"],
-      "foodPriority": ["Classic Korean", "Jajangmyeon", "Cafe"],
+      "activityKeywords": [
+        "Lotte World",
+        "COEX Aquarium",
+        "aquarium",
+        "Seoul Grand Park",
+        "Seoul Forest",
+        "Children",
+        "kids",
+        "family",
+        "Tongin",
+        "Lotte",
+        "jungle"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Jajangmyeon",
+        "Cafe"
+      ],
       "extraNights": [
         "Everland full day (rides + safari; Halloween decor in season).",
         "Trick Eye / Alive Museum photo museums (rainy-day gold).",
         "Rail bike near Seoul (Gangchon) as an active day out.",
         "Busan-style aquarium + Namsan cable car combo day."
       ],
-      "planB": "Tired kids: cut the day at the first sign — every anchor has a 'we already won' version."
+      "planB": "Tired kids: cut the day at the first sign — every anchor has a 'we already won' version.",
+      "coupleVibe": "You two want an easy, low-stress rhythm — gentle walks, early dinners, relaxed evenings together.",
+      "coupleTag": "Balanced"
     },
     {
       "id": "date-night",
       "title": "Romance & Date Night",
       "pace": "Polished — golden hours and good tables",
-      "focus": ["fun", "activities"],
+      "focus": [
+        "fun",
+        "activities"
+      ],
       "blurb": "Seoul for two: sunset views, a nice dinner, a night show or riverside walk — with {hotel} as the elegant home base that makes the evening effortless.",
-      "bestFor": "The trip is partly a getaway — she wants a few properly romantic days.",
+      "bestFor": "You two want a proper date — sunset tower, nice dinner, night walk, river cruise.",
       "days": [
         {
           "title": "Tower & rooftop night",
@@ -620,23 +975,45 @@
           "night": "Banpo fountain show + night bus back to {hotel}."
         }
       ],
-      "activityKeywords": ["N Seoul Tower", "Namsan", "sunset", "Sunset", "cruise", "Moonlight", "Sevit", "night", "Night", "rooftop", "Ikseon", "Changgyeonggung", "Banpo"],
-      "foodPriority": ["Classic Korean", "Cafe"],
+      "activityKeywords": [
+        "N Seoul Tower",
+        "Namsan",
+        "sunset",
+        "Sunset",
+        "cruise",
+        "Moonlight",
+        "Sevit",
+        "night",
+        "Night",
+        "rooftop",
+        "Ikseon",
+        "Changgyeonggung",
+        "Banpo"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "Cafe"
+      ],
       "extraNights": [
         "Private hanok tea ceremony (book via Insadong tea houses).",
         "Musical night out — check nol.world for current shows.",
         "WILD WILD K-performance (adult date-night, Euljiro).",
         "Han River private picnic kit + Bluetooth speaker sunset."
       ],
-      "planB": "Rain: swap the tower for COEX aquarium tunnel + Starfield Library + a nice indoor dinner — still cinematic."
+      "planB": "Rain: swap the tower for COEX aquarium tunnel + Starfield Library + a nice indoor dinner — still cinematic.",
+      "coupleVibe": "You two want a proper date — sunset tower, nice dinner, night walk, river cruise.",
+      "coupleTag": "Romantic & Slow"
     },
     {
       "id": "fitness-outdoors",
       "title": "Fitness & Morning Runs",
       "pace": "Active — run/hike/walk first, sightsee after",
-      "focus": ["activities", "fun"],
+      "focus": [
+        "activities",
+        "fun"
+      ],
       "blurb": "A movement-first Seoul: riverside runs, a mountain morning, bike loops, and stretching breaks — with shower-and-refuel at {hotel} after each session.",
-      "bestFor": "She wants to keep the training habit on vacation (and earn the BBQ).",
+      "bestFor": "You two want to move together — sunrise riverside stroll, easy hike, then big lunch.",
       "days": [
         {
           "title": "Han River run",
@@ -657,23 +1034,47 @@
           "evening": "Stretching class or quiet sushi/samgyeopsal dinner near {hotel}."
         }
       ],
-      "activityKeywords": ["Bukhansan", "run", "Run", "bike", "trail", "Trail", "hike", "Hiking", "mountain", "Mountain", "city wall", "Skywalk", "fitness", "park", "Park"],
-      "foodPriority": ["Classic Korean", "AYCE BBQ"],
+      "activityKeywords": [
+        "Bukhansan",
+        "run",
+        "Run",
+        "bike",
+        "trail",
+        "Trail",
+        "hike",
+        "Hiking",
+        "mountain",
+        "Mountain",
+        "city wall",
+        "Skywalk",
+        "fitness",
+        "park",
+        "Park"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "AYCE BBQ"
+      ],
       "extraNights": [
         "Gwanaksan sunrise trail + Yeonjuam hermitage.",
         "Inwangsan tiger-rock scramble + city wall.",
         "Gangseo eco-wetland early-morning bird + bike loop.",
         "Achasan fortress hill sunset run."
       ],
-      "planB": "Injury/rest day: swap for a jjimjilbang 'active recovery' day — saunas and gentle pools count."
+      "planB": "Injury/rest day: swap for a jjimjilbang 'active recovery' day — saunas and gentle pools count.",
+      "coupleVibe": "You two want to move together — sunrise riverside stroll, easy hike, then big lunch.",
+      "coupleTag": "Balanced"
     },
     {
       "id": "night-market-marathon",
       "title": "Night Market & Food Marathon",
       "pace": "Marathon — but it's eating, so it's fine",
-      "focus": ["fun", "value"],
+      "focus": [
+        "fun",
+        "value"
+      ],
       "blurb": "A focused night-by-night food marathon across Seoul's evening-eating spots — from market stalls to late-night BBQ — with {hotel} always one easy line home.",
-      "bestFor": "Food maximalists — she plans days around where she'll eat at night.",
+      "bestFor": "You two want to eat your way through Seoul at night — market stalls to late BBQ, together.",
       "days": [
         {
           "title": "Gwangjang night session",
@@ -691,23 +1092,45 @@
           "night": "Cup-bap or late soup from a convenience store — the eternal Korean nightcap."
         }
       ],
-      "activityKeywords": ["Gwangjang", "Dongdaemun", "night", "Night", "market", "Market", "Euljiro", "street", "Street", "Food", "jokbal", "alley"],
-      "foodPriority": ["Classic Korean", "AYCE BBQ", "Ramen"],
+      "activityKeywords": [
+        "Gwangjang",
+        "Dongdaemun",
+        "night",
+        "Night",
+        "market",
+        "Market",
+        "Euljiro",
+        "street",
+        "Street",
+        "Food",
+        "jokbal",
+        "alley"
+      ],
+      "foodPriority": [
+        "Classic Korean",
+        "AYCE BBQ",
+        "Ramen"
+      ],
       "extraNights": [
         "Noryangjin Fish Market night session (raw fish + soju).",
         "Dongdaemun grilled-fish street late run.",
         "Mangwon Market evening (locals' market, quieter than Gwangjang).",
         "Jangchung-dong jokbal night walk."
       ],
-      "planB": "Full: skip dinner, go straight to dessert-and-tea night — there is always room for bingsu."
+      "planB": "Full: skip dinner, go straight to dessert-and-tea night — there is always room for bingsu.",
+      "coupleVibe": "You two want to eat your way through Seoul at night — market stalls to late BBQ, together.",
+      "coupleTag": "Food Together"
     },
     {
       "id": "finale-convenience",
       "title": "Last-Day Convenience & Airport Flow",
       "pace": "Easy — zero panic, zero missed flights",
-      "focus": ["convenience", "value"],
+      "focus": [
+        "convenience",
+        "value"
+      ],
       "blurb": "The final Seoul block done right: last-minute shopping with easy tax refunds, a farewell dinner near {hotel}, and a timed airport transfer plan so departure is boring.",
-      "bestFor": "The final 1–2 nights of the trip — this is the 'come home smooth' plan.",
+      "bestFor": "You two on your last nights — easy shopping, farewell dinner, smooth airport send-off.",
       "days": [
         {
           "title": "Final shop & pack",
@@ -722,15 +1145,29 @@
           "evening": "Transfer plan: AREX from Seoul Station (verify last-train time against your flight), airport limousine stop near {hotel}, or pre-booked taxi. Confirm 3 hours before departure at ICN."
         }
       ],
-      "activityKeywords": ["airport", "AREX", "limousine", "Lotte Mart", "refund", "packing", "Seoul Station", "last", "final"],
-      "foodPriority": ["Classic Korean"],
+      "activityKeywords": [
+        "airport",
+        "AREX",
+        "limousine",
+        "Lotte Mart",
+        "refund",
+        "packing",
+        "Seoul Station",
+        "last",
+        "final"
+      ],
+      "foodPriority": [
+        "Classic Korean"
+      ],
       "extraNights": [
         "Buffer-day rule: keep one completely free day before departure.",
         "Re-check the AREX timetable and your hotel's limousine stop the night before.",
         "If leaving very early, book the airport limousine pick-up the evening prior.",
         "Keep ₩50k–100k cash for the airport-side needs."
       ],
-      "planB": "Traffic/weather delay: fall back to AREX (rail is weather-proof) and buffer 90 extra minutes."
+      "planB": "Traffic/weather delay: fall back to AREX (rail is weather-proof) and buffer 90 extra minutes.",
+      "coupleVibe": "You two on your last nights — easy shopping, farewell dinner, smooth airport send-off.",
+      "coupleTag": "Balanced"
     }
   ]
 }

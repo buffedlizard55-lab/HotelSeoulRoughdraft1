@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-Traveling with children (or a partner who wants zero stress and maximum fun). Seoul that works with kids: aquariums, amusement parks, hands-on museums, and early-friendly food — with Ibis Styles Myeongdong's central location keeping meltdown-transit short.
+You two want an easy, low-stress rhythm — gentle walks, early dinners, relaxed evenings together. Seoul that works with kids: aquariums, amusement parks, hands-on museums, and early-friendly food — with Ibis Styles Myeongdong's central location keeping meltdown-transit short.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S18 (Family & Kid-Friendly at Ibis Styles Myeongdong) if** traveling with children (or a partner who wants zero stress and maximum fun). The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S18 (Family & Kid-Friendly at Ibis Styles Myeongdong) if** you two want an easy, low-stress rhythm — gentle walks, early dinners, relaxed evenings together. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

@@ -9,7 +9,7 @@
 
 ## Who this suits
 
-Food-first travelers — she wants to taste Seoul rather than tick sights. A eat-your-way-across-Seoul plan built around the markets and food alleys, with Ibis Styles Myeongdong as the evening reset point. Most meals are under ~₩12,000.
+You two love to eat together — markets and street-food alleys at a grazing, hand-in-hand pace. A eat-your-way-across-Seoul plan built around the markets and food alleys, with Ibis Styles Myeongdong as the evening reset point. Most meals are under ~₩12,000.
 
 ## Why Ibis Styles Myeongdong for this plan
 
@@ -104,7 +104,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 
 ## Verdict
 
-**Pick S11 (Market & Street-Food Crawl at Ibis Styles Myeongdong) if** food-first travelers — she wants to taste Seoul rather than tick sights. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
+**Pick S11 (Market & Street-Food Crawl at Ibis Styles Myeongdong) if** you two love to eat together — markets and street-food alleys at a grazing, hand-in-hand pace. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
 *Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*
