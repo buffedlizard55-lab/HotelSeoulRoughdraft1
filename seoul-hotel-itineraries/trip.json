@@ -10,7 +10,7 @@
     "airport": "ICN",
     "note": "Dates are the planning frame from the master planner. Verify with the actual flight booking."
   },
-  "group": "2 adults",
+  "group": "2 adults (couple — just the two of you)",
   "budgetPosture": "Mixed — every itinerary scores value, but splurge options are flagged",
   "sampleDays": 3,
   "singleHotelNote": "Each itinerary assumes ONE Seoul hotel as the base for the whole Seoul stay — the point is to compare bases, not to switch hotels.",
@@ -20,5 +20,6 @@
     "middleCity": "Daejeon or Cheonan (see Route A/B in trip-itineraries/)",
     "busanNights": 7,
     "finalSeoul": 2
-  }
+  },
+  "status": "CONFIRMED by user: master frame (Nov 1–22, 2026), couple, evenly balanced themes"
 }

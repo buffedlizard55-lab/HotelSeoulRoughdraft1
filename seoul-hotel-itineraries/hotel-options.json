@@ -41,5 +41,6 @@
       "consider": false,
       "why": "Modern luxury on the Han River in Yeouido, beside The Hyundai Seoul mall."
     }
-  ]
+  ],
+  "status": "AWAITING the partner's hotel shortlist. The consider:true demo set below (4 Myeongdong mid-range hotels) is a PLACEHOLDER so the generator has output to show — replace the flags with her real choices and re-run the build."
 }

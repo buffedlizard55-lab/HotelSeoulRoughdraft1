@@ -1,6 +1,6 @@
 # Seoul Hotel-Comparison — 20 Itineraries (index)
 
-> Trip frame: **Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00** · 21 nights · 2 adults
+> Trip frame: **Sun, Nov 1, 2026, 21:00 → Sun, Nov 22, 2026, 13:00** · 21 nights · 2 adults (couple — just the two of you)
 > Each plan assumes **one Seoul hotel as the base for the whole stay** — the point is to compare bases. The 20 themes are spread across the hotels marked `consider: true` in `hotel-options.json`.
 
 | # | Itinerary | Hotel base | Pace | Focus | Best for |
