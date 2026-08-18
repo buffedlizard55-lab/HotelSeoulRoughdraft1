@@ -85,7 +85,7 @@ The source snapshots are retained under [`research/sources/`](research/sources/)
 | [Korea](https://github.com/buffedlizard55-lab/Korea) | savings, promotions, visitor-action guides | `main` · `9852a2763808` |
 | [Korea-emergency](https://github.com/buffedlizard55-lab/Korea-emergency/tree/arena/019fd2e4-korea-emergency) | preparation, emergency contacts, checklists, scenario guides | `arena/019fd2e4-korea-emergency` · `7073740c6d28` |
 
-Source content is a snapshot as of the master-catalog pass on **2026-08-07**, with a **fact-check and hallucination-removal pass on 2026-08-18** (see [`VERIFICATION-REPORT.md`](VERIFICATION-REPORT.md)). Its inclusion does **not** represent independent re-verification of every claim.
+Source content is a snapshot as of the master-catalog pass on **2026-08-07**, with an **independent official-source fact-check on 2026-08-18** (see [`VERIFICATION-REPORT.md`](VERIFICATION-REPORT.md)). That pass removed leftover invented restaurant names, corrected AREX Express to the official ₩13,000 fare, fixed Korea VAT to 10%, and downgraded unverified concert dates. Time-sensitive prices and TBA events still need a D-30 re-check.
 
 ## Run locally
 

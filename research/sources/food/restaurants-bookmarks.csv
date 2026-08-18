@@ -2,17 +2,17 @@ City,Category,Spot Name (English),Spot Name (Korean),Neighborhood,Price Tier,Nav
 Seoul,Ramen,Oreno Ramen Main Store,오레노라멘 본점,Hapjeong (near Hongdae),Budget-to-Mid,https://map.naver.com/p/search/오레노라멘 본점
 Seoul,Ramen,Oreno Ramen Insadong,오레노라멘 인사동점,Jongno / Anguk,Budget-to-Mid,https://map.naver.com/p/search/오레노라멘 인사동점
 Seoul,Ramen,Menten,멘텐,Myeongdong / Chungmuro,Budget-to-Mid,https://map.naver.com/p/search/멘텐
-Seoul,Ramen,Ramen Jiro Seoul,라멘 지로 서울,Yongsan,Budget,https://map.naver.com/p/search/라멘 지로 서울
+Seoul,Ramen,566 Ramen,566라멘,Yeonnam-dong (Hongdae),Budget,https://map.naver.com/p/search/566라멘
 Seoul,Jajangmyeon,Hong Kong Banjum 0410,홍콩반점0410,Myeongdong / Hongdae,Budget,https://map.naver.com/p/search/홍콩반점0410
 Seoul,Jajangmyeon,Sinseonggak,신성각,Gongdeok,Budget,https://english.visitseoul.net/restaurants/Sinseonggak_/4674
 Seoul,Jajangmyeon,Osegyehyang,오세계향,Insadong,Budget-to-Mid,https://english.visitseoul.net/restaurants/Ohsaegyehyang/ENP001670
 Seoul,AYCE BBQ,Myeongnyun Jinsa Galbi,명륜진사갈비,Sinchon / Dongmyo / Huam,Budget-to-Mid,https://map.naver.com/p/search/명륜진사갈비
 Seoul,AYCE BBQ,Budnamujip,버드나무집 마포,Mapo / Gongdeok,Budget-to-Mid,https://map.naver.com/p/search/버드나무집 마포
-Seoul,AYCE BBQ,Daedo Sikdang Wangsimni,대도식당 왕십리본점,Wangsimni,Mid-to-Premium,https://eatingseoul.com/restaurants/seongsu/daedo-sikdang-wangsimni
-Seoul,AYCE BBQ,Geumdwaeji Sikdang,금돼지식당,Yaksu / Sindang,Mid-to-Premium,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191564
-Seoul,AYCE BBQ,Yukjeon Sikdang Branch 1,육전식당 1호점,Dongdaemun / Sinseoldong,Mid-to-Premium,https://map.naver.com/p/search/육전식당 1호점
-Seoul,AYCE BBQ,Nari's House,나리의 집,Itaewon / Hannam,Budget-to-Mid,https://map.naver.com/p/search/나리의 집
-Seoul,AYCE BBQ,Mapo Jeong Daepo,마포 정대포,Mapo / Gongdeok,Mid-to-Premium,https://map.naver.com/p/search/마포 정대포
+Seoul,Hanwoo BBQ,Daedo Sikdang Wangsimni,대도식당 왕십리본점,Wangsimni,Mid-to-Premium,https://eatingseoul.com/restaurants/seongsu/daedo-sikdang-wangsimni
+Seoul,Pork BBQ,Geumdwaeji Sikdang,금돼지식당,Yaksu / Sindang,Mid-to-Premium,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191564
+Seoul,Pork BBQ,Yukjeon Sikdang Branch 1,육전식당 1호점,Dongdaemun / Sinseoldong,Mid-to-Premium,https://map.naver.com/p/search/육전식당 1호점
+Seoul,Pork BBQ,Nari's House,나리의 집,Itaewon / Hannam,Budget-to-Mid,https://map.naver.com/p/search/나리의 집
+Seoul,Pork BBQ,Mapo Jeong Daepo,마포 정대포,Mapo / Gongdeok,Mid-to-Premium,https://map.naver.com/p/search/마포 정대포
 Seoul,Classic Korean,Myeongdong Kyoja,명동교자 본점,Myeongdong,Budget-to-Mid,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925
 Seoul,Classic Korean,Hadongkwan Main Store,하동관 본점,Myeongdong,Budget-to-Mid,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949
 Seoul,Classic Korean,Chanyang-jip,찬양집,Jongno 3-ga,Budget,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=100177
@@ -29,17 +29,17 @@ Busan,Ramen,Gukje Milmyeon Main Branch,국제밀면 본점,Yeonje-gu,Budget,http
 Busan,Ramen,Gaya Milmyeon,가야밀면,Jung-gu / Nampo,Budget,https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=102
 Busan,Ramen,Halmae Gaya Milmyeon,할매가야밀면,Nampo-dong,Budget,http://www.koreatriptips.com/en/dining/1755406.html
 Busan,Ramen,Seomyeon Gaegeum Milmyeon,서면개금밀면,Seomyeon,Budget,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=53836
-Busan,Ramen,Gijang Sonkalguksu,기장손칼국수,Seomyeon Market,Budget,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=54208
+Busan,Kalguksu,Gijang Sonkalguksu,기장손칼국수,Seomyeon Market,Budget,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=54208
 Busan,Jajangmyeon,Hwaguk Banjeom,화국반점,Jung-gu / Nampo,Budget,https://www.visitbusan.net/index.do?menuCd=DOM_000000302003001000&uc_seq=2098&lang_cd=en
-Busan,Jajangmyeon,Maga Mandu,마가만두,Chinatown (Busan Stn),Budget,https://map.naver.com/p/search/마가만두
+Busan,Dumplings,Maga Mandu,마가만두,Chinatown (Busan Stn),Budget,https://map.naver.com/p/search/마가만두
 Busan,Jajangmyeon,Shinbalwon,신발원,Chinatown (Busan Stn),Budget,https://busanienne.com/2022/11/01/resto-busan-%EC%8B%A0%EB%B0%9C%EC%9B%90-shinfayuen-resto-chinois-chinese-restaurant-choryang-china-town/
-Busan,AYCE BBQ,Haeundae Somunnan Amso Galbi-jip,해운대소문난 암소갈비집,Haeundae,Mid-to-Premium,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814
-Busan,AYCE BBQ,Busan Jokbal,부산족발,Bupyeong Jokbal Alley,Budget-to-Mid,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=193340
+Busan,Hanwoo BBQ,Haeundae Somunnan Amso Galbi-jip,해운대소문난 암소갈비집,Haeundae,Mid-to-Premium,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814
+Busan,Jokbal,Busan Jokbal,부산족발,Bupyeong Jokbal Alley,Budget-to-Mid,https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=193340
 Busan,Classic Korean,Songjeong Samdae Gukbap,송정3대국밥,Seomyeon,Budget,https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=216936
 Busan,Classic Korean,Bujeon Market Town Stalls,부전시장,Bujeon,Budget,https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301003001000&uc_seq=327&lang_cd=en
 Busan,Classic Korean,Jagalchi Seafood Market,자갈치시장,Nampo-dong,Budget-to-Premium,https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302002001000&uc_seq=860&lang_cd=en
 Busan,Classic Korean,Dongnae Halmae Pajeon,동래할매파전,Dongnae-gu,Mid-to-Premium,https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1520
-Busan,Cafe,Samjin Amook Main Store,삼진어묵 본점,Yeongdo-gu (Nampo adjacent),Budget-to-Mid,https://restaurantguru.com/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5-Busan-5
+Busan,Fish cake,Samjin Amook Main Store,삼진어묵 본점,Yeongdo-gu (Nampo adjacent),Budget-to-Mid,https://restaurantguru.com/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5-Busan-5
 Busan,Cafe,Brown Hands Baekje,브라운핸즈백제,Dong-gu (near Busan Station),Budget-to-Mid,https://www.busannavi.net/en/food_town/10472
 Daejeon,Ramen,Sutgol Won Naengmyeon,숯골원냉면 본점,Yuseong (Shinseong-dong),Budget,https://airial.travel/restaurants/south-korea/daejeon/sutgol-won-naengmyeon-X5oML_8A
 Daejeon,Ramen,Ossi Kalguksu,오씨칼국수,Central Jungang-ro,Budget,https://www.daejeontour.co.kr/ko/festival/festivalView.do?festv_id=23&festv_nm=%EB%8C%80%EC%A0%84%20%EC%B9%BC%EA%B5%AD%EC%88%98%20%EC%97%AC%ED%96%89

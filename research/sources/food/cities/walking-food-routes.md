@@ -113,7 +113,7 @@ Below are the 19 base routes. Simply choose one option from each column to build
 ### 8. 🌟 Route S8: Itaewon & Hannam-dong Design Row (Premium Quality)
 *Browse premium local designer labels (Mardi Mercredi, MSMR) and luxury vintage shops.*
 * **Lunch Options** (Pick 1):
-  * **A**: *Ramen Jiro Seoul* (Massive garlic-pork Jiro ramen, ₩12,000)
+  * **A**: *566 Ramen* (Yeonnam Jiro-style ramen — not an official Tokyo Jiro branch)
 * **Afternoon Cafe Stop** (Pick 1):
   * **A**: *Fritz Coffee Company Wonseo* (Modern glass hanok, ₩5,500)
 * **Dinner Options** (Pick 1):
@@ -121,7 +121,7 @@ Below are the 19 base routes. Simply choose one option from each column to build
 * **Total Route Combinations**: 1 unique day tour(s).
 
 ### 9. 🚇 Route S9: Yaksu & Sindang Meat Loop (Convenience)
-*Feast on premium Michelin-starred pork and local market tteokbokki directly off Line 3.*
+*Feast on premium Bib Gourmand pork BBQ (not a Michelin-starred restaurant) and local market tteokbokki directly off Line 3.*
 * **Dinner Options** (Pick 1):
   * **A**: *Geumdwaeji Sikdang* (Michelin Bib Gourmand bone-in pork belly, ₩19,000)
 * **Total Route Combinations**: 1 unique day tour(s).
@@ -240,7 +240,7 @@ Below are the 19 base routes. Simply choose one option from each column to build
 ### 19. 🚇 Route D2: Yuseong Hot Springs & Buckwheat Heritage Walk (Convenience)
 *Soak your feet in free natural outdoor hot spring baths, paired with 70-year-old cold noodles.*
 * **Lunch Options** (Pick 1):
-  * **A**: *Sutgol Won Naengmyeon* (100y Heritage 1954 Pyeongyang chicken-buckwheat noodles, ₩10,000)
+  * **A**: *Sutgol Won Naengmyeon* (since 1954 — ~70-year Pyeongyang-style buckwheat noodles, ₩10,000)
   * **B**: *Subarashi Ramen Main Store* (Daejeon's #1 spicy tonkotsu, ₩11,000)
 * **Afternoon Activity / Cafe Stop** (Pick 1):
   * **A**: *Yuseong Hot Springs Park Foot Bath* (Soak feet & walk parks, ₩0) followed by *Green Coffee* ( match latte, ₩5,000)

@@ -9,7 +9,7 @@ This comprehensive guide focuses on **cost efficiency, quality, and community re
 | **Oreno Ramen Main Store** (오레노라멘 본점) | Hapjeong (near Hongdae) | Budget-to-Mid (Spec: Tori Paitan (₩11,000)) | 🌟 Michelin Bib Gourmand (2019-2026). Rich, foaming chicken broth. Free refills of noodles & rice! | **Daily 11:00–21:00** | [Naver Map](https://map.naver.com/p/search/오레노라멘 본점) |
 | **Oreno Ramen Insadong** (오레노라멘 인사동점) | Jongno / Anguk | Budget-to-Mid (Spec: Tori Paitan (₩11,000)) | 🌟 Michelin Bib Gourmand branch near Gyeongbokgung. Free refills. | **Daily 11:30–20:30** | [Naver Map](https://map.naver.com/p/search/오레노라멘 인사동점) |
 | **Menten** (멘텐) | Myeongdong / Chungmuro | Budget-to-Mid (Spec: Shoyu Ramen (₩11,500)) | 🌟 Michelin Bib Gourmand. Precise, highly exclusive one-chef ramen bar. | **Mon-Sat 11:30-15:00, 17:30-21:00 (Closed Sun)** | [Naver Map](https://map.naver.com/p/search/멘텐) |
-| **Ramen Jiro Seoul** (라멘 지로 서울) | Yongsan | Budget (Spec: Jiro Ramen (₩12,000)) | 🌟 Huge portion sizes, thick chewy noodles, mountains of bean sprouts. | **Daily 11:30-20:00 (RECHECK)** | [Naver Map](https://map.naver.com/p/search/라멘 지로 서울) |
+| **566 Ramen** (566라멘) | Yeonnam-dong (near Hongdae) | Budget (Spec: Jiro-style ramen (~₩10,000–12,000)) | Real Jiro-style shop (not an official Tokyo Ramen Jiro branch — there is no licensed Jiro in Korea). Thick noodles, bean sprouts, cabbage. 1-chef shop; hours vary, often closed Thursday. Re-check Naver. | **Typically 11:30–15:00 / 17:00–20:30 (closed Thu — recheck)** | [Naver Map](https://map.naver.com/p/search/566라멘) |
 
 ## Jajangmyeon (Korean Chinese Black Bean Noodles)
 
@@ -19,7 +19,9 @@ This comprehensive guide focuses on **cost efficiency, quality, and community re
 | **Sinseonggak** (신성각) | Gongdeok | Budget (Spec: Jajangmyeon (₩8,000)) | 🌟 Founded in 1981. Hand-pulled noodles with savory, non-sweet legacy sauce. | **Mon-Sat 11:30–15:00 (Closed Sun)** | [Naver Map](https://map.naver.com/p/search/신성각) · [Official Listing](https://english.visitseoul.net/restaurants/Sinseonggak_/4674) |
 | **Osegyehyang** (오세계향) | Insadong | Budget-to-Mid (Spec: Vegan Jajangmyeon (₩10,000)) | 🌟 Highly rated vegan Korean Chinese food. Uses premium soy protein. | **Daily 11:30–21:00 (Break 15:30-17:00)** | [Naver Map](https://map.naver.com/p/search/오세계향) · [Official Listing](https://english.visitseoul.net/restaurants/Ohsaegyehyang/ENP001670) |
 
-## AYCE & Premium BBQ (Korean BBQ)
+## AYCE chains & a-la-carte BBQ (Korean BBQ)
+
+Only Myeongnyun Jinsa Galbi is a true all-you-can-eat chain. Daedo, Geumdwaeji, Yukjeon, Nari's House, and Jeong Daepo are **a-la-carte** — do not plan them as AYCE.
 
 | Spot Name (Korean) | Neighborhood | Est. Price Range | Quality & Review Highlights | Hours & Closures | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -35,7 +37,7 @@ This comprehensive guide focuses on **cost efficiency, quality, and community re
 
 | Spot Name (Korean) | Neighborhood | Est. Price Range | Quality & Review Highlights | Hours & Closures | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Myeongdong Kyoja** (명동교자 본점) | Myeongdong | Budget-to-Mid (Spec: Kalguksu (₩11,000)) | 🌟 Michelin Bib Gourmand (1966-2026). Hand-cut noodles in smoky chicken broth. | **Daily 10:30–21:00** | [Naver Map](https://map.naver.com/p/search/명동교자 본점) · [Official Listing](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) |
+| **Myeongdong Kyoja** (명동교자 본점) | Myeongdong | Budget-to-Mid (Spec: Kalguksu (₩11,000)) | 🌟 Founded 1966. Long-running Michelin Bib Gourmand listing (re-check the current-year guide). Hand-cut noodles in chicken broth. | **Daily 10:30–21:00** | [Naver Map](https://map.naver.com/p/search/명동교자 본점) · [Official Listing](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) |
 | **Hadongkwan Main Store** (하동관 본점) | Myeongdong | Budget-to-Mid (Spec: Gomtang (₩15,000)) | 🌟 Michelin Bib Gourmand. Operating since 1939. Traditional Hanwoo beef bone soup. | **Mon-Sat 07:00–16:00 (Closed Sun)** | [Naver Map](https://map.naver.com/p/search/하동관 본점) · [Official Listing](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949) |
 | **Chanyang-jip** (찬양집) | Jongno 3-ga | Budget (Spec: Seafood Kalguksu (₩9,000)) | 🌟 Michelin Bib Gourmand. Since 1970, metal bowls of clams/noodles. Free refills! | **Mon-Sat 10:00–21:00 (Closed Sun)** | [Naver Map](https://map.naver.com/p/search/찬양집) · [Official Listing](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=100177) |
 | **Imun Seolleongtang** (이문설농탕) | Jongno / Insadong | Budget-to-Mid (Spec: Seolleongtang (₩12,000)) | 🌟 Seoul's Oldest Registered Restaurant (since 1907). Michelin Bib Gourmand. | **Mon-Sat 08:00-21:00, Sun 08:00-20:00 (Break 15:00-16:30)** | [Naver Map](https://map.naver.com/p/search/이문설농탕) · [Official Listing](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=100222) |
@@ -49,5 +51,5 @@ This comprehensive guide focuses on **cost efficiency, quality, and community re
 
 | Spot Name (Korean) | Neighborhood | Est. Price Range | Quality & Review Highlights | Hours & Closures | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shin Old Tea House** (신옛찻집) | Insadong | Budget-to-Mid (Spec: Jujube Tea (₩9,000)) | 🌟 A 130y hanok tea house in Insadong. Calm garden courtyard, wild birds. | **Daily 11:00–21:00** | [Naver Map](https://map.naver.com/p/search/신옛찻집) |
+| **Shin Old Tea House** (신옛찻집) | Insadong | Budget-to-Mid (Spec: Jujube Tea (₩9,000)) | Traditional tea house in an old Insadong hanok (the *business* has operated since the early 1990s; the building is older). Courtyard seating. | **Mon 10:00–20:00; Tue–Fri 10:00–21:00; weekends 10:00–22:00 (recheck)** | [Naver Map](https://map.naver.com/p/search/신옛찻집) |
 | **Fritz Coffee Company Dohwa** (프릳츠 도화점) | Mapo | Budget (Spec: Brewed Coffee (₩5,000)) | 🌟 Converted vintage double-story hanok. World-class direct trade roasts. | **Weekdays 08:00–22:00, Weekends 10:00–22:00** | [Naver Map](https://map.naver.com/p/search/프릳츠 도화점) · [Official Listing](https://en.fritz.co.kr/) |

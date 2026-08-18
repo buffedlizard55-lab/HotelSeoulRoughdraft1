@@ -34,7 +34,7 @@ The standard KORAIL Pass allows unlimited KTX and regional train rides across Ko
   * **24-Hour Pass:** 50,000 KRW ($35.71 USD)
   * **48-Hour Pass:** 70,000 KRW ($50.00 USD)
   * **72-Hour Pass:** 90,000 KRW ($64.29 USD)
-* **Break-Even Analysis:** A ticket to Lotte World (~59,000 KRW) + N Seoul Tower (~21,000 KRW) + AREX Express (~11,000 KRW) = **91,000 KRW**. A 48-Hour pass for 70,000 KRW saves 21,000+ KRW per person!
+* **Break-Even Analysis:** A ticket to Lotte World (~59,000–64,000 KRW) + N Seoul Tower observatory (onsite listed around 21,000 historically; 2026 third-party guides also quote ~29,000 — verify on nseoultower.co.kr) + AREX Express (**13,000 KRW** official) easily exceeds a 72-hour Discover Seoul Pass. Re-price the actual attractions you will use before buying.
 * **Official Website:** [https://www.discoverseoulpass.com](https://www.discoverseoulpass.com)
 
 ---
