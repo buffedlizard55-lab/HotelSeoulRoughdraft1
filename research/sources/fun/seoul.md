@@ -155,7 +155,7 @@ All listed on the official Visit Seoul events calendar (links = official listing
 | Sat Nov 7 | My Chemical Romance — Live in Korea | Paradise City Culture Park, Incheon (near Incheon Airport) | 60–90 min from central Seoul |
 | Sat–Sun Nov 7–8 | Jujutsu Kaisen in Concert (anime orchestra) | Kyung Hee University Peace Hall | great for anime fans |
 | Thu–Fri Nov 12–13 | Sir Simon Rattle & Bavarian Radio Symphony | Seoul Arts Center Concert Hall | world-class classical |
-| Fri Nov 13 | Candlelight: Joe Hisaishi (Ghibli music) | Jeongdong 1928 Art Center | from ~₩47,000; Nov 13 & 27 |
+| Fri Nov 13 | Candlelight Hisaishi *tribute* (Fever series) | Jeongdong 1928 Art Center (typical venue) | Recurring tribute, not a Hisaishi concert. Confirm Nov date on feverup.com |
 | Sat Nov 14 | Jason Mraz — Asia Tour 2026 | KINTEX Hall 1, Ilsan | ~20 min from Seoul via GTX-A |
 | **Sat–Sun Nov 14–15** | **🏆 Melon Music Awards (MMA 2026)** | **Gocheok Sky Dome, Guro** | **K-pop's biggest award show — first-ever 2-day edition (Nov 14–15 confirmed by Kakao Entertainment); lineup & tickets TBA, watch Melon** |
 | Wed Nov 18 | Kings of Convenience | Sejong Center Grand Theater | |

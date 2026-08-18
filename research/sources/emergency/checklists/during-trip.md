@@ -2,7 +2,7 @@
 
 ## Right after landing (Sun 1 Nov, ~9 PM)
 - [ ] Complete immigration, collect bags
-- [ ] Catch AREX (~until 11:32 PM) or night bus N6000/N6001, or taxi
+- [ ] Catch AREX Express (last ~22:40–22:50 — confirm) or later all-stop / night bus N6000/N6001, or taxi
       (night surcharge 10 PM–4 AM) — see 07
 - [ ] Buy/load a **T-money card** at a convenience store
 - [ ] Set up local eSIM/SIM or Wi-Fi, confirm 1330 + Embassy numbers saved

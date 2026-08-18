@@ -23,7 +23,7 @@ A starting framework built from every ✅ confirmed event in this repo. Swap day
 | 11 | Tue Nov 10 | Seoul | 🎨 **Leeum Museum** (Inside Other Spaces ends Nov 29) + Itaewon · MMCA Seoul closed Mondays only, open Tue |
 | 12 | Wed Nov 11 | Seoul | Seoul Plaza free concert #2 · evening: 🏐 V-League or 🏀 KBL/WKBL home game (schedules ~Sep–Oct) |
 | 13 | Thu Nov 12 | Seoul | 🎻 **Sir Simon Rattle & Bavarian Radio Symphony — night 1** (Seoul Arts Center). (Fri Nov 13 option: 🎤 Music Bank taping — apply via KBS lottery the preceding Thu–Sat) |
-| 14 | Fri Nov 13 | Seoul | 🕯️ **Candlelight: Joe Hisaishi 21:00** (Jeongdong 1928) — pair with a Deoksugung evening walk |
+| 14 | Fri Nov 13 | Seoul | 🕯️ Fever Candlelight Hisaishi *tribute* only if a November date is still listed on feverup.com — otherwise Deoksugung evening walk |
 | 15 | **Sat Nov 14** | Seoul | ⚡ CHOICE: 🎤 **Jason Mraz** (KINTEX, GTX-A) **or** 🏆 **MMA Day 1** (Gocheok) · evening: 🎮 **LoL Worlds Grand Final watch party** at a PC bang (final is in Brooklyn ~Nov 14) |
 | 16 | **Sun Nov 15** | Seoul | 🏆 **MMA Day 2** if you skipped Day 1 · 🎭 *ELISABETH* final day (Blue Square) · MMCA OLED series + Artist of the Year show |
 | 17 | Mon Nov 16 | Seoul | National Museum of Korea half-day (free) · 👀 WKBL season expected around now — check wkbl.or.kr |

@@ -10,7 +10,7 @@ Whenever you submit an itinerary, we analyze every day across four pillars:
 
 1. **Optimal Mode (The Sweet Spot):**
    * We compare **Cheapest** vs. **Sweet Spot** vs. **Luxury**.
-   * *Example:* For Incheon Airport to Seoul Station, AREX All-Stop is 4,450 KRW (~$3.18) but takes 60 mins on commuter benches. **AREX Express** is 11,000 KRW (~$7.85) and 43 mins non-stop with reserved seats and luggage racks. The Sweet Spot is **AREX Express**—saving $4.60 per person after a 12-hour flight is not worth the hassle!
+   * *Example:* For Incheon Airport to Seoul Station, AREX All-Stop is about 4,750–5,350 KRW (distance fare after the Jun 2025 hike) but takes 59–66 mins on commuter benches. **AREX Express** is **13,000 KRW** official / often ~11,500 online and 43–51 mins non-stop with reserved seats and luggage racks. The Sweet Spot is **AREX Express**—saving a few dollars per person after a 12-hour flight is not worth the hassle.
    * *Example:* For short urban hops (<3.5 km with luggage or in rain), 2 subway tickets cost 3,000 KRW and require 20 mins of walking/stairs. A **Kakao T taxi** costs ~5,500 KRW (~$3.90) and takes 8 mins door-to-door. The Sweet Spot is **Kakao T Taxi**!
 2. **Hours of Operation & Rush Hour Avoidance:**
    * We check first and last train times (Seoul Subway: ~05:30 to 00:00; AREX Express: 05:15 to 22:50; N-buses: 23:30 to 05:00; KTX: 05:15 to 22:50).

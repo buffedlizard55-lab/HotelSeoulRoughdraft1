@@ -7,7 +7,7 @@ Getting to Seoul late at night (your **#1 arrival concern**):
 
 | Option | Last service / hours | Approx. cost | Notes |
 |--------|----------------------|--------------|-------|
-| **AREX Express Train** (Incheon → Seoul Station) | Runs ~5:20 AM – **11:32 PM**; ~43–45 min | ~₩9,000–11,000 | Fastest. If you clear immigration quickly you can catch it. |
+| **AREX Express Train** (Incheon → Seoul Station) | Express last trains are typically **~22:40 from T2 / ~22:48 from T1** (2026 published timetable — re-check arex.or.kr). All-stop commuter trains run later. ~43 min T1 / ~51 min T2. | **₩13,000** official adult one-way (member ₩12,500; online partners often ~₩11,400–11,600) | Fastest reserved-seat option. A 21:00 landing can still make a late Express if immigration is quick; otherwise use all-stop, night bus, or taxi. |
 | **Limousine airport bus** | Last buses thin out ~10–11 PM; **night buses N6000 / N6001** run when trains stop | ~₩16,000–18,000 | Good late-night option to Seoul Station / Gangnam area. |
 | **Taxi / Kakao Taxi** | 24/7 | ~₩65,000–85,000 to central Seoul | **Night surcharge 10 PM–4 AM**; peaks ~40% from 11 PM–2 AM. Use Kakao T app. |
 

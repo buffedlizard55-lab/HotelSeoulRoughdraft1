@@ -342,13 +342,13 @@
       "to": "Seoul Station (Non-Stop)",
       "mode": "AREX Express Train",
       "duration": "43 min (T1) / 51 min (T2)",
-      "cost_krw_per_person": 11000,
-      "cost_krw_two_travelers": 22000,
-      "cost_usd_two_travelers": 15.71,
+      "cost_krw_per_person": 13000,
+      "cost_krw_two_travelers": 26000,
+      "cost_usd_two_travelers": 18.57,
       "beginner_friendliness": "5/5",
       "booking_site": "https://www.arex.or.kr",
       "iphone_app": "AREX / Klook",
-      "recommendation": "Reserved seating, dedicated luggage racks, free Wi-Fi. Easiest and fastest non-stop ride to central Seoul.",
+      "recommendation": "Reserved seating, dedicated luggage racks, free Wi-Fi. Official adult one-way on the AREX booking site is 13,000 KRW (member 12,500); online partners often sell ~11,400–11,600. Easiest non-stop ride to central Seoul.",
       "sf_japan_comparison": "Direct equivalent to Tokyo's Narita Express (N'EX) or Skyliner.",
       "segment": "Airport transfer",
       "source": "transport"
@@ -359,13 +359,13 @@
       "to": "Seoul Station (All-Stop Subway)",
       "mode": "AREX All-Stop Commuter Train",
       "duration": "59 min (T1) / 66 min (T2)",
-      "cost_krw_per_person": 4450,
-      "cost_krw_two_travelers": 8900,
-      "cost_usd_two_travelers": 6.36,
+      "cost_krw_per_person": 4750,
+      "cost_krw_two_travelers": 9500,
+      "cost_usd_two_travelers": 6.79,
       "beginner_friendliness": "4/5",
       "booking_site": "https://www.arex.or.kr",
       "iphone_app": "Subway Korea",
-      "recommendation": "Stops at Hongik Univ. (Hongdae) and Gongdeok. Cheaper than express, but commuter subway style seating (no reserved seats). Pay with T-money or WOWPASS.",
+      "recommendation": "Stops at Hongik Univ. (Hongdae) and Gongdeok. Distance-based commuter fare after the Jun 2025 subway hike — about 4,750 KRW T1 and up to ~5,350 KRW T2 with a transit card; re-check on arex.or.kr. No reserved seats.",
       "sf_japan_comparison": "Like BART from SFO to downtown SF or Tokyo's Keisei Main Line.",
       "segment": "Airport transfer",
       "source": "transport"
@@ -742,8 +742,8 @@
       "id": "wowpass",
       "name": "WOWPASS (All-in-One Tourist Prepaid Debit + T-money)",
       "type": "All-in-One Foreigner Payment Card + Transit Card",
-      "price_krw": 5000,
-      "where_to_buy": "WOWPASS Kiosks at Incheon Airport, Seoul Station, major subway stations, and hotels.",
+      "price_krw": 6000,
+      "where_to_buy": "WOWPASS Kiosks at Incheon Airport, Seoul Station, major subway stations, and hotels. Issuance fee rose in March 2026 to about 6,000 KRW at kiosks / 5,500 via the app — confirm on wowpass.io.",
       "where_to_recharge": "Insert USD/EUR/JPY/GBP cash into kiosk to top up KRW debit balance; top up T-money transit balance at convenience stores or subway machines.",
       "coverage": "Accepted as a regular IC debit card at 99% of shops, cafes, restaurants in Korea + built-in T-money IC chip for subways/buses.",
       "official_site": "https://www.wowpass.io",
@@ -982,8 +982,9 @@
     "last_updated": "2026-08-03",
     "min_spend_krw": 15000,
     "max_immediate_refund_krw": 1000000,
-    "vat_rate_percent": 7.5,
+    "vat_rate_percent": 10,
     "rules": [
+      "Korea VAT is 10%. Tourist refunds are typically ~5–8% of the purchase price after operator fees — not the full 10%.",
       "Immediate Tax Refund (즉시 환급) is available at Olive Young, Lotte Mart, Uniqlo, and major department stores for purchases between 15,000 KRW and 1,000,000 KRW.",
       "Always carry your physical passport or e-passport scan to the cashier.",
       "If spend exceeds 1,000,000 KRW, obtain an Airport Tax Refund receipt and scan it at the Incheon Airport T1/T2 automated kiosks before security check-in."
@@ -1018,17 +1019,17 @@
         "cheapest_option": {
           "mode": "AREX All-Stop Commuter Train",
           "time": "59 - 66 min",
-          "cost_2_people_krw": 8900,
-          "cost_2_people_usd": 6.36,
+          "cost_2_people_krw": 9500,
+          "cost_2_people_usd": 6.79,
           "hassle_level": "High (Subway bench seats, crowded with commuters, standing with heavy luggage)"
         },
         "sweet_spot_option": {
           "mode": "AREX Express Train (Non-Stop)",
           "time": "43 - 51 min",
-          "cost_2_people_krw": 22000,
-          "cost_2_people_usd": 15.71,
+          "cost_2_people_krw": 26000,
+          "cost_2_people_usd": 18.57,
           "hassle_level": "Zero (Reserved reclining seats, dedicated luggage racks, free Wi-Fi, drops at Seoul Station)",
-          "why_sweet_spot": "For only $9.35 extra total for both travelers, you eliminate commuter crowds and get a relaxing non-stop express ride after a transpacific flight."
+          "why_sweet_spot": "Official AREX Express is 13,000 KRW/person on-site (often ~11,500 online). For roughly $12 extra total versus the all-stop, you eliminate commuter crowds after a transpacific flight."
         },
         "luxury_option": {
           "mode": "Official Airport Taxi / Kakao T",
@@ -1058,8 +1059,8 @@
         "luxury_option": {
           "mode": "Premium Gold Reclining Express Bus (160° Pods)",
           "time": "4 hr 15 min",
-          "cost_2_people_krw": 79600,
-          "cost_2_people_usd": 56.86,
+          "cost_2_people_krw": 88600,
+          "cost_2_people_usd": 63.29,
           "hassle_level": "Medium (Luxury lie-flat comfort, but still 4+ hours on highway)"
         }
       },
@@ -1311,7 +1312,7 @@
       },
       {
         "section": "Right after landing (Sun 1 Nov, ~9 PM)",
-        "label": "Catch AREX (~until 11:32 PM) or night bus N6000/N6001, or taxi"
+        "label": "Catch AREX Express (last ~22:40–22:50 — confirm) or later all-stop / night bus N6000/N6001, or taxi"
       },
       {
         "section": "Right after landing (Sun 1 Nov, ~9 PM)",
