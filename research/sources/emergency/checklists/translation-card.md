@@ -38,7 +38,7 @@
 | **119** | Ambulance / Fire / Rescue |
 | **1366** | Domestic violence hotline (toll-free) |
 | **1330** | Korea Travel Helpline (English 24/7; +82-2-1330 from overseas) |
-| **+82-2-3210-0404** | Korea Emergency Call Center — request English operator |
+| **1345** | Immigration (Hi Korea) contact center — foreign-language support |
 | **+82-2-397-4114** | U.S. Embassy Seoul — 24/7 emergency |
 | **+82-51-863-0731** | U.S. Consulate Busan — **no consular services**; use Seoul |
 

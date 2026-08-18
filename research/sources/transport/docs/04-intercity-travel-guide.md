@@ -30,7 +30,7 @@ If trains are sold out or you want a budget-friendly luxury experience, South Ko
 * **Express Buses (`고속버스` - KOBUS):** Connect major city terminals non-stop over highways.
   * **Seoul Hubs:** Seoul Express Bus Terminal (Gangnam / Central City) & Dong Seoul Terminal.
   * **Bus Classes:**
-    * **Premium Gold (`프리미엄`):** 160-degree flat-reclining individual pods, privacy curtains, wireless charging, and personal screens. Only 39,800 KRW (~$28 USD) from Seoul to Busan!
+    * **Premium Gold (`프리미엄`):** 160-degree flat-reclining individual pods, privacy curtains, wireless charging, and personal screens. Around 44,300–48,000 KRW (~$32–34 USD) from Seoul to Busan (late-night departures ~51,000–55,000 KRW).
     * **Excellent / Udeung (`우등`):** Spacious 2x1 seating with footrests.
     * **Economy / Ilban (`일반`):** Standard 2x2 seating.
 * **Official Booking Sites:**
@@ -59,5 +59,5 @@ If trains are sold out or you want a budget-friendly luxury experience, South Ko
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **KTX High-Speed Rail** | Seoul Station -> Busan Station | **2 hr 30 min** | 59,800 KRW ($42.71) | **119,600 KRW ($85.43)** | ⭐⭐⭐⭐⭐ (5/5) | **Best Overall!** Center-to-center convenience, no airport security. |
 | **SRT High-Speed Rail** | Suseo (Gangnam) -> Busan Station | **2 hr 20 min** | 52,600 KRW ($37.57) | **105,200 KRW ($75.14)** | ⭐⭐⭐⭐ (4/5) | Ideal if staying in southern Seoul/Gangnam. |
-| **Premium Gold Bus** | Express Bus Terminal -> Nopo | **4 hr 15 min** | 39,800 KRW ($28.43) | **79,600 KRW ($56.86)** | ⭐⭐⭐⭐ (4/5) | Best luxury budget choice; sleep in flat-reclining pods. |
+| **Premium Gold Bus** | Express Bus Terminal -> Nopo | **4 hr 15 min** | ~44,300 KRW (~$32) | **~88,600 KRW (~$63)** | ⭐⭐⭐⭐ (4/5) | Best luxury budget choice; sleep in flat-reclining pods. |
 | **Domestic Flight** | Gimpo (GMP) -> Gimhae (PUS) | **1 hr flight** *(~3 hr 30m total)* | ~45,000 KRW ($32.14) | **~90,000 KRW ($64.29)** | ⭐⭐⭐⭐ (4/5) | Good on sale, but requires airport transit at both ends. |

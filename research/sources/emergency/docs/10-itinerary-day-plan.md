@@ -1,7 +1,7 @@
 # 10. Itinerary Day Plan (Emergency-First) — 1 Nov – 22 Nov 2026
 
 > **QUICK REF — PRINT / SAVE OFFLINE**
-> **Emergency:** 112 (police) / 119 (ambulance/fire) / 1330 (English 24/7, +82-2-1330 overseas) / +82-2-3210-0404 (int'l caller)
+> **Emergency:** 112 (police) / 119 (ambulance/fire) / 1330 (English 24/7, +82-2-1330 overseas)
 > **US Embassy Seoul (24/7):** +82-2-397-4114 / 188 Sejong-daero / https://kr.usembassy.gov
 > **Entry:** e-Arrival Card https://www.e-arrivalcard.go.kr (submit 72h before 1 Nov) / K-ETA NOT needed through 31 Dec 2026
 > **CSAT disruption:** Thu 19 Nov — morning traffic mgmt 7–10 AM, ~1:05–1:40 PM aviation hold
@@ -85,7 +85,7 @@ It is a day-by-day framework that pairs your travel dates with the places you wi
 - **112** — Police
 - **119** — Ambulance / Fire
 - **1330** — Korea Travel Helpline (KTO, English 24/7; from overseas: +82-2-1330; in Korea: 1330)
-- **+82-2-3210-0404** — Korea Emergency Call Center for international callers (request English-speaking operator)
+- **1345** — Immigration (Hi Korea) contact center (foreign-language support, office hours)
 - **+82-2-397-4114** — U.S. Embassy Seoul, 24/7 emergency line
 - **U.S. State Dept from abroad:** +1-202-501-4444 (S1)
 - **STEP:** https://step.state.gov (S5)
@@ -229,7 +229,7 @@ Every number / URL below comes from official sources in `docs/sources.md`; sourc
 | **119** | Ambulance / Fire / Rescue | S1 / S2 |
 | **1366** | Domestic-violence hotline (toll-free) | S1 |
 | **1330** | Korea Travel Helpline (KTO) — English 24/7; from overseas: +82-2-1330 | S1 / S2 |
-| **+82-2-3210-0404** | Korea Emergency Call Center — request English-speaking operator | S1 |
+| **1345** | Immigration (Hi Korea) contact center — foreign-language support | S1 |
 
 ### U.S. government — verified contacts
 

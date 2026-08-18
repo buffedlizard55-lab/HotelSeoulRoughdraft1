@@ -8,10 +8,10 @@ Understanding South Korea's exact fare structure will help you decide when to us
 
 | City / Network | Base Distance | Adult IC Fare (T-money / WOWPASS) | Single Ticket (Cash / Paper) | Distance Surcharge Rule |
 | :--- | :--- | :---: | :---: | :--- |
-| **Seoul Subway (Lines 1–9)** | Up to 10 km | **1,400–1,550 KRW** (~$1.07 USD) | +100 KRW deposit | +100 KRW per 5 km (10–50 km)<br>+100 KRW per 8 km (over 50 km) |
+| **Seoul Subway (Lines 1–9)** | Up to 10 km | **1,550 KRW** (~$1.11 USD, since 28 Jun 2025) | Fare +100 KRW surcharge (plus 500 KRW refundable card deposit) | +100 KRW per 5 km (10–50 km)<br>+100 KRW per 8 km (over 50 km) |
 | **Seoul City Bus (Blue / Green)** | Flat Rate (in Seoul) | **1,500 KRW** (~$1.07 USD) | 1,600 KRW | Flat rate unless transferring to regional buses |
-| **Busan Metro (Lines 1–4)** | Section 1 (Up to 10 km) | **1,450 KRW** (~$1.04 USD) | 1,550 KRW | Section 2 (Over 10 km): **1,650 KRW** |
-| **Busan City Bus** | Flat Rate | **1,550 KRW** (~$1.11 USD) | 1,650 KRW | Flat rate within Busan city limits |
+| **Busan Metro (Lines 1–4)** | Section 1 (Up to 10 km) | **1,600 KRW** (~$1.14 USD, since 3 May 2024) | 1,700 KRW (QR single) | Section 2 (Over 10 km): **1,800 KRW** (QR single 1,900) |
+| **Busan City Bus** | Flat Rate | **1,550 KRW** (~$1.11 USD) | Cash slightly higher — verify | Flat rate within Busan city limits |
 
 * **Why the Seoul Climate Card is unbeatable for tourists:** At **15,000 KRW for a 5-Day Pass**, you pay an average of 3,000 KRW per day. Just 2 subway rides a day cover the cost!
 
@@ -35,9 +35,11 @@ Understanding South Korea's exact fare structure will help you decide when to us
 
 | Bus Class | Seating Layout | Recline & Amenities | 2-Person Total Fare | Verified Official Website |
 | :--- | :---: | :--- | :---: | :--- |
-| **Premium Gold (`프리미엄`)** | 2x1 (21 seats) | 160° flat-reclining pod, privacy curtains, screen | **79,600 KRW** ($56.86) | [kobus.co.kr](https://www.kobus.co.kr) |
-| **Excellent / Udeung (`우등`)** | 2x1 (28 seats) | 140° recline, spacious footrest | **60,000 KRW** ($42.86) | [kobus.co.kr](https://www.kobus.co.kr) |
-| **Economy / Ilban (`일반`)** | 2x2 (45 seats) | Standard highway bus recline | **44,000 KRW** ($31.43) | [kobus.co.kr](https://www.kobus.co.kr) |
+| **Premium Gold (`프리미엄`)** | 2x1 (21 seats) | 160° flat-reclining pod, privacy curtains, screen | **~88,600–96,000 KRW** (~44,300–48,000/person day; late-night ~51,000–55,000) | [kobus.co.kr](https://www.kobus.co.kr) |
+| **Excellent / Udeung (`우등`)** | 2x1 (28 seats) | 140° recline, spacious footrest | **~67,800 KRW** (~33,900/person) | [kobus.co.kr](https://www.kobus.co.kr) |
+| **Economy / Ilban (`일반`)** | 2x2 (45 seats) | Standard highway bus recline | **~45,600–53,400 KRW** (~22,800–26,700/person) | [kobus.co.kr](https://www.kobus.co.kr) |
+
+> Fares above are 2026 published ranges for Seoul Express Bus Terminal → Busan; confirm the exact fare for your departure time on KOBUS before booking.
 
 ---
 

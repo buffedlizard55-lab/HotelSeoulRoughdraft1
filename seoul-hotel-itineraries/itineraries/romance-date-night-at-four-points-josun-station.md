@@ -21,7 +21,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 - **Airport transfer:** Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.
 - **Arrival night:** If this is the arrival-night hotel, verify the **24-hour front desk** at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.
 
-### Eat around here (10 picks from the research catalog)
+### Eat around here (4 picks from the research catalog)
 
 | Spot | Category | Price tier |
 | --- | --- | --- |
@@ -29,12 +29,6 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 | [Myeongdong Kyoja (명동교자 본점)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) | Classic Korean | Budget-to-Mid |
 | [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) | Jajangmyeon | Budget |
 | [Menten (멘텐)](https://map.naver.com/p/search/멘텐) | Ramen | Budget-to-Mid |
-| [Seoul Local Classic Korean 1 (서울 로컬 한식 1)](https://map.naver.com/p/search/서울 로컬 한식 1) | Classic Korean | Budget |
-| [Seoul Local Cafe 1 (서울 로컬 카페 1)](https://map.naver.com/p/search/서울 로컬 카페 1) | Cafe | Budget |
-| [Seoul Local Cafe 14 (서울 로컬 카페 14)](https://map.naver.com/p/search/서울 로컬 카페 14) | Cafe | Budget-to-Mid |
-| [Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)](https://map.naver.com/p/search/서울 로컬 BBQ 1) | AYCE BBQ | Budget |
-| [Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)](https://map.naver.com/p/search/서울 로컬 BBQ 27) | AYCE BBQ | Budget |
-| [Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)](https://map.naver.com/p/search/서울 로컬 짜장면 1) | Jajangmyeon | Budget |
 
 *Full hours, signature dishes, and quality notes: `research/sources/food/cities/seoul.md`.*
 
@@ -47,7 +41,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 | [Banpo Hangang Park Some Sevit Floating Islands](https://hangang.seoul.go.kr) | Free & always-on culture | Even though the bridge rainbow fountain switches off in Nov, the illuminated glass floating islands offer great night photos and river views. |
 | [Eland Han River Moonlight Night View Cruise](https://www.elandcruise.com) | Free & always-on culture | Night city lights cruise. |
 | [Namsan Cable Car & N Seoul Tower Observatory](https://www.cablecar.co.kr) | Free & always-on culture | Night lighting on the tower displays air quality status (Blue = Good, Green = Fair, Yellow = Poor, Red = Bad). The base plaza features the famous "Love Locks" fence and outdoor terraces (free access). Alternative ascent: Namsan Sunhwan Bus 01 from Myeongdong/Chungmuro or scenic autumn foliage hiking trails u… |
-| [Changgyeonggung "Mulbit Yeonhwa" — palace night media art](https://www.kh.or.kr) | Free & always-on culture | Enter by ~19:30 to catch the main pond show; combine with a hanbok rental for free entry + photos. Verify exact 2026 fall times on kh.or.kr in October. |
+| [Changgyeonggung "Mulbit Yeonhwa" — palace night media art](https://www.kh.or.kr) | Free & always-on culture | Only relevant if a fall 2026 run is announced. If so, enter early to catch the pond show; hanbok rental gives free palace entry. Verify dates/times on royal.khs.go.kr (program hotline 1522-2295). |
 | [Changgyeonggung Chunjangji Pond Night Light Reflections](https://royal.khs.go.kr) | Free & always-on culture | Night media art show pond. |
 | [Eland Han River Sunset Music Cruise (Yeouido Dock)](https://www.elandcruise.com) | Free & always-on culture | Sunset and music over Han River. |
 
@@ -66,7 +60,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 ### Day 2
 
 **Palace light & hanok dinner**
-- **Afternoon:** Gyeongbokgung at closing light (Sept–Nov hours end ~17:00, check), or Changgyeonggung 'Mulbit Yeonhwa' night art (through Nov 8).
+- **Afternoon:** Gyeongbokgung at closing light (Sept–Nov hours end ~17:00, check), or a Changgyeonggung evening visit (check royal.khs.go.kr for night-opening dates; the 2026 'Mulbit Yeonhwa' ran in spring).
 - **Evening:** Ikseon-dong private-room Korean dinner; then a traditional tea nightcap.
 - **Night:** Moonlit walk through Cheonggyecheon.
 - **Eat around here:** [Myeongdong Kyoja (명동교자 본점)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) — Classic Korean · Budget-to-Mid; [Menten (멘텐)](https://map.naver.com/p/search/멘텐) — Ramen · Budget-to-Mid.
@@ -77,7 +71,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 - **Afternoon:** Slow day: Seongsu cafes + Seoul Forest.
 - **Evening:** Eland Han River sunset cruise with wine (book ahead); dinner at a Yeouido riverside restaurant.
 - **Night:** Banpo fountain show + night bus back to Four Points Seoul Station.
-- **Eat around here:** [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget; [Seoul Local Classic Korean 1 (서울 로컬 한식 1)](https://map.naver.com/p/search/서울 로컬 한식 1) — Classic Korean · Budget.
+- **Eat around here:** [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget; [Hadongkwan Main Store (하동관 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949) — Classic Korean · Budget-to-Mid.
 
 **Plan B (rain / low energy):** Rain: swap the tower for COEX aquarium tunnel + Starfield Library + a nice indoor dinner — still cinematic.
 
@@ -107,4 +101,4 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 **Pick S09 (Romance & Date Night at Four Points Seoul Station) if** you two want a proper date — sunset tower, nice dinner, night walk, river cruise. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
-*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*
+*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-18 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

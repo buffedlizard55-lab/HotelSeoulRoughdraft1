@@ -10,7 +10,7 @@ Deals aimed specifically at **foreign visitors and US citizens**—no Korean Res
 ## 🏛️ 1. Korea Sale Festa 2026 (Late Oct – Mid Nov) — Your #1 Autumn Event!
 
 Your trip dates (Oct 31 – Nov 22) overlap directly with South Korea's official national autumn shopping and dining festival: **Korea Sale Festa (`코리아세일페스타`)**.
-- **Dates:** Late October to mid-November 2026 (2025 dates were Oct 29 – Nov 16; 2026 runs on an identical autumn schedule).
+- **Dates:** 2026 dates not yet announced as of Aug 2026 (the 2025 edition ran Oct 29 – Nov 16; recent editions have all fallen in this window). Confirm on the official site before planning around it.
 - **What it covers:** Known as the Korean "Black Friday," ~1,800+ participating companies run nationwide promotions across F&B chains, department store food courts, convenience stores, and supermarkets.
 - **Tourist Benefits:** Special bundle meals, instant discount coupons at participating restaurants, and 1+1 / 2+1 grocery deals.
 - **How to claim:** Look for official **"Korea Sale Festa"** banners at restaurant entrances and food halls. Scan event barcodes at kiosks; **no ID required**.
@@ -40,7 +40,7 @@ Don't overpay for airport food before your flight home. Use these tourist-access
 - Many US travel credit cards (Chase Sapphire Reserve, Capital One Venture X, Amex Platinum, Citi Prestige) include Priority Pass or LoungeKey.
 - **Where to go:** At Incheon International Airport (ICN Terminal 1 & Terminal 2), skip standard food courts and head to **Matina Lounge (`마티나 라운지`)** or **Sky Hub Lounge (`스카이허브 라운지`)**.
 - **What's included:** A full-scale Korean buffet featuring build-your-own bibimbap, tteokbokki, fried chicken, bulgogi, cup noodles, salad bar, desserts, beer, and wine at zero cost.
-- 🟢 [Incheon Airport Lounge Guide](https://www.reddit.com/r/PriorityPass/comments/1ja701o/best_lounge_at_incheon_airport_seoul_south_korea/)
+- 🟡 [Incheon Airport Lounge reports (community — verify lounge access rules with your card issuer)](https://www.reddit.com/r/PriorityPass/comments/1ja701o/best_lounge_at_incheon_airport_seoul_south_korea/)
 
 ### Klook Airport Meal Vouchers
 - For travelers without Priority Pass, Klook sells discounted meal vouchers for Incheon Airport food halls (`CJ Foodworld`, `Flavour 6`) in USD, saving ~10% below airport register prices.
@@ -50,9 +50,9 @@ Don't overpay for airport food before your flight home. Use these tourist-access
 ## 🎫 4. City Tourist Passes: Discover Seoul Pass & Visit Busan Pass
 
 If you buy a city tourist pass for attractions, do not overlook their embedded restaurant and cafe discounts:
-- **Discover Seoul Pass (DSP):** Includes **10% to 20% discounts** at partner cafes, traditional Korean restaurants, Hard Rock Cafe Seoul, and N Seoul Tower dining.
+- **Discover Seoul Pass (DSP):** Includes discounts at partner cafes, restaurants, and attraction dining — check the current partner list on the official site before relying on any specific venue.
 - **Visit Busan Pass (VBP):** Includes free coffee/dessert treats or 10–20% discounts at participating Busan ocean-view cafes and seafood restaurants.
-- 🟢 [Discover Seoul Pass Official](https://discoverseoulpass.valuecom.com/)
+- 🟢 [Discover Seoul Pass Official](https://www.discoverseoulpass.com/)
 
 ---
 

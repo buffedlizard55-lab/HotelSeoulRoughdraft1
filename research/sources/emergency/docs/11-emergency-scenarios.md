@@ -185,7 +185,7 @@
 | Immediate danger / crime / accident | **112** | Dial from any phone |
 | Ambulance / fire / rescue | **119** | Dial from any phone |
 | General help / translation / tourist info / nearest hospital / pharmacy | **1330** | Dial **1330** in Korea; from overseas: **+82-2-1330** |
-| International caller — request English operator | **+82-2-3210-0404** | Korea Emergency Call Center |
+| Immigration questions (visa/entry status) | **1345** | Immigration (Hi Korea) contact center — foreign-language support |
 | U.S. Embassy Seoul — 24/7 emergency / passport / legal | **+82-2-397-4114** | Address: 188 Sejong-daero |
 | U.S. Embassy — website / messages / updates | **https://kr.usembassy.gov** | Check before departure / during trip |
 | U.S. Consulate Busan — **no consular services**; use Seoul for passport / emergency | **+82-51-863-0731** | Only basic contact / referral |

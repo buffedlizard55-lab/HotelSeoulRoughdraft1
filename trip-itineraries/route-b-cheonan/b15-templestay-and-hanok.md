@@ -65,7 +65,7 @@ We land at **21:00**. Hotel arrival **23:00–01:00+**.
 
 - **Morning:** Templestay check-out 11:00 → return to Myeongdong, luggage at hotel; gentle recovery.
 - **Afternoon:** **Bongeunsa Temple** (Gangnam/COEX, 1,200-year old per walking-maps Gangnam/COEX highlight) — red maples frame skyscrapers, free. This is your second temple contrast (mountain Hwagyesa vs city Bongeunsa).
-- **Evening:** Changgyeonggung Mulbit Yeonhwa palace night media art **Sep8–Nov8** per events.csv (~19:00–21:00, closed Mon) — 8 light scenes around Chunjangji pond, ₩1,000 palace admission (free in hanbok).
+- **Evening:** Changgyeonggung evening visit — **only if a fall night program is announced** (the 2026 "Mulbit Yeonhwa" run was Apr 24–May 3 in spring; check royal.khs.go.kr). Otherwise stroll the Changdeokgung palace-wall lane to Ikseon-dong. Palace admission ₩1,000 (free in hanbok).
 - **Stay:** Seoul — Ibis Styles Myeongdong (night 4/6 — or night 4/6 if Hwagyesa was Day 3 overnight, this is night 4).
 
 ### Day 5 · Thu, Nov 5 — Seoul · Museum rest

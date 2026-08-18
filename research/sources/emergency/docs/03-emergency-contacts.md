@@ -10,7 +10,9 @@ Keep this list on your phone (saved offline) and on a paper card in your wallet.
 | **119** | Ambulance / Fire |
 | **1366** | Toll-free domestic-violence hotline |
 | **1330** | Korea Travel Helpline (KTO) — English available 24/7 |
-| **+82-2-3210-0404** | Korea Emergency Call Center for **international callers** — request an English-speaking operator |
+| **1345** | Immigration (Hi Korea) contact center — foreign-language support, weekday office hours |
+
+> **Note:** Some travel guides list +82-2-3210-0404 as a tourist emergency line. That number is South Korea's MOFA Consular (Safety) Call Center **for Korean nationals abroad** — it is not intended for foreign visitors inside Korea. Use 112 / 119 (both offer interpretation) or 1330 instead.
 
 ## U.S. government
 | Contact | Number / info |

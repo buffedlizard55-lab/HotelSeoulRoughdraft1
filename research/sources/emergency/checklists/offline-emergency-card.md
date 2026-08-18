@@ -13,7 +13,7 @@ Arrive ICN **Sun 1 Nov ~9 PM** · Depart **Sun 22 Nov**
 - **119** Ambulance / Fire
 - **1366** Domestic-violence hotline
 - **1330** Korea Travel Helpline (English 24/7)
-- **+82-2-3210-0404** Emergency Call Center (intl callers, ask for English)
+- **1345** Immigration contact center (foreign-language support, office hours)
 
 ### U.S. Embassy Seoul (24/7)
 - **+82-2-397-4114**

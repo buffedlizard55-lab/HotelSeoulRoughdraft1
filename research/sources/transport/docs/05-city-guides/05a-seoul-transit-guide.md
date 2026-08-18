@@ -11,7 +11,7 @@ When you land at Incheon Airport (T1 or T2), you have 4 main options to reach ce
 | Option | Travel Time to Seoul Station / Center | Cost per Person (KRW / USD) | Total for 2 Travelers | Why Choose This Option |
 | :--- | :--- | :--- | :--- | :--- |
 | **AREX Express Train (Non-Stop)** | **43 min (T1) / 51 min (T2)** | 11,000 KRW ($7.86) | **22,000 KRW ($15.71)** | **Fastest & most comfortable.** Reserved seats, luggage racks, free Wi-Fi. Drops at Seoul Station. |
-| **AREX All-Stop Train** | 59 min (T1) / 66 min (T2) | 4,450 KRW ($3.18) | **8,900 KRW ($6.36)** | **Cheapest.** Commuter train with subway seating. Great if staying in Hongdae or Gongdeok. |
+| **AREX All-Stop Train** | 59 min (T1) / 66 min (T2) | ~4,300–4,750 KRW (distance fare — verify) | **~8,600–9,500 KRW** | **Cheapest.** Commuter train with subway seating. Great if staying in Hongdae or Gongdeok. |
 | **Airport Limousine Bus** *(e.g. 6001, 6002, 6015)* | 60 - 85 min | 17,000 KRW ($12.14) | **34,000 KRW ($24.29)** | **Zero stairs or transfers.** Driver loads luggage underneath; bus drops directly at major hotels. |
 | **Official Taxi / Kakao T** | 50 - 70 min | ~32,500 KRW ($23.21) *split* | **~65,000 KRW ($46.43)** | **Best after long flights with heavy bags.** Total metered fare (~65,000 KRW including tolls) split between 2 people is a bargain compared to SF/Japan taxis. |
 

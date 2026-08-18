@@ -41,7 +41,7 @@ A beginner-friendly guide to **live events, sports, festivals, attractions, and 
 |---|---|---|---|
 | Sat Oct 31 | V-League 2026–27 season opens · K League 1 Final rounds begin | All cities / Seoul | ✅ |
 | Oct 31 – Nov 3 | BANKSY exhibition (last days) · Seoul Outdoor Library (ends Nov 1) · **Busan Biennale closes Nov 1** | Seoul / Busan | ✅ |
-| Oct 31 – Nov 8 | **Changgyeonggung Mulbit Yeonhwa** (palace night media art — ₩1,000, no reservation) | Seoul | ✅ |
+| TBA | **Changgyeonggung Mulbit Yeonhwa** (palace night media art — 2026 edition ran in spring; no fall run announced) | Seoul | ⏳ |
 | **Sun Nov 1** | **JTBC Seoul Marathon** (07:30 start — spectate or run) · Dear Evan Hansen musical closes | Seoul | ✅ |
 | Nov (recent yrs Nov 9–30) | **Korea Sale FESTA** — nationwide shopping discounts | Nationwide | ⏳ |
 | **Fri–Sun Nov 6–8** | **Daejeon International Wine EXPO** (tastings at Hanbit Tower) | Daejeon | ✅ |
