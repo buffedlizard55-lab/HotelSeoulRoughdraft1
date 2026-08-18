@@ -27,5 +27,5 @@
 
 ## Emergency quick-dial (also on offline card)
 - **112** police · **119** ambulance/fire · **1366** domestic violence
-- **1330** Korea Travel Helpline (English 24/7) · **+82-2-3210-0404** intl caller center
+- **1330** Korea Travel Helpline (English 24/7; +82-2-1330 from an overseas line)
 - **U.S. Embassy Seoul +82-2-397-4114** (24/7)

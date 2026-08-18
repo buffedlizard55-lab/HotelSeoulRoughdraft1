@@ -40,7 +40,7 @@ departure, because policies can change with little notice.
   exemption. [S7][S8]
 - **Visa:** Not required for tourism/business stays ≤ 90 days. [S1]
 - **Emergency numbers:** 112 police, 119 ambulance/fire, 1366 domestic
-  violence hotline, +82-2-3210-0404 international caller emergency center,
+  violence hotline, 1345 immigration contact center,
   U.S. Embassy +82-2-397-4114 (24/7). [S1]
 - **CSAT (수능) 2026 exam:** Thursday **19 November 2026** — held on the
   Thursday immediately preceding the 3rd Saturday of November. This falls

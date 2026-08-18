@@ -21,7 +21,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 - **Airport transfer:** Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.
 - **Arrival night:** If this is the arrival-night hotel, verify the **24-hour front desk** at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.
 
-### Eat around here (10 picks from the research catalog)
+### Eat around here (4 picks from the research catalog)
 
 | Spot | Category | Price tier |
 | --- | --- | --- |
@@ -29,12 +29,6 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 | [Myeongdong Kyoja (명동교자 본점)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) | Classic Korean | Budget-to-Mid |
 | [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) | Jajangmyeon | Budget |
 | [Menten (멘텐)](https://map.naver.com/p/search/멘텐) | Ramen | Budget-to-Mid |
-| [Seoul Local Classic Korean 1 (서울 로컬 한식 1)](https://map.naver.com/p/search/서울 로컬 한식 1) | Classic Korean | Budget |
-| [Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)](https://map.naver.com/p/search/서울 로컬 BBQ 1) | AYCE BBQ | Budget |
-| [Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)](https://map.naver.com/p/search/서울 로컬 BBQ 27) | AYCE BBQ | Budget |
-| [Seoul Local Cafe 1 (서울 로컬 카페 1)](https://map.naver.com/p/search/서울 로컬 카페 1) | Cafe | Budget |
-| [Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)](https://map.naver.com/p/search/서울 로컬 짜장면 1) | Jajangmyeon | Budget |
-| [Seoul Local Jajangmyeon 27 (서울 로컬 짜장면 27)](https://map.naver.com/p/search/서울 로컬 짜장면 27) | Jajangmyeon | Budget |
 
 *Full hours, signature dishes, and quality notes: `research/sources/food/cities/seoul.md`.*
 
@@ -73,7 +67,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 - **Morning:** ITX-Cheongchun to Gapyeong (~60–80 min); Nami Island ferry + ginkgo avenues (peak early Nov).
 - **Afternoon:** Gangchon rail bike (book slot) or Garden of Morning Calm if open.
 - **Evening:** Chuncheon dakgalbi (spicy stir-fried chicken) before the train home.
-- **Eat around here:** [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget; [Seoul Local Classic Korean 1 (서울 로컬 한식 1)](https://map.naver.com/p/search/서울 로컬 한식 1) — Classic Korean · Budget.
+- **Eat around here:** [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget; [Hadongkwan Main Store (하동관 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949) — Classic Korean · Budget-to-Mid.
 
 **Plan B (rain / low energy):** Tour cancellation (DMZ status fluid): pivot to a Seoul fortress walk — Naksan city wall + DDP instead.
 
@@ -103,4 +97,4 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 **Pick S05 (Day-Trip Base Camp at Four Points Seoul Station) if** you two want one easy day trip from Seoul and still sleep in the same bed that night. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
-*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*
+*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-18 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

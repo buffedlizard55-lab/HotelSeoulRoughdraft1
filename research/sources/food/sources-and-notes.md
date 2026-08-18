@@ -13,7 +13,7 @@
 
 ## 🔍 August 2026 Master Verification Audit (Official Sites & Menus)
 
-To guarantee 100% accuracy for our 20-day trip, we have audited the master list of 200 restaurants against official city-tourism portals (Visit Seoul, Visit Busan, Visit Korea), dedicated brand websites, and live Naver Map business profiles.
+The named restaurants on the curated bookmark list (about 50 spots) were checked against official city-tourism portals (Visit Seoul, Visit Busan, Visit Korea), dedicated brand websites, and live Naver Map business profiles. *(Note: claims of a "200-restaurant" or "535-restaurant" master list in earlier drafts referred to auto-generated placeholder padding, which was removed on 2026-08-18.)*
 
 ### 🏛️ Seoul - Top-Tier Verification Aligned with Menus & Websites
 * **Myeongdong Kyoja (명동교자)**: Cross-referenced with their [Official Website](http://www.mdkj.co.kr/). Verified core menu prices: *Kalguksu* (₩11,000) and *Mandu* (₩12,000). Confirmed that their main and branch outlets on Myeongdong 10-gil are open daily 10:30–21:00 with no holiday breaks.

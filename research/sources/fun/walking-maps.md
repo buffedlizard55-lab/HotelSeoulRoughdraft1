@@ -56,7 +56,7 @@ Self-guided, beginner-friendly 1-day walking and food routes for **Seoul, Busan,
 - **06:00 PM — Jamsil Seokchon Lake Foliage Walk**
   - Take Line 2 to Jamsil Station. Stroll around Seokchon Lake Park surrounding Lotte World Magic Island for peak autumn maple reflections.
 - **07:30 PM — Seoul Sky (Lotte World Tower 117F–123F)**
-  - Ascend the 555m Lotte World Tower via the 600m/min Sky Shuttle elevator to Seoul Sky ([seoulsky.lotteworld.com](https://seoulsky.lotteworld.com); ₩31,000 adult). Stand on the 478m glass-floor Sky Deck and admire 360° night panoramas of Seoul.
+  - Ascend the 555m Lotte World Tower via the 600m/min Sky Shuttle elevator to Seoul Sky ([seoulsky.lotteworld.com](https://seoulsky.lotteworld.com); ₩33,000 adult (2026 price; was 31,000 in 2025)). Stand on the 478m glass-floor Sky Deck and admire 360° night panoramas of Seoul.
 
 ---
 

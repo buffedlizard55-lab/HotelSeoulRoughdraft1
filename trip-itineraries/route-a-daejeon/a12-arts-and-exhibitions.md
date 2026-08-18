@@ -57,7 +57,7 @@ We land at **21:00**. Hotel arrival **23:00–01:00+**.
 
 - **Morning:** If Day 2 BANKSY sold out, catch the final day (Tue Nov 3) early slot — same hours.
 - **Afternoon:** National Museum of Korea (free, museum.go.kr) — colossal, seated, no ticket stress.
-- **Evening:** Changgyeonggung Mulbit Yeonhwa palace night media art (Sep8–Nov8 per events.csv, ~19:00–21:00, closed Mon per fun/seoul.md #25/Seoul Route notes) — 8 light scenes around Chunjangji pond, ₩1,000 palace admission.
+- **Evening:** Changgyeonggung evening visit — **only if a fall night program is announced** (the 2026 "Mulbit Yeonhwa" media-art run was Apr 24–May 3; check royal.khs.go.kr). Otherwise do the Daehangno stage scene or a palace-wall night walk. Palace admission ₩1,000.
 - **Stay:** Seoul — night 3/8.
 
 ### Day 4 · Wed, Nov 4 — Seoul · Leeum

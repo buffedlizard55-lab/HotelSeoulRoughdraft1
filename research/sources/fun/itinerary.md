@@ -54,7 +54,7 @@ A starting framework built from every ✅ confirmed event in this repo. Swap day
 | **Oct** | K League final-round home fixtures confirmed (FC Seoul / Daejeon) · KBO Korean Series teams | kleague.com · koreabaseball.com |
 | **Oct** | Korea Sale FESTA 2026 dates announced (recent years Nov 9–30) | koreasalefesta.co.kr |
 | **Oct** | MMCA Night November edition preregistration (500 spots, sells out) | mmca.go.kr |
-| **Oct** | Changgyeonggung Mulbit Yeonhwa fall hours confirmed | kh.or.kr |
+| **Oct** | Check whether a fall Mulbit Yeonhwa run has been announced (2026 edition was in spring) | royal.khs.go.kr |
 
 ---
 

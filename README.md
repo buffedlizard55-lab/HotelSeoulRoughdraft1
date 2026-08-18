@@ -2,7 +2,7 @@
 
 A calm, beginner-friendly South Korea trip-planning workspace. **Korea Compass** consolidates the travel research supplied across six repositories into one static GitHub Pages app, while preserving a local, attributed snapshot of the original source material.
 
-**Live Pages URL:** <https://buffedlizard55-lab.github.io/Itinerary-Korea/>
+**Live Pages URL:** <https://buffedlizard55-lab.github.io/Itinerary-Korea/> *(URL refers to the production repository name `Itinerary-Korea`; if you are viewing this in a differently named fork/draft repository, verify GitHub Pages is enabled there and adjust the URL accordingly.)*
 
 > This is a research and planning tool, not a booking engine or a live travel-data service. Verify event dates, prices, availability, entry requirements, transport operations, eligibility, health guidance, and emergency information with the relevant official provider before acting.
 
@@ -58,7 +58,7 @@ A calm, beginner-friendly South Korea trip-planning workspace. **Korea Compass**
 - **Source desk** — clear provenance back to every linked repository and to the locally preserved snapshot.
 - **Portable data** — export/import the user’s own setup, saved ideas, checklist state, and plan items as JSON. No account or backend is used.
 
-The current generated catalog includes **6 research sources**, **2 detailed November 2026 route blueprints**, **15 destinations**, **15 transport routes**, **35 stays**, **535 food bookmarks**, **110 dated events**, **443 activity notes**, **61 savings notes**, and **9 practical apps**.
+The current generated catalog includes **6 research sources**, **2 detailed November 2026 route blueprints**, **15 destinations**, **15 transport routes**, **35 stays**, **50 curated food bookmarks**, **110 dated events**, **443 activity notes**, **61 savings notes**, and **9 practical apps**. *(A 2026-08-18 audit removed ~485 auto-generated placeholder "restaurants" that padded an earlier food list to 535 — every remaining food bookmark is a real, named business.)*
 
 ## November 2026 route blueprints
 
@@ -85,7 +85,7 @@ The source snapshots are retained under [`research/sources/`](research/sources/)
 | [Korea](https://github.com/buffedlizard55-lab/Korea) | savings, promotions, visitor-action guides | `main` · `9852a2763808` |
 | [Korea-emergency](https://github.com/buffedlizard55-lab/Korea-emergency/tree/arena/019fd2e4-korea-emergency) | preparation, emergency contacts, checklists, scenario guides | `arena/019fd2e4-korea-emergency` · `7073740c6d28` |
 
-Source content is a snapshot as of the master-catalog pass on **2026-08-07**. Its inclusion does **not** represent independent re-verification of every claim.
+Source content is a snapshot as of the master-catalog pass on **2026-08-07**, with a **fact-check and hallucination-removal pass on 2026-08-18** (see [`VERIFICATION-REPORT.md`](VERIFICATION-REPORT.md)). Its inclusion does **not** represent independent re-verification of every claim.
 
 ## Run locally
 

@@ -11,7 +11,7 @@ This folder contains all verified reference material. Start with [`README.md` at
 
 - [`01-trip-overview.md`](01-trip-overview.md) — Dates / key facts
 - [`02-entry-documents.md`](02-entry-documents.md) — K-ETA exemption through 31 Dec 2026; mandatory e-Arrival Card (submit 72 h before 1 Nov); visa not needed ≤90 days
-- [`03-emergency-contacts.md`](03-emergency-contacts.md) — **Print this** — 112 / 119 / 1366 / 1330 / +82-2-3210-0404 / U.S. Embassy Seoul +82-2-397-4114 / Busan +82-51-863-0731 (no consular services)
+- [`03-emergency-contacts.md`](03-emergency-contacts.md) — **Print this** — 112 / 119 / 1366 / 1330 / 1345 / U.S. Embassy Seoul +82-2-397-4114 / Busan +82-51-863-0731 (no consular services)
 
 ## Health, Weather, Safety
 

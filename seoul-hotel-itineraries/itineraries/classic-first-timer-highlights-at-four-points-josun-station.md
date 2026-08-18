@@ -21,7 +21,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 - **Airport transfer:** Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.
 - **Arrival night:** If this is the arrival-night hotel, verify the **24-hour front desk** at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.
 
-### Eat around here (10 picks from the research catalog)
+### Eat around here (4 picks from the research catalog)
 
 | Spot | Category | Price tier |
 | --- | --- | --- |
@@ -29,12 +29,6 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 | [Myeongdong Kyoja (명동교자 본점)](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=99925) | Classic Korean | Budget-to-Mid |
 | [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) | Jajangmyeon | Budget |
 | [Menten (멘텐)](https://map.naver.com/p/search/멘텐) | Ramen | Budget-to-Mid |
-| [Seoul Local Classic Korean 1 (서울 로컬 한식 1)](https://map.naver.com/p/search/서울 로컬 한식 1) | Classic Korean | Budget |
-| [Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)](https://map.naver.com/p/search/서울 로컬 BBQ 1) | AYCE BBQ | Budget |
-| [Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)](https://map.naver.com/p/search/서울 로컬 BBQ 27) | AYCE BBQ | Budget |
-| [Seoul Local Cafe 1 (서울 로컬 카페 1)](https://map.naver.com/p/search/서울 로컬 카페 1) | Cafe | Budget |
-| [Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)](https://map.naver.com/p/search/서울 로컬 짜장면 1) | Jajangmyeon | Budget |
-| [Seoul Local Jajangmyeon 27 (서울 로컬 짜장면 27)](https://map.naver.com/p/search/서울 로컬 짜장면 27) | Jajangmyeon | Budget |
 
 *Full hours, signature dishes, and quality notes: `research/sources/food/cities/seoul.md`.*
 
@@ -46,7 +40,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 | [Namsan Cable Car & N Seoul Tower Observatory](https://www.cablecar.co.kr) | Free & always-on culture | Night lighting on the tower displays air quality status (Blue = Good, Green = Fair, Yellow = Poor, Red = Bad). The base plaza features the famous "Love Locks" fence and outdoor terraces (free access). Alternative ascent: Namsan Sunhwan Bus 01 from Myeongdong/Chungmuro or scenic autumn foliage hiking trails u… |
 | [Namsangol Hanok Village (남산골한옥마을)](https://www.hanokmaeul.or.kr) | Free & always-on culture | Less crowded alternative to Bukchon. Enjoy traditional folk games (tuho, neolttwigi), hanbok photo shoots, and traditional tea. Great precursor before heading up Namsan Cable Car (33). |
 | [Changdeokgung Huwon (Secret Garden) — autumn peak, reservation game](https://www.cdg.go.kr) | Free & always-on culture | Set a calendar reminder 6 days ahead and click at 10:00 sharp. Pair with Bukchon/Insadong the same afternoon. |
-| [Changgyeonggung "Mulbit Yeonhwa" — palace night media art](https://www.kh.or.kr) | Free & always-on culture | Enter by ~19:30 to catch the main pond show; combine with a hanbok rental for free entry + photos. Verify exact 2026 fall times on kh.or.kr in October. |
+| [Changgyeonggung "Mulbit Yeonhwa" — palace night media art](https://www.kh.or.kr) | Free & always-on culture | Only relevant if a fall 2026 run is announced. If so, enter early to catch the pond show; hanbok rental gives free palace entry. Verify dates/times on royal.khs.go.kr (program hotline 1522-2295). |
 | [Gwanghwamun Gate Woldae (Royal Terrace) & Main Courtyard](https://royal.khs.go.kr) | Free & always-on culture | Prime photography spot in front of Gyeongbokgung Palace. |
 | [Gwangjang Market — Korea's first permanent market](http://www.kwangjangmarket.co.kr) | Free & always-on culture | Go hungry around lunch or dinner; stalls are cash/T-money friendly; combine with Cheonggyecheon stream walk right outside. |
 | [Gyeonghuigung Palace (경희궁)](https://royal.khs.go.kr) | Free & always-on culture | Zero crowds compared to Gyeongbokgung. Located next to Seoul Museum of History (54). |
@@ -77,7 +71,7 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 - **Morning:** Option A: Han River bike/ferry morning. Option B: Myeongdong shopping + Olive Young first pass.
 - **Afternoon:** Lunch near Seoul Station / Yongsan (transport hub), then a second neighborhood — Seongsu for cafes and pop-ups or Hongdae for street energy.
 - **Evening:** DDP Dream in Light free light show (nightly) or a show like JUMP/CHEF (non-verbal, zero Korean needed).
-- **Eat around here:** [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget; [Seoul Local Classic Korean 1 (서울 로컬 한식 1)](https://map.naver.com/p/search/서울 로컬 한식 1) — Classic Korean · Budget.
+- **Eat around here:** [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) — Jajangmyeon · Budget; [Hadongkwan Main Store (하동관 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192949) — Classic Korean · Budget-to-Mid.
 
 **Plan B (rain / low energy):** Rainy: swap outdoor palace time for National Palace Museum / National Folk Museum (both free, inside Gyeongbokgung) and the DDP museum.
 
@@ -107,4 +101,4 @@ Transport-first option — direct Seoul Station / AREX / KTX access is the main 
 **Pick S01 (Classic First-Timer Highlights at Four Points Seoul Station) if** you two, first time in Seoul — want the greatest hits without rushing, with time to linger together. The Seoul Station / Yongsan (transport hub) base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
-*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*
+*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-18 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*

@@ -1,12 +1,12 @@
 {
   "meta": {
     "name": "Korea Compass",
-    "generatedOn": "2026-08-08",
+    "generatedOn": "2026-08-18",
     "disclaimer": "This is a planning workspace assembled from the linked repositories. Prices, availability, eligibility, opening hours, visa/entry rules, transport operations, and event dates can change. Open the official link and verify critical details before booking or travel.",
     "counts": {
       "sources": 6,
       "hotels": 35,
-      "food": 535,
+      "food": 50,
       "events": 110,
       "activities": 443,
       "places": 15,
@@ -446,14 +446,14 @@
       "to": "Busan Central Bus Terminal (Nopo)",
       "mode": "Premium Gold Reclining Express Bus",
       "duration": "4 hr 15 min",
-      "cost_krw_per_person": 39800,
-      "cost_krw_two_travelers": 79600,
-      "cost_usd_two_travelers": 56.86,
+      "cost_krw_per_person": 44300,
+      "cost_krw_two_travelers": 88600,
+      "cost_usd_two_travelers": 63.0,
       "beginner_friendliness": "4/5",
       "frequency": "Every 20-30 minutes",
       "booking_site": "https://www.kobus.co.kr",
       "iphone_app": "T-money GO / KOBUS",
-      "recommendation": "Feature 160-degree flat reclining individual pods with privacy curtains and personal entertainment screens. Best budget option with luxury comfort.",
+      "recommendation": "Feature 160-degree flat reclining individual pods with privacy curtains and personal entertainment screens. Best budget option with luxury comfort. Day fare ~44,300-48,000 KRW/person; late-night departures ~51,000-55,000 KRW - confirm on KOBUS.",
       "sf_japan_comparison": "Far more luxurious than greyhound/California buses; comparable to Japan's premium highway luxury coaches.",
       "segment": "Intercity",
       "source": "transport"
@@ -1200,9 +1200,9 @@
         "note": "Toll-free domestic hotline."
       },
       {
-        "number": "+82-2-3210-0404",
-        "label": "Korea Emergency Call Center",
-        "note": "For international callers; request an English-speaking operator."
+        "number": "1345",
+        "label": "Immigration (Hi Korea) contact center",
+        "note": "Foreign-language support during weekday office hours. (Note: +82-2-3210-0404, listed in some guides, is Korea's MOFA consular line for Korean nationals abroad — not for foreign visitors.)"
       },
       {
         "number": "+82-2-397-4114",

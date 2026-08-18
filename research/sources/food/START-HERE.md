@@ -47,7 +47,7 @@ Very roughly, for two people:
 
 * **[Draft Walking Food Routes](cities/walking-food-routes.md)** — beautifully organized neighborhood food walks combining lunch, shopping, cafes, and dinner in Seoul and Busan.
 * **[Tech & Booking Guide](booking-and-tech-guide.md)** — essential mobile apps, on-site queue instructions, and payment/cash strategy in Korea.
-* **[Naver Map Bookmarks CSV](restaurants-bookmarks.csv)** — a clean, structured table of all 535 verified restaurants with English/Korean names, addresses, and Naver Search links for instant pre-trip planning.
+* **[Naver Map Bookmarks CSV](restaurants-bookmarks.csv)** — a clean, structured table of the 50 curated restaurants with English/Korean names, neighborhoods, and Naver Search links for pre-trip planning. (An earlier draft padded this list with ~485 auto-generated placeholder entries; those were removed on 2026-08-18 — see `research/user-input/` audit notes.)
 
 ## Research status
 

@@ -21,7 +21,7 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 - **Airport transfer:** Airport limousine stops near the hotel (verify route + times); AREX is the rail fallback.
 - **Arrival night:** If this is the arrival-night hotel, verify the **24-hour front desk** at booking — the reference trip lands ICN 21:00 and check-in can pass midnight. Standard check-in is 15:00 on all other days.
 
-### Eat around here (10 picks from the research catalog)
+### Eat around here (5 picks from the research catalog)
 
 | Spot | Category | Price tier |
 | --- | --- | --- |
@@ -30,11 +30,6 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 | [Goryeo Samgyetang (고려삼계탕 본점)](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99774) | Classic Korean | Mid-to-Premium |
 | [Hong Kong Banjum 0410 (홍콩반점0410)](https://map.naver.com/p/search/홍콩반점0410) | Jajangmyeon | Budget |
 | [Menten (멘텐)](https://map.naver.com/p/search/멘텐) | Ramen | Budget-to-Mid |
-| [Seoul Local Cafe 1 (서울 로컬 카페 1)](https://map.naver.com/p/search/서울 로컬 카페 1) | Cafe | Budget |
-| [Seoul Local Cafe 14 (서울 로컬 카페 14)](https://map.naver.com/p/search/서울 로컬 카페 14) | Cafe | Budget-to-Mid |
-| [Seoul Local AYCE BBQ 1 (서울 로컬 BBQ 1)](https://map.naver.com/p/search/서울 로컬 BBQ 1) | AYCE BBQ | Budget |
-| [Seoul Local AYCE BBQ 27 (서울 로컬 BBQ 27)](https://map.naver.com/p/search/서울 로컬 BBQ 27) | AYCE BBQ | Budget |
-| [Seoul Local Jajangmyeon 1 (서울 로컬 짜장면 1)](https://map.naver.com/p/search/서울 로컬 짜장면 1) | Jajangmyeon | Budget |
 
 *Full hours, signature dishes, and quality notes: `research/sources/food/cities/seoul.md`.*
 
@@ -107,4 +102,4 @@ Budget-quality balance, free breakfast, and a central Myeongdong base. The plan 
 **Pick S14 (Han River & Parks at Ibis Styles Myeongdong) if** you two want fresh air together — Han River picnics, sunset views, gentle bike rides. The Myeongdong base keeps the itinerary convenient, the theme keeps it fun, and the catalog picks keep it good value. If the partner's priorities shift, swap this plan for another theme at the same hotel — the base stays, the days change.
 
 ---
-*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-10 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*
+*Verify opening hours, ticket availability, event dates, and the hotel's 24-hour desk policy with official providers before booking. Prices are indicative research ranges, not quotes. Generated 2026-08-18 by `scripts/build_seoul_hotel_itineraries.py` from `seoul-hotel-itineraries/` ingestion files + `data/collections/` research catalogs.*
